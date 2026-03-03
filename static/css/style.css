@@ -1,3 +1,12 @@
+:root {
+    --color0: #1a2b34;
+    --color1: #55828b;
+    --color2: #AD9BAA;
+    --color3: #663F46;
+    --color4: #CF995F;
+}
+
+
 @font-face {
     font-family: "LavishlyYours";
     src: url("../fonts/LavishlyYours-Regular.woff2") format("woff2");
@@ -10,9 +19,9 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(145deg, #000328, #00458e);
+    background: linear-gradient(135deg, var(--color0), var(--color4));
     font-family: "LavishlyYours", Helvetica, sans-serif;
-    color: white;
+    color: black;
     text-align: center;
 }
 .card {
@@ -22,8 +31,8 @@ body {
     padding-bottom: 1rem;
     border-radius: 20px;
     background: rgba(0, 0, 0, 0.06);
-    backdrop-filter: blur(10px);
-    box-shadow: -10px -10px 10px 10px rgba(0,0,0,0.4);
+    backdrop-filter: blur(1px);
+    box-shadow: -10px -10px 10px 10px rgba(0,0,0,0.6);
 }
 h1 {
     font-size: 4rem;
