@@ -21,13 +21,14 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(0deg, var(--color0), var(--color6));
+    background: linear-gradient(-25deg, var(--color0), var(--color1));
     font-family: Helvetica, sans-serif;
     color: black;
     text-align: center;
 }
 .card {
     font-family: "LavishlyYours", Helvetica, sans-serif;
+    color: rgb(3, 6, 29);
     padding-top: 5rem;
     padding-left: 7rem;
     padding-right: 1rem;
