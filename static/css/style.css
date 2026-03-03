@@ -1,0 +1,40 @@
+@font-face {
+    font-family: "LavishlyYours";
+    src: url("../fonts/LavishlyYours-Regular.woff2") format("woff2");
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(145deg, #000328, #00458e);
+    font-family: "LavishlyYours", Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+}
+.card {
+    padding-top: 5rem;
+    padding-left: 7rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+    border-radius: 20px;
+    background: rgba(0, 0, 0, 0.06);
+    backdrop-filter: blur(10px);
+    box-shadow: -10px -10px 10px 10px rgba(0,0,0,0.4);
+}
+h1 {
+    font-size: 4rem;
+}
+p {
+    opacity: 0.8;
+    font-size: 1.1rem;
+}
+.badge {
+    margin-top: 2rem;
+    font-size: 0.6em;
+    font-family: Helvetica, sans-serif;
+    opacity: 0.4;
+}
