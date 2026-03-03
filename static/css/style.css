@@ -1,9 +1,11 @@
 :root {
     --color0: #1a2b34;
-    --color1: #55828b;
+    --color1: #274C77;
     --color2: #AD9BAA;
-    --color3: #663F46;
-    --color4: #CF995F;
+    --color3: #C5C392;
+    --color4: #A49A79;
+    --color5: #CB9152;
+    --color6: rgba(39, 76, 119, 0.6);
 }
 
 
@@ -19,20 +21,21 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(135deg, var(--color0), var(--color4));
-    font-family: "LavishlyYours", Helvetica, sans-serif;
+    background: linear-gradient(0deg, var(--color0), var(--color6));
+    font-family: Helvetica, sans-serif;
     color: black;
     text-align: center;
 }
 .card {
+    font-family: "LavishlyYours", Helvetica, sans-serif;
     padding-top: 5rem;
     padding-left: 7rem;
     padding-right: 1rem;
     padding-bottom: 1rem;
     border-radius: 20px;
-    background: rgba(0, 0, 0, 0.06);
+    background: var(--color6);
     backdrop-filter: blur(1px);
-    box-shadow: -10px -10px 10px 10px rgba(0,0,0,0.6);
+    box-shadow: 5px 15px 10px 10px rgba(0,0,0,0.6);
 }
 h1 {
     font-size: 4rem;
