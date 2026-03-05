@@ -5,23 +5,34 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-API_URL = "https://data.usajobs.gov/api/search"
+API_URL = "https://remotive.com/api/remote-jobs"
 
-HEADERS = {
-    "Host": "data.usajobs.gov",
-    "User-Agent": os.getenv("USAJOBS_EMAIL"),
-    "Authorization-Key": os.getenv("USAJOBS_API_KEY"),
-}
-
-PARAMS = {"Keyword": "data analyst", "ResultsPerPage": 25}
+PARAMS = {"Category": "data"}
 
 DB_URL = os.getenv("DATABASE_URL")
 
 
 def fetch_jobs():
-    r = requests.get(API_URL, headers=HEADERS, params=PARAMS, timeout=10)
+    r = requests.get(API_URL, params=PARAMS, timeout=10)
     r.raise_for_status()
-    return r.json()["SearchResult"]["SearchResultItems"]
+    return r.json()
+
+
+def transform(jobs):
+    for (
+        id,
+        url,
+        title,
+        c_name,
+        c_logo,
+        category,
+        job_type,
+        pub_date,
+        req_loc,
+        salary,
+        desc,
+    ) in jobs:
+        print(f"{title} - {c_name}, salary: {salary}")
 
 
 def get_connection():
@@ -65,7 +76,6 @@ def insert_job(cur, job, company_id, location_id):
     cur.execute(
         """
         INSERT INTO jobs (
-            external_id,
             company_id,
             location_id,
             title,
@@ -73,13 +83,10 @@ def insert_job(cur, job, company_id, location_id):
             source,
             source_url
         )
-        VALUES (%s, %s, %s, %s, %s, %s, %s)
-        ON CONFLICT (source, external_id)
-        DO UPDATE SET 
-            last_seen = now(),
-            title = EXCLUDED.title,
-            description_raw = EXCLUDED.description_raw,
-            is_active = TRUE;
+        VALUES (%s, %s, %s, %s, %s, %s)
+        ON CONFLICT (source, source_url)
+        DO UPDATE SET last_seen = now()
+        RETURNING id;
     """,
         (
             company_id,
@@ -96,23 +103,7 @@ def insert_job(cur, job, company_id, location_id):
 
 def main():
     jobs = fetch_jobs()
-    conn = get_connection()
-    cur = conn.cursor()
-
-    for item in jobs:
-        job = item["MatchedObjectDescriptor"]
-
-        company_id = upsert_company(cur, job["OrganizationName"])
-
-        location_id = upsert_location(cur, job["PositionLocation"][0])
-
-        insert_job(cur, job, company_id, location_id)
-
-    conn.commit()
-    cur.close()
-    conn.close()
-
-    print("Inserted jobs successfully.")
+    transform(jobs)
 
 
 if __name__ == "__main__":
