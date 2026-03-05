@@ -19,7 +19,7 @@ DB_URL = os.getenv("DATABASE_URL")
 
 
 def fetch_jobs():
-    r = requests.get(API_URL, headers=HEADERS, params=PARAMS)
+    r = requests.get(API_URL, headers=HEADERS, params=PARAMS, timeout=10)
     r.raise_for_status()
     return r.json()["SearchResult"]["SearchResultItems"]
 
@@ -43,15 +43,15 @@ def upsert_company(cur, name):
 
 
 def upsert_location(cur, location_obj):
-    city = location_obj.get("CityName")
-    state = location_obj.get("CountrySubDivisionCode")
-    country = location_obj.get("CountryCode")
+    city = location_obj.get("CityName") or ""
+    state = location_obj.get("CountrySubDivisionCode") or ""
+    country = location_obj.get("CountryCode") or ""
 
     cur.execute(
         """
         INSERT INTO locations (city, state, country)
         VALUES (%s, %s, %s)
-        ON CONFLICT (city, state, country, is_remote)
+        ON CONFLICT (city, state, country)
         DO UPDATE SET city = EXCLUDED.city
         RETURNING id;
     """,
