@@ -10,24 +10,24 @@ def get_conn():
     return psycopg2.connect(DB_URL)
 
 def get_job_count():
-    # with get_conn() as conn:
-    #     with conn.cursor() as cur:
+    with get_conn() as conn:
+        with conn.cursor() as cur:
 
-    #         cur.execute("""
-    #                     SELECT 
-    #                         COUNT(*) as jobs,
-    #                         COUNT(DISTINCT company_id) as companies,
-    #                         COUNT(DISTINCT source) as sources
-    #                     FROM jobs 
-    #                     WHERE is_active = TRUE;
-    #                     """)
-    #         job_count, company_count, sources_count = cur.fetchone()
+            cur.execute("""
+                        SELECT 
+                            COUNT(*) as jobs,
+                            COUNT(DISTINCT company_id) as companies,
+                            COUNT(DISTINCT source) as sources
+                        FROM jobs 
+                        WHERE is_active = TRUE;
+                        """)
+            job_count, company_count, sources_count = cur.fetchone()
 
-    #     cur.close()
-    # conn.close()
+        cur.close()
+    conn.close()
 
-    return 13,13,13
-    #return job_count, company_count, sources_count
+    #return 13,13,13
+    return job_count, company_count, sources_count
 
 @app.route("/health")
 def health():

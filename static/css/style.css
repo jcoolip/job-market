@@ -29,21 +29,26 @@ body {
 .card {
     font-family: "LavishlyYours", Helvetica, sans-serif;
     color: rgb(3, 6, 29);
-    padding-top: 5rem;
+    /*padding-top: 5rem;
     padding-left: 7rem;
     padding-right: 1rem;
-    padding-bottom: 1rem;
+    padding-bottom: 1rem;*/
+    padding: 3rem;
     border-radius: 20px;
     background: var(--color6);
     backdrop-filter: blur(1px);
     box-shadow: 5px 15px 10px 10px rgba(0,0,0,0.6);
+    max-width: 400px;
+    width: 90%;
 }
 h1 {
-    font-size: 4rem;
+    font-size: clamp(2rem, 5vw, 4rem);
 }
 p {
     opacity: 0.8;
     font-size: 1.1rem;
+    font-family: Helvetica, sans-serif;
+    margin: 0.5rem 0;
 }
 .badge {
     margin-top: 2rem;
