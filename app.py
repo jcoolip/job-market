@@ -10,22 +10,20 @@ def get_conn():
     return psycopg2.connect(DB_URL)
 
 def get_job_count():
-    conn = get_conn()
-    cur = conn.cursor()
+    with get_conn() as conn:
+        with conn.cursor() as cur:
 
-    cur.execute("""
-                SELECT 
-                    COUNT(*) as jobs,
-                    COUNT(DISTINCT company_id) as companies,
-                    COUNT(DISTINCT source) as sources
-                FROM jobs 
-                WHERE is_active = TRUE;
-                """)
-    job_count = cur.fetchone()[0]
-    company_count = cur.fetchone()[1]
-    sources_count = cur.fetchone()[2]
+            cur.execute("""
+                        SELECT 
+                            COUNT(*) as jobs,
+                            COUNT(DISTINCT company_id) as companies,
+                            COUNT(DISTINCT source) as sources
+                        FROM jobs 
+                        WHERE is_active = TRUE;
+                        """)
+            job_count, company_count, sources_count = cur.fetchone()
 
-    cur.close()
+        cur.close()
     conn.close()
 
     return job_count, company_count, sources_count
