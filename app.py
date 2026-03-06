@@ -1,7 +1,34 @@
 import os
 from flask import Flask, render_template
+import psycopg2
 
 app = Flask(__name__)
+
+DB_URL = os.getenv("DATABASE_URL")
+
+def get_conn():
+    return psycopg2.connect(DB_URL)
+
+def get_job_count():
+    conn = get_conn()
+    cur = conn.cursor()
+
+    cur.execute("""
+                SELECT 
+                    COUNT(*) as jobs,
+                    COUNT(DISTINCT company_id) as companies,
+                    COUNT(DISTINCT source) as sources
+                FROM jobs 
+                WHERE is_active = TRUE;
+                """)
+    job_count = cur.fetchone()[0]
+    company_count = cur.fetchone()[1]
+    sources_count = cur.fetchone()[2]
+
+    cur.close()
+    conn.close()
+
+    return job_count, company_count, sources_count
 
 @app.route("/health")
 def health():
@@ -9,7 +36,8 @@ def health():
 
 @app.route("/")
 def home():
-    return render_template("index.html")
+    job_count, company_count, sources_count = get_job_count()
+    return render_template("index.html", job_count=job_count, company_count=company_count, sources_count=sources_count)
 
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 10000))
