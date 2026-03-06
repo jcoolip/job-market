@@ -2,6 +2,7 @@ import os
 import requests
 import psycopg2
 from dotenv import load_dotenv
+import json
 
 load_dotenv()
 
@@ -33,8 +34,8 @@ def upsert_company(cur, name):
         """
         INSERT INTO companies (name)
         VALUES (%s)
-        ON CONFLICT (name) DO UPDATE
-        SET name = EXCLUDED.name
+        ON CONFLICT (name)
+        DO UPDATE SET name = companies.name
         RETURNING id;
     """,
         (name,),
@@ -52,7 +53,7 @@ def upsert_location(cur, location_obj):
         INSERT INTO locations (city, state, country)
         VALUES (%s, %s, %s)
         ON CONFLICT (city, state, country)
-        DO UPDATE SET city = EXCLUDED.city
+        DO UPDATE SET city = locations.city
         RETURNING id;
     """,
         (city, state, country),
@@ -61,7 +62,11 @@ def upsert_location(cur, location_obj):
     return cur.fetchone()[0]
 
 
-def insert_job(cur, job, company_id, location_id):
+def insert_job(cur, external_id, job, company_id, location_id):
+    r = job.get("PositionRemuneration", [{}])[0]
+    salary_min = float(r.get("MinimumRange")) if r.get("MinimumRange") else None
+    salary_max = float(r.get("MaximumRange")) if r.get("MaximumRange") else None
+
     cur.execute(
         """
         INSERT INTO jobs (
@@ -71,26 +76,37 @@ def insert_job(cur, job, company_id, location_id):
             title,
             description_raw,
             source,
-            source_url
+            source_url,
+            salary_min,
+            salary_max
         )
-        VALUES (%s, %s, %s, %s, %s, %s, %s)
+        VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s)
         ON CONFLICT (source, external_id)
         DO UPDATE SET 
             last_seen = now(),
             title = EXCLUDED.title,
             description_raw = EXCLUDED.description_raw,
-            is_active = TRUE;
+            salary_min = EXCLUDED.salary_min,
+            salary_max = EXCLUDED.salary_max,
+            is_active = TRUE
+        RETURNING id;
     """,
         (
+            external_id,
             company_id,
             location_id,
             job["PositionTitle"],
             job.get("QualificationSummary", ""),
             "usajobs",
             job["PositionURI"],
+            salary_min,
+            salary_max,
         ),
     )
 
+    # print(job.get("PositionRemuneration"))
+    # print(f"Min: {salary_min} -  Max: {salary_max}")
+    # print(job.get("PositionRemuneration", "MaximumRange"))
     return cur.fetchone()[0]
 
 
@@ -99,14 +115,20 @@ def main():
     conn = get_connection()
     cur = conn.cursor()
 
+    # jobs.to_json("jsonSave.json", orient="records", indent=2)
+    f = "usajobsResults.json"
+    with open(f, "w") as json_file:
+        json.dump(jobs, json_file, indent=4)
+
     for item in jobs:
         job = item["MatchedObjectDescriptor"]
-
+        external_id = item["MatchedObjectId"]
         company_id = upsert_company(cur, job["OrganizationName"])
+        location = job.get("PositionLocation", [{}])[0]
 
-        location_id = upsert_location(cur, job["PositionLocation"][0])
+        location_id = upsert_location(cur, location)
 
-        insert_job(cur, job, company_id, location_id)
+        insert_job(cur, external_id, job, company_id, location_id)
 
     conn.commit()
     cur.close()
