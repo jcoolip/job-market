@@ -58,7 +58,6 @@ def main():
     conn.commit()
     cur.close()
     conn.close()
-    print("no errors atleast... that's somethin huh")
 
 
 if __name__ == "__main__":

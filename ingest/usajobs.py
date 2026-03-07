@@ -51,14 +51,7 @@ def upsert_location(cur, location_obj):
     state = parts[-1] if len(parts) >= 1 else ""
     city = parts[-2] if len(parts) >= 2 else ""
     site = ", ".join(parts[:-2]) if len(parts) > 2 else ""
-
-    # if site != "":
-    #     print(f"{site}, {city}, {state}")
-    # else:
-    #     print(f"{city}, {state}")
     
-    # city = location_obj.get("CityName") or ""
-    # state = location_obj.get("CountrySubDivisionCode") or ""
     country = location_obj.get("CountryCode") or ""
 
     cur.execute(
@@ -120,11 +113,6 @@ def insert_job(cur, external_id, job, company_id, location_id):
         ),
     )
 
-    # print(job["QualificationSummary"])
-    # print(f"{salary_min}-{salary_max}")
-    # print(job.get("PositionRemuneration"))
-    # print(f"Min: {salary_min} -  Max: {salary_max}")
-    # print(job.get("PositionRemuneration", "MaximumRange"))
     return cur.fetchone()[0]
 
 
@@ -151,9 +139,6 @@ def main():
     conn.commit()
     cur.close()
     conn.close()
-
-    print("Inserted jobs successfully.")
-
 
 if __name__ == "__main__":
     main()

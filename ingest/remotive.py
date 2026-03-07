@@ -95,7 +95,6 @@ def insert_job(cur, external_id, item, company_id, location_id):
     tags = item["tags"]
     tags_row = ",".join(tags)
 
-    #print(f"@@@@{tags_row}")
     cur.execute(
         """
         INSERT INTO jobs (

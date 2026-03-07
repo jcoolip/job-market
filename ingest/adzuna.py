@@ -55,7 +55,6 @@ def upsert_location(cur, city, state, country):
 
 def insert_job(cur, external_id, company_id, location_id, title, description_raw, source, source_url, salary_min, salary_max, salary_predicted, employment_type):
     
-    #print(f"@@@@{tags_row}")
     cur.execute(
         """
         INSERT INTO jobs (
@@ -105,7 +104,6 @@ def insert_job(cur, external_id, company_id, location_id, title, description_raw
 
 def db_close(cur, conn):
     if not debug:
-        print("Here goes nothin'...")
         conn.commit()
     cur.close()
     conn.close()
@@ -145,7 +143,6 @@ def main():
         insert_job(cur, external_id, company_id, location_id, title, description_raw, source, source_url, salary_min, salary_max, salary_predicted, employment_type)
 
     db_close(cur, conn)
-    print("...cya")
 
 
 

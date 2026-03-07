@@ -3,10 +3,11 @@ import psycopg2
 from dotenv import load_dotenv
 import re
 
+debug = True
+
 load_dotenv()
 
 DB_URL = os.getenv("DATABASE_URL")
-
 
 def fetch_dbskills(cur):
     ## very important WHERE statement here... ##
@@ -56,7 +57,6 @@ def is_remote(cur):
     )
     jobs = cur.fetchall()
 
-    # print(f"checking {cur.rowcount} jobs for remote")
     for j_id, j_title, j_desc, l_id, l_city in jobs:
         find_onsite = len(re.findall(r"\bonsite\b", l_city, re.IGNORECASE))
         find_onsite += len(re.findall(r"\bonsite\b", j_desc, re.IGNORECASE))
@@ -65,7 +65,6 @@ def is_remote(cur):
         find_remote = len(re.findall(r"\bremote\b", l_city, re.IGNORECASE))
         find_remote += len(re.findall(r"\bremote\b", j_desc, re.IGNORECASE))
         
-        # print(f"{find_onsite},{find_hybrid},{find_remote}")
         if find_onsite > find_remote and find_onsite > find_hybrid:
             workplace = "onsite"
         elif find_remote > find_hybrid:
@@ -76,10 +75,6 @@ def is_remote(cur):
         if find_remote + find_hybrid + find_onsite < 1:
             workplace = "unknown"
 
-        if workplace != "unknown":
-            print(j_desc)
-
-            # print(f"{j_id}: {j_title}- {l_id}: {l_city} remote found")
         cur.execute(
             """
             UPDATE jobs
@@ -88,11 +83,8 @@ def is_remote(cur):
             """,
             (workplace, j_id),
         )
-        print(f"added {workplace} to {j_id}")
-
 
 def tag_skill_on_job(cur, job, skill, weight):
-    print(f"insert {job}, {skill}, {weight}")
     cur.execute(
         """
         INSERT INTO job_skills(job_id, skill_id, weight)
@@ -102,24 +94,29 @@ def tag_skill_on_job(cur, job, skill, weight):
     """,
         (job, skill, weight),
     )
-    #print(f"assigned {cur.rowcount} skills")
 
 
 def get_conn():
     return psycopg2.connect(DB_URL)
 
-
-def main():
+def open_db():
     conn = get_conn()
     cur = conn.cursor()
+    return cur, conn
+
+def close_db(cur, conn):
+    if not debug:
+        conn.commit()
+    cur.close()
+    conn.close()
+
+def main():
+    cur, conn = open_db()
+
     fetch_dbskills(cur)
     is_remote(cur)
 
-    conn.commit()
-    cur.close()
-    conn.close()
-    print("_--:: Adzuna skills attached :: --_")
-
+    close_db(cur, conn)
 
 if __name__ == "__main__":
     main()

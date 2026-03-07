@@ -42,21 +42,10 @@ def fetch_dbskills(cur):
             if weight:
                 tag_skill_on_job(cur, j_id, s_id, weight)
 
-    # for job in jobs:
-    #    for skill in skills:
-    # check_skills(cur, job, skill)
-
-    # print(f"{row[0]}: {row[1]}\n")
-
-    # for skill in results:
-    #    print(f"{skill[1]}. {skill[2]}")
-
 
 def check_skills(cur, job, skill):
-    # print(f":::{job[0]} - {skill[0]}:::")
     weight = len(re.findall(rf"\b{re.escape(skill[0])}\b", job[1] or "", re.IGNORECASE))
     if weight:
-        # print(f"jobid: {job[0]} skillid: {skill[1]} {skill[0]} weight: {weight}")
         tag_skill_on_job(cur, job, skill, weight)
 
 
@@ -73,7 +62,6 @@ def is_remote(cur):
     )
     jobs = cur.fetchall()
 
-    # print(f"checking {cur.rowcount} jobs for remote")
     for j_id, j_title, j_desc, l_id, l_city in jobs:
         find_onsite = len(re.findall(r"\bonsite\b", l_city, re.IGNORECASE))
         find_onsite += len(re.findall(r"\bonsite\b", j_desc, re.IGNORECASE))
@@ -82,7 +70,6 @@ def is_remote(cur):
         find_remote = len(re.findall(r"\bremote\b", l_city, re.IGNORECASE))
         find_remote += len(re.findall(r"\bremote\b", j_desc, re.IGNORECASE))
 
-        # print(f"{find_onsite},{find_hybrid},{find_remote}")
         if find_onsite > find_remote and find_onsite > find_hybrid:
             workplace = "onsite"
         elif find_remote > find_hybrid:
@@ -93,7 +80,6 @@ def is_remote(cur):
         if find_remote + find_hybrid + find_onsite < 1:
             workplace = "unknown"
 
-            # print(f"{j_id}: {j_title}- {l_id}: {l_city} remote found")
         cur.execute(
             """
             UPDATE jobs
@@ -102,11 +88,10 @@ def is_remote(cur):
             """,
             (workplace, j_id),
         )
-        # print(f"added {workplace} to {cur.rowcount} jobs")
+
 
 
 def tag_skill_on_job(cur, job, skill, weight):
-    # print(f"insert {job}, {skill}, {weight}")
     cur.execute(
         """
         INSERT INTO job_skills(job_id, skill_id, weight)
@@ -116,8 +101,6 @@ def tag_skill_on_job(cur, job, skill, weight):
     """,
         (job, skill, weight),
     )
-    # print(f"assigned {cur.rowcount} skills")
-
 
 def get_conn():
     return psycopg2.connect(DB_URL)
@@ -132,7 +115,6 @@ def main():
     conn.commit()
     cur.close()
     conn.close()
-    print("skills attached")
 
 
 if __name__ == "__main__":
