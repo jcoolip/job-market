@@ -25,13 +25,13 @@ def get_job_count():
                         on job_skills.skill_id = skills.id
                         WHERE is_active = TRUE;
                         """)
-            job_count, company_count, sources_count = cur.fetchone()
+            job_count, skills_count, sources_count = cur.fetchone()
 
         cur.close()
     conn.close()
 
     #return 13,13,13
-    return job_count, company_count, sources_count
+    return job_count, skills_count, sources_count
 
 @app.route("/health")
 def health():
