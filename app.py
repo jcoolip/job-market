@@ -14,7 +14,7 @@ def get_job_count():
         with conn.cursor() as cur:
 
             cur.execute("""
-                        SELECT COUNT(distinct(source)) AS sources, COUNT(DISTINCT(id)) AS jobs 
+                        SELECT  COUNT(DISTINCT(id)) AS jobs, COUNT(distinct(source)) AS sources
                         FROM jobs
                         WHERE is_active = TRUE;
                         """)
