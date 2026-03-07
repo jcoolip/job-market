@@ -39,8 +39,8 @@ def health():
 
 @app.route("/")
 def home():
-    job_count, company_count, sources_count = get_job_count()
-    return render_template("index.html", job_count=job_count, company_count=company_count, sources_count=sources_count)
+    job_count, skills_count, sources_count = get_job_count()
+    return render_template("index.html", job_count=job_count, skills_count=skills_count, sources_count=sources_count)
 
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 10000))
