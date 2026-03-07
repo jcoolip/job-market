@@ -14,24 +14,17 @@ def get_job_count():
         with conn.cursor() as cur:
 
             cur.execute("""
-                        SELECT 
-                            COUNT(jobs.id) as jobs,
-                            COUNT(DISTINCT(skills.id)) as skills,
-                            COUNT(DISTINCT source) as sources
-                        from jobs
-                        join job_skills
-                        on jobs.id = job_skills.job_id
-                        join skills
-                        on job_skills.skill_id = skills.id
+                        SELECT COUNT(distinct(source)) AS sources, COUNT(DISTINCT(id)) AS jobs 
+                        FROM jobs
                         WHERE is_active = TRUE;
                         """)
-            job_count, skills_count, sources_count = cur.fetchone()
+            jobs, sources = cur.fetchone()
 
         cur.close()
     conn.close()
 
     #return 13,13,13
-    return job_count, skills_count, sources_count
+    return jobs, sources
 
 @app.route("/health")
 def health():
@@ -39,8 +32,8 @@ def health():
 
 @app.route("/")
 def home():
-    job_count, skills_count, sources_count = get_job_count()
-    return render_template("index.html", job_count=job_count, skills_count=skills_count, sources_count=sources_count)
+    jobs, sources = get_job_count()
+    return render_template("index.html", jobs=jobs, sources=sources)
 
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 10000))

@@ -1,0 +1,73 @@
+{
+  "results": [
+    {
+      "latitude": 38.934146,
+      "longitude": -77.2217,
+      "location": {
+        "display_name": "Tysons Corner, Fairfax County",
+        "area": [
+          "US",
+          "Virginia",
+          "Fairfax County",
+          "Tysons Corner"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location"
+      },
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "created": "2026-02-21T15:59:55Z",
+      "id": "5640425334",
+      "category": {
+        "tag": "it-jobs",
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "label": "IT Jobs"
+      },
+      "salary_max": 184839.83,
+      "redirect_url": "https://www.adzuna.com/land/ad/5640425334?se=cgHuiCYa8RGfde9g6fQGlA&utm_medium=api&utm_source=42b6f469&v=D30885F22E581A62FB83A9DDE591408EDDF5065C",
+      "description": "Senior Frontend JavaScript Developer Our organization is a unique software development company based in McLean, Virginia, dedicated to providing top-tier solutions to defend the United States and its businesses. We are seeking a highly skilled and passionate Senior Frontend JavaScript Developer who embodies our commitment to excellence and is driven to \"do it right.\" This is a long-term opportunity for serious professionals who meet our stringent requirements and are eager to contribute to our …",
+      "company": {
+        "display_name": "Lyteforge Technologies LLC",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "salary_is_predicted": "1",
+      "salary_min": 184839.83,
+      "title": "Senior Frontend JavaScript Developer with Security Clearance",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiY2dIdWlDWWE4UkdmZGU5ZzZmUUdsQSIsImkiOiI1NjQwNDI1MzM0In0.QwrEPJAAW9aPvldEdcb54YWd2pDuY-P_Ty_jUe_Tbww"
+    },
+    {
+      "description": "Job ID: 71372 JavaScript Developer Our client is seeking a thoughtful and product-minded JavaScript Developer to support the evolution of a modern SaaS application. This role centers on building and enhancing browser-based functionality, with particular emphasis on Chrome Extensions and Outlook Add-Ons. The ideal candidate values long-term code ownership, communicates clearly, and is comfortable working within complex, evolving systems. This role is fully remote. JavaScript Developer Responsibi…",
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "Vanderhouwen"
+      },
+      "redirect_url": "https://www.adzuna.com/details/5624543378?utm_medium=api&utm_source=42b6f469",
+      "salary_max": 100848.21,
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "label": "IT Jobs",
+        "tag": "it-jobs"
+      },
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTYyNDU0MzM3OCIsInMiOiJjZ0h1aUNZYThSR2ZkZTlnNmZRR2xBIn0.oDK4P9sC7J7GuCu-gZNgTq9-VcE3VnS-41wqfXzgzf4",
+      "title": "Javascript Developer",
+      "salary_min": 100848.21,
+      "salary_is_predicted": "1",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "US",
+          "Oregon",
+          "Clackamas County",
+          "Canby"
+        ],
+        "display_name": "Canby, Clackamas County"
+      },
+      "latitude": 45.262266,
+      "longitude": -122.692101,
+      "id": "5624543378",
+      "created": "2026-02-11T14:11:32Z"
+    }
+  ],
+  "count": 4285,
+  "mean": 133962.29,
+  "__CLASS__": "Adzuna::API::Response::JobSearchResults"
+}
