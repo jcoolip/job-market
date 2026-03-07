@@ -1,43 +1,55 @@
 import os
 import requests
 import psycopg2
+import json
+import re
 from dotenv import load_dotenv
 
 load_dotenv()
 
 API_URL = "https://remotive.com/api/remote-jobs"
 
-PARAMS = {"Category": "data"}
+PARAMS = {"Category": "data", "limit": 10}
 
 DB_URL = os.getenv("DATABASE_URL")
 
+# sometimes remotive uses this: en dash (Unicode U+2013)"–" instead of usual hyphen "-"
+salary_pattern = re.compile(
+    r'(?P<currency>[$€£])?\s*(?P<min>\d[\d,\.]*k?)\s*(?:[-–]\s*(?P<max>\d[\d,\.]*k?))?\s*(?:/?\s*(?P<freq>hour|hr|year|yr|month|mo|day))?',
+    re.IGNORECASE
+)
+
+def parse_salary(text):
+    m = salary_pattern.search(text)
+    if not m:
+        return None
+
+    currency = m.group("currency")
+    smin = m.group("min")
+    smax = m.group("max")
+    freq = m.group("freq")
+
+    def normalize(v):
+        if not v:
+            return None
+        v = v.replace(",", "").lower()
+        if "k" in v:
+            return float(v.replace("k", "")) * 1000
+        return float(v)
+
+    return normalize(smin), normalize(smax), freq, currency
 
 def fetch_jobs():
     r = requests.get(API_URL, params=PARAMS, timeout=10)
     r.raise_for_status()
-    return r.json()
+    return r.json()["jobs"]
 
-
-def transform(jobs):
-    for (
-        id,
-        url,
-        title,
-        c_name,
-        c_logo,
-        category,
-        job_type,
-        pub_date,
-        req_loc,
-        salary,
-        desc,
-    ) in jobs:
-        print(f"{title} - {c_name}, salary: {salary}")
-
+def save_json(jobs):
+    with open("remotiveTests.json", "w") as f:
+        json.dump(jobs, f, indent=4)
 
 def get_connection():
     return psycopg2.connect(DB_URL)
-
 
 def upsert_company(cur, name):
     cur.execute(
@@ -52,11 +64,10 @@ def upsert_company(cur, name):
     )
     return cur.fetchone()[0]
 
-
 def upsert_location(cur, location_obj):
-    city = location_obj.get("CityName") or ""
-    state = location_obj.get("CountrySubDivisionCode") or ""
-    country = location_obj.get("CountryCode") or ""
+    city = ""
+    state =  ""
+    country = location_obj
 
     cur.execute(
         """
@@ -71,40 +82,91 @@ def upsert_location(cur, location_obj):
 
     return cur.fetchone()[0]
 
+def insert_job(cur, external_id, item, company_id, location_id):
+    salary = item["salary"] or ""
+    if salary != "":
+        salary_min, salary_max, salary_freq, salary_currency = parse_salary(salary)
+    else:
+        salary_min = None
+        salary_max = None
+        salary_freq = None
+        salary_currency = None
 
-def insert_job(cur, job, company_id, location_id):
+    tags = item["tags"]
+    tags_row = ",".join(tags)
+
+    #print(f"@@@@{tags_row}")
     cur.execute(
         """
         INSERT INTO jobs (
+            external_id,
             company_id,
             location_id,
             title,
             description_raw,
             source,
-            source_url
+            source_url,
+            work_mode,
+            employment_type,
+            salary_min,
+            salary_max,
+            salary_freq,
+            salary_currency,
+            salary_raw,
+            tags
         )
-        VALUES (%s, %s, %s, %s, %s, %s)
-        ON CONFLICT (source, source_url)
-        DO UPDATE SET last_seen = now()
+        VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+        ON CONFLICT (source, external_id)
+        DO UPDATE SET 
+            last_seen = now(),
+            work_mode = EXCLUDED.work_mode,
+            employment_type = EXCLUDED.employment_type,
+            salary_min = EXCLUDED.salary_min,
+            salary_max = EXCLUDED.salary_max,
+            salary_freq = EXCLUDED.salary_freq,
+            salary_currency = EXCLUDED.salary_currency,
+            salary_raw = EXCLUDED.salary_raw,
+            tags = EXCLUDED.tags
+
         RETURNING id;
     """,
         (
+            external_id,
             company_id,
             location_id,
-            job["PositionTitle"],
-            job.get("QualificationSummary", ""),
-            "usajobs",
-            job["PositionURI"],
+            item["title"],
+            item["description"],
+            "remotive",
+            item["url"],
+            "remote",
+            item["job_type"],
+            salary_min,
+            salary_max,
+            salary_freq,
+            salary_currency,
+            salary,
+            tags_row
         ),
     )
-
     return cur.fetchone()[0]
-
 
 def main():
     jobs = fetch_jobs()
-    transform(jobs)
+    conn = get_connection()
+    cur = conn.cursor()
+    save_json(jobs)
 
+    for item in jobs:
+        external_id = item["id"]
+        company_id = upsert_company(cur, item["company_name"])
+        location = item["candidate_required_location"]
+        location_id = upsert_location(cur, location)
+        insert_job(cur, external_id, item, company_id, location_id)
+
+
+    conn.commit()
+    cur.close()
+    conn.close()
 
 if __name__ == "__main__":
     main()

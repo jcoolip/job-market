@@ -13,6 +13,10 @@
     font-family: "LavishlyYours";
     src: url("../fonts/LavishlyYours-Regular.woff2") format("woff2");
 }
+@font-face {
+    font-family: "HackNerd";
+    src: url("../fonts/HackNerdFontMono-Regular.woff2") format("woff2");
+}
 
 * { margin: 0; padding: 0; box-sizing: border-box; }
 
@@ -47,12 +51,12 @@ h1 {
 p {
     opacity: 0.8;
     font-size: 1.1rem;
-    font-family: Helvetica, sans-serif;
+    font-family: "HackNerd", Helvetica, sans-serif;
     margin: 0.5rem 0;
 }
 .badge {
     margin-top: 2rem;
-    font-size: 0.6em;
-    font-family: Helvetica, sans-serif;
+    font-size: 0.9em;
+    font-family: "HackNerd", Helvetica, sans-serif;
     opacity: 0.4;
 }

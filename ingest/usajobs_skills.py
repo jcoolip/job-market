@@ -9,15 +9,17 @@ DB_URL = os.getenv("DATABASE_URL")
 
 
 def fetch_dbskills(cur):
-
+    ## very important WHERE statement here... ##
     cur.execute(
         """
         SELECT j.id, j.description_raw
-        FROM jobs as j;
+        FROM jobs as j
+        WHERE source like 'usajobs';
         """,
     )
     jobs = cur.fetchall()
 
+    # populate our skills from table
     cur.execute(
         """
         SELECT s.normalized_name, s.id 
@@ -59,12 +61,14 @@ def check_skills(cur, job, skill):
 
 
 def is_remote(cur):
+    ## very important WHERE statement here... ##
     cur.execute(
         """
         SELECT j.id, j.title, j.description_raw, l.id, l.city
         FROM jobs as j
         join locations as l
-        on j.location_id = l.id;
+        on j.location_id = l.id
+        WHERE source like 'usajobs';
         """,
     )
     jobs = cur.fetchall()

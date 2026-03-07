@@ -44,8 +44,21 @@ def upsert_company(cur, name):
 
 
 def upsert_location(cur, location_obj):
-    city = location_obj.get("CityName") or ""
-    state = location_obj.get("CountrySubDivisionCode") or ""
+
+    location = location_obj.get("CityName", "")
+    parts = [p.strip() for p in location.split(",")]
+
+    state = parts[-1] if len(parts) >= 1 else ""
+    city = parts[-2] if len(parts) >= 2 else ""
+    site = ", ".join(parts[:-2]) if len(parts) > 2 else ""
+
+    # if site != "":
+    #     print(f"{site}, {city}, {state}")
+    # else:
+    #     print(f"{city}, {state}")
+    
+    # city = location_obj.get("CityName") or ""
+    # state = location_obj.get("CountrySubDivisionCode") or ""
     country = location_obj.get("CountryCode") or ""
 
     cur.execute(
@@ -75,16 +88,18 @@ def insert_job(cur, external_id, job, company_id, location_id):
             location_id,
             title,
             description_raw,
+            qualifications,
             source,
             source_url,
             salary_min,
             salary_max
         )
-        VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s)
+        VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
         ON CONFLICT (source, external_id)
         DO UPDATE SET 
             last_seen = now(),
             title = EXCLUDED.title,
+            qualifications = EXCLUDED.qualifications,
             description_raw = EXCLUDED.description_raw,
             salary_min = EXCLUDED.salary_min,
             salary_max = EXCLUDED.salary_max,
@@ -96,7 +111,8 @@ def insert_job(cur, external_id, job, company_id, location_id):
             company_id,
             location_id,
             job["PositionTitle"],
-            job.get("QualificationSummary", ""),
+            job["UserArea"]["Details"]["AgencyMarketingStatement"],
+            job["QualificationSummary"],
             "usajobs",
             job["PositionURI"],
             salary_min,
@@ -104,6 +120,8 @@ def insert_job(cur, external_id, job, company_id, location_id):
         ),
     )
 
+    # print(job["QualificationSummary"])
+    # print(f"{salary_min}-{salary_max}")
     # print(job.get("PositionRemuneration"))
     # print(f"Min: {salary_min} -  Max: {salary_max}")
     # print(job.get("PositionRemuneration", "MaximumRange"))

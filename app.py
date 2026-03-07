@@ -15,10 +15,14 @@ def get_job_count():
 
             cur.execute("""
                         SELECT 
-                            COUNT(*) as jobs,
-                            COUNT(DISTINCT company_id) as companies,
+                            COUNT(jobs.id) as jobs,
+                            COUNT(DISTINCT(skills.id)) as skills,
                             COUNT(DISTINCT source) as sources
-                        FROM jobs 
+                        from jobs
+                        join job_skills
+                        on jobs.id = job_skills.job_id
+                        join skills
+                        on job_skills.skill_id = skills.id
                         WHERE is_active = TRUE;
                         """)
             job_count, company_count, sources_count = cur.fetchone()
