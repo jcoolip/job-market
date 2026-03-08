@@ -129,7 +129,8 @@ def main():
         country = job['location']['area'][0]
         state = job['location']['area'][1]
         county = job['location']['area'][2]
-        city = job['location']['area'][3]
+        if len(job['location']['area']) > 3:
+            city = job['location']['area'][3]
         company = job['company']['display_name']
         source = "adzuna"
         source_url = job['redirect_url']
