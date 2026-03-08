@@ -2,12 +2,8 @@ import os
 import requests
 import psycopg2
 import json
-import re
 from dotenv import load_dotenv
-
-
-
-
+from jsearch_skills import fetch_dbskills
 
 debug = False
 
@@ -125,7 +121,6 @@ def insert_job(cur, external_id, company_id, location_id,
     )
     return cur.fetchone()[0]
 
-
 def db_close(cur, conn):
     if not debug:
         conn.commit()
@@ -178,8 +173,8 @@ def main():
         #     job_posted_date = job['job_posted_at_datetime_utc']
         company_id = upsert_company(cur, company)
         location_id = upsert_location(cur, city, state, country)
-        insert_job(cur, external_id, company_id, location_id, title, description_raw, source, source_url, salary_min, salary_max, salary_freq, employment_type, qualifications, benefits, responsibilities, is_remote)
-
+        job_id = insert_job(cur, external_id, company_id, location_id, title, description_raw, source, source_url, salary_min, salary_max, salary_freq, employment_type, qualifications, benefits, responsibilities, is_remote)
+        fetch_dbskills(cur, job_id, description_raw)
         # print(f"{external_id}, {title}, {source}, {salary_min}, {salary_max}, {salary_freq}, {employment_type}, {is_remote}, {benefits}")
 
     db_close(cur, conn)
