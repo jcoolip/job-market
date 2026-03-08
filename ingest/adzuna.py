@@ -113,12 +113,7 @@ def db_open():
     cur = conn.cursor()
     return conn, cur
 
-def main():
-    jobs = fetch_jobs()
-    save_json(jobs)
-
-    conn, cur = db_open()
-
+def assign_job_info(cur, jobs):
     for job in jobs:
         title = job['title']
         external_id = job['id']
@@ -141,11 +136,63 @@ def main():
         )
         company_id = upsert_company(cur, company)
         location_id = upsert_location(cur, city, state, country)
-        insert_job(cur, external_id, company_id, location_id, title, description_raw, source, source_url, salary_min, salary_max, salary_predicted, employment_type)
+        job_id = insert_job(cur, external_id, company_id, location_id, title, description_raw, source, source_url, salary_min, salary_max, salary_predicted, employment_type)
+        fetch_dbskills(cur, job_id, description_raw)
 
+def fetch_dbskills(cur, job_id, job_desc):
+    # populate our skills from table
+    cur.execute(
+        """
+        SELECT s.normalized_name, s.id 
+        FROM skills as s;
+    """,
+    )
+    skills = cur.fetchall()
+
+    compiled_skills = [
+        (s_id, s_name, re.compile(rf"\b{re.escape(s_name)}\b", re.IGNORECASE))
+        for s_name, s_id in skills
+    ]
+
+    if job_desc == "":
+        return
+    job_desc = job_desc.lower()
+    for s_id, s_name, s_patt in compiled_skills:
+        weight = len(s_patt.findall(job_desc))
+        if weight:
+            tag_skill_on_job(cur, job_id, s_id, weight)
+
+def tag_skill_on_job(cur, job, skill, weight):
+    cur.execute(
+        """
+        INSERT INTO job_skills(job_id, skill_id, weight)
+        VALUES (%s, %s, %s)
+        ON CONFLICT (job_id, skill_id)
+        DO UPDATE SET weight = EXCLUDED.weight
+    """,
+        (job, skill, weight),
+    )
+
+
+def main():
+
+    ## api call to retrieve and store jobs
+    jobs = fetch_jobs()
+    ## save api call results in json 
+    save_json(jobs)
+
+    ## establish db connection and cursor
+    conn, cur = db_open()
+
+    ## assign job variables from retrieved job,
+    ## upsert company, location, 
+    ## insert job
+    ## scan job description for known skills and insert
+    assign_job_info(cur, jobs)
+    
+    ## commit our sql 
+    ## close our cursor and connection
     db_close(cur, conn)
-
-
 
 if __name__ == "__main__":
     main()
