@@ -10,9 +10,9 @@ from datetime import datetime
 
 now = datetime.now()
 
-basicConfig(
+logging.basicConfig(
     level=logging.DEBUG,
-    filename=f"pipeline{now}.log",
+    filename="pipeline.log",
     filemode="w",
     format="%(asctime)s - %(levelname)s - %(message)s",
 )
@@ -41,4 +41,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-

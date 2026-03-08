@@ -1,153 +1,53 @@
 [
     {
-        "created": "2026-02-20T21:00:15Z",
-        "salary_min": 60923.72,
-        "id": "5639136443",
-        "category": {
-            "__CLASS__": "Adzuna::API::Response::Category",
-            "tag": "it-jobs",
-            "label": "IT Jobs"
-        },
-        "salary_max": 60923.72,
-        "longitude": -98.884965,
-        "contract_time": "full_time",
-        "redirect_url": "https://www.adzuna.com/land/ad/5639136443?se=oqtKF3Aa8RGdv_0DtWHWaQ&utm_medium=api&utm_source=42b6f469&v=A33D2A874CF83FFD9878E10865185A896D4BC157",
-        "company": {
-            "display_name": "Maximus",
-            "__CLASS__": "Adzuna::API::Response::Company"
-        },
-        "description": "General information Job Posting Title System Test Engineer Date Wednesday, February 18, 2026 City San Antonio State TX Country United States Working time Full-time Description & Requirements Maximus is a trusted federal partner supporting mission\u2011critical programs across national security, defense, and public service delivery. Recent contract awards in cybersecurity and operational readiness underscore Maximus\u2019 role as a reliable prime for high\u2011impact government missions. Joining Maximus means \u2026",
-        "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoib3F0S0YzQWE4Ukdkdl8wRHRXSFdhUSIsImkiOiI1NjM5MTM2NDQzIn0.GK55HiA24gsqIwagHCn1_gwHu7p6GDEbqRULIJIDJo8",
+        "redirect_url": "https://www.adzuna.com/land/ad/5637383963?se=3BdMI54a8RGcB9b2w1hBeQ&utm_medium=api&utm_source=42b6f469&v=B7022ABA83FB35CBB44761D3E72B17E9B7E473A4",
+        "created": "2026-02-20T00:59:15Z",
+        "id": "5637383963",
+        "title": "Senior Front-End Developer",
+        "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiM0JkTUk1NGE4UkdjQjliMncxaEJlUSIsImkiOiI1NjM3MzgzOTYzIn0.RxF9W_sangPK17TGXFxIj83G4CTeheTTHnxCRkK203w",
+        "salary_min": 209324.77,
+        "salary_max": 209324.77,
+        "longitude": -98.488889,
         "__CLASS__": "Adzuna::API::Response::Job",
-        "latitude": 29.347725,
-        "title": "System Test Engineer",
-        "location": {
-            "__CLASS__": "Adzuna::API::Response::Location",
-            "area": [
-                "US",
-                "Texas",
-                "Medina County",
-                "Castroville"
-            ],
-            "display_name": "Castroville, Medina County"
-        },
-        "salary_is_predicted": "1"
-    },
-    {
-        "salary_min": 89034.32,
-        "created": "2026-03-03T02:53:33Z",
-        "salary_max": 89034.32,
-        "longitude": -98.648018,
-        "id": "5652130978",
+        "description": "General information Job Posting Title Senior Front-End Developer Date Wednesday, February 18, 2026 City San Antonio State TX Country United States Working time Full-time Description & Requirements Maximus is a trusted federal partner supporting mission\u2011critical programs across national security, defense, and public service delivery. Recent contract awards in cybersecurity and operational readiness underscore Maximus\u2019 role as a reliable prime for high\u2011impact government missions. Joining Maximus \u2026",
         "category": {
             "__CLASS__": "Adzuna::API::Response::Category",
             "label": "IT Jobs",
             "tag": "it-jobs"
         },
-        "description": "General information Job Posting Title Cyber Security Engineer Date Tuesday, February 24, 2026 City San Antonio State TX Country United States Working time Full-time Description & Requirements Maximus is a trusted federal partner supporting mission\u2011critical programs across national security, defense, and public service delivery. Recent contract awards in cybersecurity and operational readiness underscore Maximus\u2019 role as a reliable prime for high\u2011impact government missions. Joining Maximus means\u2026",
-        "redirect_url": "https://www.adzuna.com/land/ad/5652130978?se=oqtKF3Aa8RGdv_0DtWHWaQ&utm_medium=api&utm_source=42b6f469&v=7D7E6801014BF444DBBA0353B82FB10028F2887D",
-        "contract_time": "full_time",
-        "company": {
-            "display_name": "Maximus",
-            "__CLASS__": "Adzuna::API::Response::Company"
-        },
+        "salary_is_predicted": "1",
         "location": {
-            "display_name": "Fair Oaks, Kendall County",
-            "__CLASS__": "Adzuna::API::Response::Location",
+            "display_name": "Leming, Atascosa County",
             "area": [
                 "US",
                 "Texas",
-                "Kendall County",
-                "Fair Oaks"
-            ]
-        },
-        "salary_is_predicted": "1",
-        "latitude": 29.734485,
-        "title": "Cyber Security Engineer",
-        "__CLASS__": "Adzuna::API::Response::Job",
-        "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTY1MjEzMDk3OCIsInMiOiJvcXRLRjNBYThSR2R2XzBEdFdIV2FRIn0.mM9adslGt8qfsaJVmFmKj_0a_yoOgEI4NoTUabGSSaI"
-    },
-    {
-        "created": "2026-02-20T00:59:14Z",
-        "salary_min": 99419.82,
-        "category": {
-            "tag": "it-jobs",
-            "label": "IT Jobs",
-            "__CLASS__": "Adzuna::API::Response::Category"
-        },
-        "id": "5637383944",
-        "longitude": -98.119804,
-        "salary_max": 99419.82,
-        "redirect_url": "https://www.adzuna.com/land/ad/5637383944?se=oqtKF3Aa8RGdv_0DtWHWaQ&utm_medium=api&utm_source=42b6f469&v=B02788F2A210365AA24C52F3AAFC14459C2585BB",
-        "contract_time": "full_time",
-        "company": {
-            "display_name": "Maximus",
-            "__CLASS__": "Adzuna::API::Response::Company"
-        },
-        "description": "General information Job Posting Title Senior Back End Developer Date Thursday, February 19, 2026 City San Antonio State TX Country United States Working time Full-time Description & Requirements Maximus is a trusted federal partner supporting mission\u2011critical programs across national security, defense, and public service delivery. Recent contract awards in cybersecurity and operational readiness underscore Maximus\u2019 role as a reliable prime for high\u2011impact government missions. Joining Maximus me\u2026",
-        "latitude": 29.333722,
-        "title": "Senior Back End Developer",
-        "__CLASS__": "Adzuna::API::Response::Job",
-        "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoib3F0S0YzQWE4Ukdkdl8wRHRXSFdhUSIsImkiOiI1NjM3MzgzOTQ0In0.GZApiQipNXGsH7ivJBXDUgnL0nQ545ZMOMMeFCxmXf8",
-        "salary_is_predicted": "1",
-        "location": {
-            "display_name": "La Vernia, Wilson County",
-            "area": [
-                "US",
-                "Texas",
-                "Wilson County",
-                "La Vernia"
-            ],
-            "__CLASS__": "Adzuna::API::Response::Location"
-        }
-    },
-    {
-        "id": "5639136470",
-        "category": {
-            "__CLASS__": "Adzuna::API::Response::Category",
-            "tag": "it-jobs",
-            "label": "IT Jobs"
-        },
-        "salary_max": 87565.73,
-        "longitude": -76.726777,
-        "created": "2026-02-20T21:00:16Z",
-        "salary_min": 87565.73,
-        "latitude": 39.11376,
-        "title": "Senior Front-End Developer",
-        "__CLASS__": "Adzuna::API::Response::Job",
-        "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoib3F0S0YzQWE4Ukdkdl8wRHRXSFdhUSIsImkiOiI1NjM5MTM2NDcwIn0.XFlnow6PGPyihIqPBkTj9bYC9FPC67tpfLgeIMjj6A8",
-        "location": {
-            "display_name": "Fort George G Meade, Anne Arundel County",
-            "area": [
-                "US",
-                "Maryland",
-                "Anne Arundel County",
-                "Fort George G Meade"
+                "Atascosa County",
+                "Leming"
             ],
             "__CLASS__": "Adzuna::API::Response::Location"
         },
-        "salary_is_predicted": "1",
-        "redirect_url": "https://www.adzuna.com/land/ad/5639136470?se=oqtKF3Aa8RGdv_0DtWHWaQ&utm_medium=api&utm_source=42b6f469&v=955B5BEC72E610CF79971A71D1C9E5FAB18D8ACD",
         "contract_time": "full_time",
         "company": {
             "__CLASS__": "Adzuna::API::Response::Company",
             "display_name": "Maximus"
         },
-        "description": "General information Job Posting Title Senior Front-End Developer Date Wednesday, February 18, 2026 City Fort Meade State MD Country United States Working time Full-time Description & Requirements Maximus is a trusted federal partner supporting mission\u2011critical programs across national security, defense, and public service delivery. Recent contract awards in cybersecurity and operational readiness underscore Maximus\u2019 role as a reliable prime for high\u2011impact government missions. Joining Maximus m\u2026"
+        "latitude": 29.177976
     },
     {
-        "redirect_url": "https://www.adzuna.com/land/ad/5639136504?se=oqtKF3Aa8RGdv_0DtWHWaQ&utm_medium=api&utm_source=42b6f469&v=FAEA1C98B9D64ECE811413E4D053329E023FE89C",
-        "contract_time": "full_time",
-        "company": {
-            "display_name": "Maximus",
-            "__CLASS__": "Adzuna::API::Response::Company"
+        "salary_is_predicted": "1",
+        "category": {
+            "label": "IT Jobs",
+            "__CLASS__": "Adzuna::API::Response::Category",
+            "tag": "it-jobs"
         },
         "description": "General information Job Posting Title System Test Engineer Date Wednesday, February 18, 2026 City San Antonio State TX Country United States Working time Full-time Description & Requirements Maximus is a trusted federal partner supporting mission\u2011critical programs across national security, defense, and public service delivery. Recent contract awards in cybersecurity and operational readiness underscore Maximus\u2019 role as a reliable prime for high\u2011impact government missions. Joining Maximus means \u2026",
-        "latitude": 29.353554,
-        "title": "System Test Engineer",
         "__CLASS__": "Adzuna::API::Response::Job",
-        "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoib3F0S0YzQWE4Ukdkdl8wRHRXSFdhUSIsImkiOiI1NjM5MTM2NTA0In0.S4cOzyBlIpnSNdfgk5j5E_Up1YVPCeHbOWOr__5oqPY",
-        "salary_is_predicted": "1",
+        "latitude": 29.353554,
+        "contract_time": "full_time",
+        "company": {
+            "__CLASS__": "Adzuna::API::Response::Company",
+            "display_name": "Maximus"
+        },
         "location": {
             "display_name": "China Grove, Bexar County",
             "area": [
@@ -159,89 +59,23 @@
             "__CLASS__": "Adzuna::API::Response::Location"
         },
         "created": "2026-02-20T21:00:16Z",
-        "salary_min": 74470.53,
+        "id": "5639136504",
+        "redirect_url": "https://www.adzuna.com/land/ad/5639136504?se=3BdMI54a8RGcB9b2w1hBeQ&utm_medium=api&utm_source=42b6f469&v=FAEA1C98B9D64ECE811413E4D053329E023FE89C",
+        "salary_max": 74470.53,
+        "longitude": -98.433749,
+        "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiM0JkTUk1NGE4UkdjQjliMncxaEJlUSIsImkiOiI1NjM5MTM2NTA0In0.xyUykg6dQ3MRVSzhth7Qp0VxQgSkpT6fPdpzD2mViPM",
+        "title": "System Test Engineer",
+        "salary_min": 74470.53
+    },
+    {
+        "description": "General information Job Posting Title Back End Developer \u2013 Mid-level Date Wednesday, February 18, 2026 City San Antonio State TX Country United States Working time Full-time Description & Requirements Maximus is a trusted federal partner supporting mission\u2011critical programs across national security, defense, and public service delivery. Recent contract awards in cybersecurity and operational readiness underscore Maximus\u2019 role as a reliable prime for high\u2011impact government missions. Joining Maxi\u2026",
+        "__CLASS__": "Adzuna::API::Response::Job",
         "category": {
-            "__CLASS__": "Adzuna::API::Response::Category",
             "label": "IT Jobs",
+            "__CLASS__": "Adzuna::API::Response::Category",
             "tag": "it-jobs"
         },
-        "id": "5639136504",
-        "longitude": -98.433749,
-        "salary_max": 74470.53
-    },
-    {
-        "longitude": -98.23747,
-        "salary_max": 92528.7,
-        "id": "5646767433",
-        "category": {
-            "__CLASS__": "Adzuna::API::Response::Category",
-            "tag": "it-jobs",
-            "label": "IT Jobs"
-        },
-        "salary_min": 92528.7,
-        "created": "2026-02-26T19:43:50Z",
-        "location": {
-            "__CLASS__": "Adzuna::API::Response::Location",
-            "area": [
-                "US",
-                "Texas",
-                "Guadalupe County",
-                "Schertz"
-            ],
-            "display_name": "Schertz, Guadalupe County"
-        },
         "salary_is_predicted": "1",
-        "__CLASS__": "Adzuna::API::Response::Job",
-        "latitude": 29.590949,
-        "title": "Application Subject Matter Expert/Trainer\u2011of\u2011Trainer",
-        "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTY0Njc2NzQzMyIsInMiOiJvcXRLRjNBYThSR2R2XzBEdFdIV2FRIn0.gXSugkQwtmjdKS78P-sOMdSBblb1ZSmbHkjP8KTjohg",
-        "description": "General information Job Posting Title Application Subject Matter Expert/Trainer\u2011of\u2011Trainer Date Wednesday, February 25, 2026 City San Antonio State TX Country United States Working time Full-time Description & Requirements Maximus is a trusted federal partner supporting mission\u2011critical programs across national security, defense, and public service delivery. Recent contract awards in cybersecurity and operational readiness underscore Maximus\u2019 role as a reliable prime for high\u2011impact government \u2026",
-        "redirect_url": "https://www.adzuna.com/land/ad/5646767433?se=oqtKF3Aa8RGdv_0DtWHWaQ&utm_medium=api&utm_source=42b6f469&v=4A6EA2E5928D8D416EB5999B7A13E240E73836DF",
-        "contract_time": "full_time",
-        "company": {
-            "display_name": "Maximus",
-            "__CLASS__": "Adzuna::API::Response::Company"
-        }
-    },
-    {
-        "longitude": -98.884965,
-        "salary_max": 66642.11,
-        "id": "5639136459",
-        "category": {
-            "tag": "it-jobs",
-            "label": "IT Jobs",
-            "__CLASS__": "Adzuna::API::Response::Category"
-        },
-        "salary_min": 66642.11,
-        "created": "2026-02-20T21:00:15Z",
-        "location": {
-            "area": [
-                "US",
-                "Texas",
-                "Medina County",
-                "Castroville"
-            ],
-            "__CLASS__": "Adzuna::API::Response::Location",
-            "display_name": "Castroville, Medina County"
-        },
-        "salary_is_predicted": "1",
-        "title": "Database Engineer",
-        "latitude": 29.347725,
-        "__CLASS__": "Adzuna::API::Response::Job",
-        "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTYzOTEzNjQ1OSIsInMiOiJvcXRLRjNBYThSR2R2XzBEdFdIV2FRIn0.02nJUfnNPYez1Mdt7Xtlq7ZYPOOvRympVU-baUOPZF4",
-        "description": "General information Job Posting Title Database Engineer Date Wednesday, February 18, 2026 City San Antonio State TX Country United States Working time Full-time Description & Requirements Maximus is a trusted federal partner supporting mission\u2011critical programs across national security, defense, and public service delivery. Recent contract awards in cybersecurity and operational readiness underscore Maximus\u2019 role as a reliable prime for high\u2011impact government missions. Joining Maximus means con\u2026",
-        "company": {
-            "__CLASS__": "Adzuna::API::Response::Company",
-            "display_name": "Maximus"
-        },
-        "contract_time": "full_time",
-        "redirect_url": "https://www.adzuna.com/land/ad/5639136459?se=oqtKF3Aa8RGdv_0DtWHWaQ&utm_medium=api&utm_source=42b6f469&v=1BFB1C56F6F03C4123291E56923F7F090572C6A4"
-    },
-    {
-        "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTYzNzM4Mzk0MSIsInMiOiJvcXRLRjNBYThSR2R2XzBEdFdIV2FRIn0.NzVlOJen9R23bvpMk4OhQa3yQWwfmYMPxfjxJ6OkIoI",
-        "latitude": 29.682328,
-        "__CLASS__": "Adzuna::API::Response::Job",
-        "title": "Senior Front-End Developer",
         "location": {
             "display_name": "Timberwood Park, Bexar County",
             "__CLASS__": "Adzuna::API::Response::Location",
@@ -252,28 +86,295 @@
                 "Timberwood Park"
             ]
         },
+        "contract_time": "full_time",
+        "company": {
+            "display_name": "Maximus",
+            "__CLASS__": "Adzuna::API::Response::Company"
+        },
+        "latitude": 29.682328,
+        "redirect_url": "https://www.adzuna.com/land/ad/5637383925?se=3BdMI54a8RGcB9b2w1hBeQ&utm_medium=api&utm_source=42b6f469&v=0E2170C9FCBC0C9663FE4EFA17057073BA5CA9C2",
+        "id": "5637383925",
+        "created": "2026-02-20T00:59:14Z",
+        "title": "Back End Developer \u2013 Mid-level",
+        "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiM0JkTUk1NGE4UkdjQjliMncxaEJlUSIsImkiOiI1NjM3MzgzOTI1In0.o3dRVlQL54soBJSj2E1pe-iyhHsM4jAvMq3tgBjL8yo",
+        "salary_min": 86017.47,
+        "salary_max": 86017.47,
+        "longitude": -98.487307
+    },
+    {
+        "id": "5643151283",
+        "created": "2026-02-23T23:11:49Z",
+        "redirect_url": "https://www.adzuna.com/land/ad/5643151283?se=3BdMI54a8RGcB9b2w1hBeQ&utm_medium=api&utm_source=42b6f469&v=D8F483FA605D3DDC0AB419D28FBFB9F2D69397C0",
+        "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTY0MzE1MTI4MyIsInMiOiIzQmRNSTU0YThSR2NCOWIydzFoQmVRIn0.bURYo1UiyZtJKImmsGZYE6H9KWPM3qWb91FMvUXprPM",
+        "salary_min": 81037.22,
+        "title": "Database Engineer - TS/SCI Clearance Required",
+        "salary_max": 81037.22,
+        "longitude": -76.726777,
+        "category": {
+            "tag": "it-jobs",
+            "label": "IT Jobs",
+            "__CLASS__": "Adzuna::API::Response::Category"
+        },
+        "__CLASS__": "Adzuna::API::Response::Job",
+        "description": "General information Job Posting Title Database Engineer Date Wednesday, February 18, 2026 City Fort Meade State MD Country United States Working time Full-time Description & Requirements Maximus is a trusted federal partner supporting mission\u2011critical programs across national security, defense, and public service delivery. Recent contract awards in cybersecurity and operational readiness underscore Maximus\u2019 role as a reliable prime for high\u2011impact government missions. Joining Maximus means cont\u2026",
         "salary_is_predicted": "1",
+        "location": {
+            "display_name": "Fort George G Meade, Anne Arundel County",
+            "area": [
+                "US",
+                "Maryland",
+                "Anne Arundel County",
+                "Fort George G Meade"
+            ],
+            "__CLASS__": "Adzuna::API::Response::Location"
+        },
+        "latitude": 39.11376,
+        "contract_time": "full_time",
+        "company": {
+            "__CLASS__": "Adzuna::API::Response::Company",
+            "display_name": "Maximus"
+        }
+    },
+    {
+        "title": "UX/UI Designer",
+        "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiM0JkTUk1NGE4UkdjQjliMncxaEJlUSIsImkiOiI1NjQ2NzY3NDM2In0.lIBLFX5wQVVL4RFOTfZQEiLRggah1EthrZfrtiJEHt4",
+        "salary_min": 84023.83,
+        "salary_max": 84023.83,
+        "longitude": -98.0249,
+        "id": "5646767436",
+        "created": "2026-02-26T19:43:50Z",
+        "redirect_url": "https://www.adzuna.com/land/ad/5646767436?se=3BdMI54a8RGcB9b2w1hBeQ&utm_medium=api&utm_source=42b6f469&v=5186EF019ACE6C12A0F08562E0F950F9305F9947",
+        "location": {
+            "area": [
+                "US",
+                "Texas",
+                "Guadalupe County",
+                "McQueeney"
+            ],
+            "__CLASS__": "Adzuna::API::Response::Location",
+            "display_name": "McQueeney, Guadalupe County"
+        },
+        "latitude": 29.6105,
+        "company": {
+            "display_name": "Maximus",
+            "__CLASS__": "Adzuna::API::Response::Company"
+        },
+        "contract_time": "full_time",
+        "category": {
+            "tag": "it-jobs",
+            "__CLASS__": "Adzuna::API::Response::Category",
+            "label": "IT Jobs"
+        },
+        "description": "General information Job Posting Title UX/UI Designer Date Tuesday, February 24, 2026 City San Antonio State TX Country United States Working time Full-time Description & Requirements Maximus is a trusted federal partner supporting mission\u2011critical programs across national security, defense, and public service delivery. Recent contract awards in cybersecurity and operational readiness underscore Maximus\u2019 role as a reliable prime for high\u2011impact government missions. Joining Maximus means contribu\u2026",
+        "__CLASS__": "Adzuna::API::Response::Job",
+        "salary_is_predicted": "1"
+    },
+    {
+        "redirect_url": "https://www.adzuna.com/land/ad/5637383913?se=3BdMI54a8RGcB9b2w1hBeQ&utm_medium=api&utm_source=42b6f469&v=C935892C1E3A577350A43E762F6B8F5C8AB298F8",
+        "id": "5637383913",
+        "created": "2026-02-20T00:59:14Z",
+        "salary_min": 109567.67,
+        "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTYzNzM4MzkxMyIsInMiOiIzQmRNSTU0YThSR2NCOWIydzFoQmVRIn0.T_ZugYuUSGshmhQUMw23GsXoTrloyGuy5Tb1NJhJ9z0",
+        "title": "Front End Developer \u2013 Mid-level",
+        "salary_max": 109567.67,
+        "longitude": -98.688597,
+        "description": "General information Job Posting Title Front End Developer \u2013 Mid-level Date Wednesday, February 18, 2026 City San Antonio State TX Country United States Working time Full-time Description & Requirements Maximus is looking to hire a Front End Developer \u2013 Mid-level. This position is onsite, 5 days a week, and requires a TS/SCI security clearance. Maximus TCS (Technology and Consulting Services) Internal Job Profile Code: TCS232, T4, Band 7 Job-Specific Essential Duties and Responsibilities: Provid\u2026",
+        "__CLASS__": "Adzuna::API::Response::Job",
+        "category": {
+            "tag": "it-jobs",
+            "label": "IT Jobs",
+            "__CLASS__": "Adzuna::API::Response::Category"
+        },
+        "salary_is_predicted": "1",
+        "location": {
+            "__CLASS__": "Adzuna::API::Response::Location",
+            "area": [
+                "US",
+                "Texas",
+                "Bexar County",
+                "Security Services"
+            ],
+            "display_name": "Security Services, Bexar County"
+        },
         "contract_time": "full_time",
         "company": {
             "__CLASS__": "Adzuna::API::Response::Company",
             "display_name": "Maximus"
         },
-        "redirect_url": "https://www.adzuna.com/land/ad/5637383941?se=oqtKF3Aa8RGdv_0DtWHWaQ&utm_medium=api&utm_source=42b6f469&v=A6E4936B564D64B3AE07278C1D1F5CC1F019FCA4",
-        "description": "General information Job Posting Title Senior Front-End Developer Date Wednesday, February 18, 2026 City San Antonio State TX Country United States Working time Full-time Description & Requirements Maximus is a trusted federal partner supporting mission\u2011critical programs across national security, defense, and public service delivery. Recent contract awards in cybersecurity and operational readiness underscore Maximus\u2019 role as a reliable prime for high\u2011impact government missions. Joining Maximus \u2026",
-        "id": "5637383941",
-        "category": {
-            "label": "IT Jobs",
-            "tag": "it-jobs",
-            "__CLASS__": "Adzuna::API::Response::Category"
-        },
-        "salary_max": 88579.6,
-        "longitude": -98.487307,
-        "created": "2026-02-20T00:59:14Z",
-        "salary_min": 88579.6
+        "latitude": 29.414849
     },
     {
+        "salary_is_predicted": "1",
+        "__CLASS__": "Adzuna::API::Response::Job",
+        "description": "General information Job Posting Title Senior Back End Developer Date Thursday, February 19, 2026 City San Antonio State TX Country United States Working time Full-time Description & Requirements Maximus is a trusted federal partner supporting mission\u2011critical programs across national security, defense, and public service delivery. Recent contract awards in cybersecurity and operational readiness underscore Maximus\u2019 role as a reliable prime for high\u2011impact government missions. Joining Maximus me\u2026",
+        "category": {
+            "tag": "it-jobs",
+            "label": "IT Jobs",
+            "__CLASS__": "Adzuna::API::Response::Category"
+        },
+        "contract_time": "full_time",
+        "company": {
+            "display_name": "Maximus",
+            "__CLASS__": "Adzuna::API::Response::Company"
+        },
+        "latitude": 29.414849,
+        "location": {
+            "display_name": "Security Services, Bexar County",
+            "__CLASS__": "Adzuna::API::Response::Location",
+            "area": [
+                "US",
+                "Texas",
+                "Bexar County",
+                "Security Services"
+            ]
+        },
+        "redirect_url": "https://www.adzuna.com/land/ad/5637383921?se=3BdMI54a8RGcB9b2w1hBeQ&utm_medium=api&utm_source=42b6f469&v=9B5CD64A290A5E6A182136FF9CFDD963EC13D5B9",
+        "id": "5637383921",
+        "created": "2026-02-20T00:59:14Z",
+        "longitude": -98.688597,
+        "salary_max": 126237.12,
+        "title": "Senior Back End Developer",
+        "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTYzNzM4MzkyMSIsInMiOiIzQmRNSTU0YThSR2NCOWIydzFoQmVRIn0.cwDMfotMFrmEO9kFJTvvbAIv8LB7zfE63ByoY2UG2j4",
+        "salary_min": 126237.12
+    },
+    {
+        "created": "2026-02-20T00:59:14Z",
+        "id": "5637383926",
+        "redirect_url": "https://www.adzuna.com/land/ad/5637383926?se=3BdMI54a8RGcB9b2w1hBeQ&utm_medium=api&utm_source=42b6f469&v=D5621CF53CACEF649FD22C6AE6EAF823525B86FB",
+        "longitude": -98.884965,
+        "salary_max": 70920.88,
+        "salary_min": 70920.88,
+        "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTYzNzM4MzkyNiIsInMiOiIzQmRNSTU0YThSR2NCOWIydzFoQmVRIn0.pILiL2BJKPHfxVZXhGVIAvbLpRyP-IOlBFyEYKeCvaw",
+        "title": "Back End Developer \u2013 Mid-level",
+        "salary_is_predicted": "1",
+        "category": {
+            "tag": "it-jobs",
+            "__CLASS__": "Adzuna::API::Response::Category",
+            "label": "IT Jobs"
+        },
+        "__CLASS__": "Adzuna::API::Response::Job",
+        "description": "General information Job Posting Title Back End Developer \u2013 Mid-level Date Wednesday, February 18, 2026 City San Antonio State TX Country United States Working time Full-time Description & Requirements Maximus is a trusted federal partner supporting mission\u2011critical programs across national security, defense, and public service delivery. Recent contract awards in cybersecurity and operational readiness underscore Maximus\u2019 role as a reliable prime for high\u2011impact government missions. Joining Maxi\u2026",
+        "latitude": 29.347725,
+        "contract_time": "full_time",
+        "company": {
+            "display_name": "Maximus",
+            "__CLASS__": "Adzuna::API::Response::Company"
+        },
+        "location": {
+            "display_name": "Castroville, Medina County",
+            "area": [
+                "US",
+                "Texas",
+                "Medina County",
+                "Castroville"
+            ],
+            "__CLASS__": "Adzuna::API::Response::Location"
+        }
+    },
+    {
+        "latitude": 29.333722,
+        "contract_time": "full_time",
+        "company": {
+            "display_name": "Maximus",
+            "__CLASS__": "Adzuna::API::Response::Company"
+        },
+        "location": {
+            "__CLASS__": "Adzuna::API::Response::Location",
+            "area": [
+                "US",
+                "Texas",
+                "Wilson County",
+                "La Vernia"
+            ],
+            "display_name": "La Vernia, Wilson County"
+        },
+        "salary_is_predicted": "1",
+        "category": {
+            "__CLASS__": "Adzuna::API::Response::Category",
+            "label": "IT Jobs",
+            "tag": "it-jobs"
+        },
+        "description": "General information Job Posting Title Senior Front-End Developer Date Wednesday, February 18, 2026 City San Antonio State TX Country United States Working time Full-time Description & Requirements Maximus is a trusted federal partner supporting mission\u2011critical programs across national security, defense, and public service delivery. Recent contract awards in cybersecurity and operational readiness underscore Maximus\u2019 role as a reliable prime for high\u2011impact government missions. Joining Maximus \u2026",
+        "__CLASS__": "Adzuna::API::Response::Job",
+        "longitude": -98.119804,
+        "salary_max": 86661.69,
+        "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTYzNzM4Mzk5MiIsInMiOiIzQmRNSTU0YThSR2NCOWIydzFoQmVRIn0.zZlfOkwXZrGWlwUI88n39mNL0mLcROq4be0LC9inx7c",
+        "salary_min": 86661.69,
+        "title": "Senior Front-End Developer",
+        "id": "5637383992",
+        "created": "2026-02-20T00:59:15Z",
+        "redirect_url": "https://www.adzuna.com/land/ad/5637383992?se=3BdMI54a8RGcB9b2w1hBeQ&utm_medium=api&utm_source=42b6f469&v=EA5B4E6D5A5249573C05122A28974D9426EFA8C7"
+    },
+    {
+        "description": "General information Job Posting Title Senior Front-End Developer Date Wednesday, February 18, 2026 City San Antonio State TX Country United States Working time Full-time Description & Requirements Maximus is a trusted federal partner supporting mission\u2011critical programs across national security, defense, and public service delivery. Recent contract awards in cybersecurity and operational readiness underscore Maximus\u2019 role as a reliable prime for high\u2011impact government missions. Joining Maximus \u2026",
+        "__CLASS__": "Adzuna::API::Response::Job",
+        "category": {
+            "__CLASS__": "Adzuna::API::Response::Category",
+            "label": "IT Jobs",
+            "tag": "it-jobs"
+        },
+        "salary_is_predicted": "1",
+        "location": {
+            "area": [
+                "US",
+                "Texas",
+                "Kendall County",
+                "Fair Oaks"
+            ],
+            "__CLASS__": "Adzuna::API::Response::Location",
+            "display_name": "Fair Oaks, Kendall County"
+        },
+        "company": {
+            "__CLASS__": "Adzuna::API::Response::Company",
+            "display_name": "Maximus"
+        },
+        "contract_time": "full_time",
+        "latitude": 29.734485,
+        "redirect_url": "https://www.adzuna.com/land/ad/5637383958?se=3BdMI54a8RGcB9b2w1hBeQ&utm_medium=api&utm_source=42b6f469&v=BCAFF641B7D0EBFAF72820B34167BE25DF4ACDA4",
+        "created": "2026-02-20T00:59:15Z",
+        "id": "5637383958",
+        "title": "Senior Front-End Developer",
+        "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTYzNzM4Mzk1OCIsInMiOiIzQmRNSTU0YThSR2NCOWIydzFoQmVRIn0.dQaLRuIa1qBplJRyRg1bu046-4DyqXA8smd2JH_fsz8",
+        "salary_min": 102715.04,
+        "salary_max": 102715.04,
+        "longitude": -98.648018
+    },
+    {
+        "redirect_url": "https://www.adzuna.com/land/ad/5646767459?se=3BdMI54a8RGcB9b2w1hBeQ&utm_medium=api&utm_source=42b6f469&v=AE9A1EF5018EEF3A9026414F9867CA36AE63D888",
+        "id": "5646767459",
+        "created": "2026-02-26T19:43:51Z",
+        "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiM0JkTUk1NGE4UkdjQjliMncxaEJlUSIsImkiOiI1NjQ2NzY3NDU5In0.98ZEhoZZ35Tg4CfEPpwbj002BJyCfU0ymt4yoJqlWfQ",
+        "salary_min": 77214.02,
+        "title": "UX/UI Designer",
+        "salary_max": 77214.02,
+        "longitude": -98.193503,
+        "__CLASS__": "Adzuna::API::Response::Job",
         "description": "General information Job Posting Title UX/UI Designer Date Tuesday, February 24, 2026 City San Antonio State TX Country United States Working time Full-time Description & Requirements Maximus is a trusted federal partner supporting mission\u2011critical programs across national security, defense, and public service delivery. Recent contract awards in cybersecurity and operational readiness underscore Maximus\u2019 role as a reliable prime for high\u2011impact government missions. Joining Maximus means contribu\u2026",
-        "redirect_url": "https://www.adzuna.com/land/ad/5646767462?se=oqtKF3Aa8RGdv_0DtWHWaQ&utm_medium=api&utm_source=42b6f469&v=32D8A2F6362FB11ECC4139177C30B27A35B278F5",
+        "category": {
+            "tag": "it-jobs",
+            "label": "IT Jobs",
+            "__CLASS__": "Adzuna::API::Response::Category"
+        },
+        "salary_is_predicted": "1",
+        "location": {
+            "display_name": "Floresville, Wilson County",
+            "__CLASS__": "Adzuna::API::Response::Location",
+            "area": [
+                "US",
+                "Texas",
+                "Wilson County",
+                "Floresville"
+            ]
+        },
+        "company": {
+            "display_name": "Maximus",
+            "__CLASS__": "Adzuna::API::Response::Company"
+        },
+        "contract_time": "full_time",
+        "latitude": 29.175277
+    },
+    {
+        "latitude": 29.6105,
         "contract_time": "full_time",
         "company": {
             "__CLASS__": "Adzuna::API::Response::Company",
@@ -283,36 +384,104 @@
             "area": [
                 "US",
                 "Texas",
-                "Bexar County",
-                "Wetmore"
+                "Guadalupe County",
+                "McQueeney"
             ],
             "__CLASS__": "Adzuna::API::Response::Location",
-            "display_name": "Wetmore, Bexar County"
+            "display_name": "McQueeney, Guadalupe County"
         },
         "salary_is_predicted": "1",
-        "title": "UX/UI Designer",
-        "latitude": 29.580512,
-        "__CLASS__": "Adzuna::API::Response::Job",
-        "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTY0Njc2NzQ2MiIsInMiOiJvcXRLRjNBYThSR2R2XzBEdFdIV2FRIn0.MVYFEQF5f-n-CWJhxlaGDqvNkGmyXMsQ4a8BMnMGfsQ",
-        "salary_min": 57021.86,
-        "created": "2026-02-26T19:43:51Z",
-        "longitude": -98.408197,
-        "salary_max": 57021.86,
-        "id": "5646767462",
         "category": {
             "tag": "it-jobs",
-            "label": "IT Jobs",
-            "__CLASS__": "Adzuna::API::Response::Category"
-        }
+            "__CLASS__": "Adzuna::API::Response::Category",
+            "label": "IT Jobs"
+        },
+        "__CLASS__": "Adzuna::API::Response::Job",
+        "description": "General information Job Posting Title Back End Developer \u2013 Mid-level Date Wednesday, February 18, 2026 City San Antonio State TX Country United States Working time Full-time Description & Requirements Maximus is a trusted federal partner supporting mission\u2011critical programs across national security, defense, and public service delivery. Recent contract awards in cybersecurity and operational readiness underscore Maximus\u2019 role as a reliable prime for high\u2011impact government missions. Joining Maxi\u2026",
+        "longitude": -98.0249,
+        "salary_max": 92542.38,
+        "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiM0JkTUk1NGE4UkdjQjliMncxaEJlUSIsImkiOiI1NjM3MzgzOTI0In0.JPAW_LVr9HBDJJGz_E2QCQdjMGCv-JZtQ4LX9zVbJ4c",
+        "title": "Back End Developer \u2013 Mid-level",
+        "salary_min": 92542.38,
+        "id": "5637383924",
+        "created": "2026-02-20T00:59:14Z",
+        "redirect_url": "https://www.adzuna.com/land/ad/5637383924?se=3BdMI54a8RGcB9b2w1hBeQ&utm_medium=api&utm_source=42b6f469&v=0738724ACC6ABD2AC001E6D7F712E04786A5FA6B"
     },
     {
-        "description": "General information Job Posting Title Application Subject Matter Expert/Trainer\u2011of\u2011Trainer Date Wednesday, February 25, 2026 City San Antonio State TX Country United States Working time Full-time Description & Requirements Maximus is a trusted federal partner supporting mission\u2011critical programs across national security, defense, and public service delivery. Recent contract awards in cybersecurity and operational readiness underscore Maximus\u2019 role as a reliable prime for high\u2011impact government \u2026",
-        "redirect_url": "https://www.adzuna.com/land/ad/5646767426?se=oqtKF3Aa8RGdv_0DtWHWaQ&utm_medium=api&utm_source=42b6f469&v=708EB811828A32E0588A6432B77F9725B6E68011",
+        "title": "Cyber Security Engineer",
+        "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiM0JkTUk1NGE4UkdjQjliMncxaEJlUSIsImkiOiI1NjUyMTMwOTYwIn0.jZhKy-VP8l4ANeiGYNczSZ7robZDTy6yox-PxNOxcGg",
+        "salary_min": 73948.94,
+        "salary_max": 73948.94,
+        "longitude": -98.6753,
+        "redirect_url": "https://www.adzuna.com/land/ad/5652130960?se=3BdMI54a8RGcB9b2w1hBeQ&utm_medium=api&utm_source=42b6f469&v=9DB84BDFD3C6226EAD5EBCDD12B72647B60ED27B",
+        "created": "2026-03-03T02:53:32Z",
+        "id": "5652130960",
+        "location": {
+            "__CLASS__": "Adzuna::API::Response::Location",
+            "area": [
+                "US",
+                "Texas",
+                "Bexar County",
+                "Somerset"
+            ],
+            "display_name": "Somerset, Bexar County"
+        },
+        "contract_time": "full_time",
+        "company": {
+            "__CLASS__": "Adzuna::API::Response::Company",
+            "display_name": "Maximus"
+        },
+        "latitude": 29.1961,
+        "__CLASS__": "Adzuna::API::Response::Job",
+        "description": "General information Job Posting Title Cyber Security Engineer Date Tuesday, February 24, 2026 City San Antonio State TX Country United States Working time Full-time Description & Requirements Maximus is a trusted federal partner supporting mission\u2011critical programs across national security, defense, and public service delivery. Recent contract awards in cybersecurity and operational readiness underscore Maximus\u2019 role as a reliable prime for high\u2011impact government missions. Joining Maximus means\u2026",
+        "category": {
+            "__CLASS__": "Adzuna::API::Response::Category",
+            "label": "IT Jobs",
+            "tag": "it-jobs"
+        },
+        "salary_is_predicted": "1"
+    },
+    {
+        "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTY0Njc2NzQzNCIsInMiOiIzQmRNSTU0YThSR2NCOWIydzFoQmVRIn0.pCjn2owXtk-RtLpORZn9J5jF5GJiRXX0Wp0ULybtSAc",
+        "salary_min": 83236.01,
+        "title": "Application Subject Matter Expert/Trainer\u2011of\u2011Trainer",
+        "salary_max": 83236.01,
+        "longitude": -98.193503,
+        "redirect_url": "https://www.adzuna.com/land/ad/5646767434?se=3BdMI54a8RGcB9b2w1hBeQ&utm_medium=api&utm_source=42b6f469&v=19F649C71A9C45B299456616D0FB4C52FBD106E9",
+        "created": "2026-02-26T19:43:50Z",
+        "id": "5646767434",
+        "location": {
+            "area": [
+                "US",
+                "Texas",
+                "Wilson County",
+                "Floresville"
+            ],
+            "__CLASS__": "Adzuna::API::Response::Location",
+            "display_name": "Floresville, Wilson County"
+        },
         "company": {
             "display_name": "Maximus",
             "__CLASS__": "Adzuna::API::Response::Company"
         },
         "contract_time": "full_time",
+        "latitude": 29.175277,
+        "description": "General information Job Posting Title Application Subject Matter Expert/Trainer\u2011of\u2011Trainer Date Wednesday, February 25, 2026 City San Antonio State TX Country United States Working time Full-time Description & Requirements Maximus is a trusted federal partner supporting mission\u2011critical programs across national security, defense, and public service delivery. Recent contract awards in cybersecurity and operational readiness underscore Maximus\u2019 role as a reliable prime for high\u2011impact government \u2026",
+        "__CLASS__": "Adzuna::API::Response::Job",
+        "category": {
+            "__CLASS__": "Adzuna::API::Response::Category",
+            "label": "IT Jobs",
+            "tag": "it-jobs"
+        },
+        "salary_is_predicted": "1"
+    },
+    {
+        "latitude": 29.333722,
+        "contract_time": "full_time",
+        "company": {
+            "display_name": "Maximus",
+            "__CLASS__": "Adzuna::API::Response::Company"
+        },
         "location": {
             "display_name": "La Vernia, Wilson County",
             "__CLASS__": "Adzuna::API::Response::Location",
@@ -324,175 +493,309 @@
             ]
         },
         "salary_is_predicted": "1",
-        "__CLASS__": "Adzuna::API::Response::Job",
-        "latitude": 29.333722,
-        "title": "Application Subject Matter Expert/Trainer\u2011of\u2011Trainer",
-        "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTY0Njc2NzQyNiIsInMiOiJvcXRLRjNBYThSR2R2XzBEdFdIV2FRIn0.4xhocj7_-0xq6X2foO45ftr4VDXNwFmBIoxVxALQM4w",
-        "salary_min": 82367.55,
-        "created": "2026-02-26T19:43:49Z",
-        "longitude": -98.119804,
-        "salary_max": 82367.55,
-        "id": "5646767426",
         "category": {
-            "__CLASS__": "Adzuna::API::Response::Category",
             "tag": "it-jobs",
-            "label": "IT Jobs"
-        }
+            "label": "IT Jobs",
+            "__CLASS__": "Adzuna::API::Response::Category"
+        },
+        "__CLASS__": "Adzuna::API::Response::Job",
+        "description": "General information Job Posting Title UX/UI Designer Date Tuesday, February 24, 2026 City San Antonio State TX Country United States Working time Full-time Description & Requirements Maximus is a trusted federal partner supporting mission\u2011critical programs across national security, defense, and public service delivery. Recent contract awards in cybersecurity and operational readiness underscore Maximus\u2019 role as a reliable prime for high\u2011impact government missions. Joining Maximus means contribu\u2026",
+        "salary_max": 76408.47,
+        "longitude": -98.119804,
+        "salary_min": 76408.47,
+        "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiM0JkTUk1NGE4UkdjQjliMncxaEJlUSIsImkiOiI1NjQ2NzY3NDI5In0.6IMFj7P-_jS-YvySTdFuoRf1U88o8x8Bg4NN_p4knBs",
+        "title": "UX/UI Designer",
+        "created": "2026-02-26T19:43:49Z",
+        "id": "5646767429",
+        "redirect_url": "https://www.adzuna.com/land/ad/5646767429?se=3BdMI54a8RGcB9b2w1hBeQ&utm_medium=api&utm_source=42b6f469&v=7C91CF5F8201AEEC2840905545E0BF4E63B25527"
     },
     {
+        "redirect_url": "https://www.adzuna.com/land/ad/5637383944?se=3BdMI54a8RGcB9b2w1hBeQ&utm_medium=api&utm_source=42b6f469&v=B02788F2A210365AA24C52F3AAFC14459C2585BB",
+        "id": "5637383944",
+        "created": "2026-02-20T00:59:14Z",
+        "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiM0JkTUk1NGE4UkdjQjliMncxaEJlUSIsImkiOiI1NjM3MzgzOTQ0In0.ya8YL-4PEP-z4f6xUvS_YdEj4QDjAoXQQrU49L5Y1vE",
+        "title": "Senior Back End Developer",
+        "salary_min": 99419.82,
+        "salary_max": 99419.82,
+        "longitude": -98.119804,
+        "__CLASS__": "Adzuna::API::Response::Job",
+        "description": "General information Job Posting Title Senior Back End Developer Date Thursday, February 19, 2026 City San Antonio State TX Country United States Working time Full-time Description & Requirements Maximus is a trusted federal partner supporting mission\u2011critical programs across national security, defense, and public service delivery. Recent contract awards in cybersecurity and operational readiness underscore Maximus\u2019 role as a reliable prime for high\u2011impact government missions. Joining Maximus me\u2026",
+        "category": {
+            "tag": "it-jobs",
+            "label": "IT Jobs",
+            "__CLASS__": "Adzuna::API::Response::Category"
+        },
         "salary_is_predicted": "1",
         "location": {
-            "display_name": "Floresville, Wilson County",
+            "display_name": "La Vernia, Wilson County",
+            "__CLASS__": "Adzuna::API::Response::Location",
             "area": [
                 "US",
                 "Texas",
                 "Wilson County",
-                "Floresville"
-            ],
-            "__CLASS__": "Adzuna::API::Response::Location"
+                "La Vernia"
+            ]
         },
-        "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTYzOTEzNjQ0NSIsInMiOiJvcXRLRjNBYThSR2R2XzBEdFdIV2FRIn0.7HsDa9PaPoYS_wGoirIWB3EM4oo5_cwlmkM2nvPdOR4",
-        "title": "System Test Engineer",
-        "latitude": 29.175277,
-        "__CLASS__": "Adzuna::API::Response::Job",
-        "description": "General information Job Posting Title System Test Engineer Date Wednesday, February 18, 2026 City San Antonio State TX Country United States Working time Full-time Description & Requirements Maximus is a trusted federal partner supporting mission\u2011critical programs across national security, defense, and public service delivery. Recent contract awards in cybersecurity and operational readiness underscore Maximus\u2019 role as a reliable prime for high\u2011impact government missions. Joining Maximus means \u2026",
+        "contract_time": "full_time",
         "company": {
             "__CLASS__": "Adzuna::API::Response::Company",
             "display_name": "Maximus"
         },
-        "contract_time": "full_time",
-        "redirect_url": "https://www.adzuna.com/land/ad/5639136445?se=oqtKF3Aa8RGdv_0DtWHWaQ&utm_medium=api&utm_source=42b6f469&v=AEA69732FE72E6368B96E294F5664D707103B1B0",
-        "longitude": -98.193503,
-        "salary_max": 73054.38,
-        "category": {
-            "tag": "it-jobs",
-            "label": "IT Jobs",
-            "__CLASS__": "Adzuna::API::Response::Category"
-        },
-        "id": "5639136445",
-        "salary_min": 73054.38,
-        "created": "2026-02-20T21:00:15Z"
+        "latitude": 29.333722
     },
     {
-        "created": "2026-02-26T19:43:50Z",
-        "salary_min": 83236.01,
-        "id": "5646767434",
-        "category": {
-            "label": "IT Jobs",
-            "tag": "it-jobs",
-            "__CLASS__": "Adzuna::API::Response::Category"
-        },
-        "salary_max": 83236.01,
-        "longitude": -98.193503,
-        "company": {
-            "display_name": "Maximus",
-            "__CLASS__": "Adzuna::API::Response::Company"
-        },
-        "contract_time": "full_time",
-        "redirect_url": "https://www.adzuna.com/land/ad/5646767434?se=oqtKF3Aa8RGdv_0DtWHWaQ&utm_medium=api&utm_source=42b6f469&v=19F649C71A9C45B299456616D0FB4C52FBD106E9",
-        "description": "General information Job Posting Title Application Subject Matter Expert/Trainer\u2011of\u2011Trainer Date Wednesday, February 25, 2026 City San Antonio State TX Country United States Working time Full-time Description & Requirements Maximus is a trusted federal partner supporting mission\u2011critical programs across national security, defense, and public service delivery. Recent contract awards in cybersecurity and operational readiness underscore Maximus\u2019 role as a reliable prime for high\u2011impact government \u2026",
-        "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTY0Njc2NzQzNCIsInMiOiJvcXRLRjNBYThSR2R2XzBEdFdIV2FRIn0._qk9p_kND9Knx0TT56VBjl5SR-r6JWATW7uTVjYH-3A",
-        "latitude": 29.175277,
-        "__CLASS__": "Adzuna::API::Response::Job",
-        "title": "Application Subject Matter Expert/Trainer\u2011of\u2011Trainer",
-        "location": {
-            "display_name": "Floresville, Wilson County",
-            "area": [
-                "US",
-                "Texas",
-                "Wilson County",
-                "Floresville"
-            ],
-            "__CLASS__": "Adzuna::API::Response::Location"
-        },
-        "salary_is_predicted": "1"
-    },
-    {
-        "description": "General information Job Posting Title Technical Advisor (Full Stack Developer) Date Thursday, February 19, 2026 City Fort Meade State MD Country United States Working time Full-time Description & Requirements Maximus is a trusted federal partner supporting mission\u2011critical programs across national security, defense, and public service delivery. Recent contract awards in cybersecurity and operational readiness underscore Maximus\u2019 role as a reliable prime for high\u2011impact government missions. Join\u2026",
-        "redirect_url": "https://www.adzuna.com/land/ad/5643151167?se=oqtKF3Aa8RGdv_0DtWHWaQ&utm_medium=api&utm_source=42b6f469&v=C5B767983F53C09E6CAC6EB56647F503D73477EA",
-        "company": {
-            "display_name": "Maximus",
-            "__CLASS__": "Adzuna::API::Response::Company"
-        },
-        "contract_time": "full_time",
+        "salary_min": 90838.52,
+        "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTY0MzE1MTE2NyIsInMiOiIzQmRNSTU0YThSR2NCOWIydzFoQmVRIn0.zaodShnNTb9kMioHufnFBFnM1oNdSljOWXjaISP9fL8",
+        "title": "Technical Advisor (Full Stack Developer) - TS/SCI Clearance Required",
+        "longitude": -76.726777,
+        "salary_max": 90838.52,
+        "id": "5643151167",
+        "created": "2026-02-23T23:11:43Z",
+        "redirect_url": "https://www.adzuna.com/land/ad/5643151167?se=3BdMI54a8RGcB9b2w1hBeQ&utm_medium=api&utm_source=42b6f469&v=C5B767983F53C09E6CAC6EB56647F503D73477EA",
         "location": {
             "display_name": "Fort George G Meade, Anne Arundel County",
-            "__CLASS__": "Adzuna::API::Response::Location",
             "area": [
                 "US",
                 "Maryland",
                 "Anne Arundel County",
                 "Fort George G Meade"
-            ]
+            ],
+            "__CLASS__": "Adzuna::API::Response::Location"
         },
-        "salary_is_predicted": "1",
-        "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTY0MzE1MTE2NyIsInMiOiJvcXRLRjNBYThSR2R2XzBEdFdIV2FRIn0.mITgIFpcLyo-j47kxj0gnAB_f4C0qecGo2l_X2LD9CI",
         "latitude": 39.11376,
-        "title": "Technical Advisor (Full Stack Developer) - TS/SCI Clearance Required",
-        "__CLASS__": "Adzuna::API::Response::Job",
-        "salary_min": 90838.52,
-        "created": "2026-02-23T23:11:43Z",
-        "salary_max": 90838.52,
-        "longitude": -76.726777,
-        "id": "5643151167",
-        "category": {
-            "label": "IT Jobs",
-            "tag": "it-jobs",
-            "__CLASS__": "Adzuna::API::Response::Category"
-        }
-    },
-    {
         "contract_time": "full_time",
         "company": {
             "display_name": "Maximus",
             "__CLASS__": "Adzuna::API::Response::Company"
         },
-        "redirect_url": "https://www.adzuna.com/land/ad/5637383924?se=oqtKF3Aa8RGdv_0DtWHWaQ&utm_medium=api&utm_source=42b6f469&v=0738724ACC6ABD2AC001E6D7F712E04786A5FA6B",
-        "description": "General information Job Posting Title Back End Developer \u2013 Mid-level Date Wednesday, February 18, 2026 City San Antonio State TX Country United States Working time Full-time Description & Requirements Maximus is a trusted federal partner supporting mission\u2011critical programs across national security, defense, and public service delivery. Recent contract awards in cybersecurity and operational readiness underscore Maximus\u2019 role as a reliable prime for high\u2011impact government missions. Joining Maxi\u2026",
-        "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoib3F0S0YzQWE4Ukdkdl8wRHRXSFdhUSIsImkiOiI1NjM3MzgzOTI0In0.BhKBmxPITUJ8RDnVTNk5rtDKrkC-rrZ984MNubklUGg",
+        "category": {
+            "label": "IT Jobs",
+            "__CLASS__": "Adzuna::API::Response::Category",
+            "tag": "it-jobs"
+        },
         "__CLASS__": "Adzuna::API::Response::Job",
-        "latitude": 29.6105,
-        "title": "Back End Developer \u2013 Mid-level",
+        "description": "General information Job Posting Title Technical Advisor (Full Stack Developer) Date Thursday, February 19, 2026 City Fort Meade State MD Country United States Working time Full-time Description & Requirements Maximus is a trusted federal partner supporting mission\u2011critical programs across national security, defense, and public service delivery. Recent contract awards in cybersecurity and operational readiness underscore Maximus\u2019 role as a reliable prime for high\u2011impact government missions. Join\u2026",
+        "salary_is_predicted": "1"
+    },
+    {
         "location": {
-            "__CLASS__": "Adzuna::API::Response::Location",
+            "display_name": "La Vernia, Wilson County",
             "area": [
                 "US",
                 "Texas",
-                "Guadalupe County",
-                "McQueeney"
+                "Wilson County",
+                "La Vernia"
             ],
-            "display_name": "McQueeney, Guadalupe County"
+            "__CLASS__": "Adzuna::API::Response::Location"
         },
-        "salary_is_predicted": "1",
-        "created": "2026-02-20T00:59:14Z",
-        "salary_min": 92542.38,
-        "id": "5637383924",
+        "latitude": 29.333722,
+        "company": {
+            "display_name": "Maximus",
+            "__CLASS__": "Adzuna::API::Response::Company"
+        },
+        "contract_time": "full_time",
         "category": {
-            "__CLASS__": "Adzuna::API::Response::Category",
             "tag": "it-jobs",
+            "__CLASS__": "Adzuna::API::Response::Category",
             "label": "IT Jobs"
         },
-        "longitude": -98.0249,
-        "salary_max": 92542.38
+        "description": "General information Job Posting Title System Administrator Date Wednesday, February 18, 2026 City San Antonio State TX Country United States Working time Full-time Description & Requirements Maximus is a trusted federal partner supporting mission\u2011critical programs across national security, defense, and public service delivery. Recent contract awards in cybersecurity and operational readiness underscore Maximus\u2019 role as a reliable prime for high\u2011impact government missions. Joining Maximus means \u2026",
+        "__CLASS__": "Adzuna::API::Response::Job",
+        "salary_is_predicted": "1",
+        "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiM0JkTUk1NGE4UkdjQjliMncxaEJlUSIsImkiOiI1NjM5MTM2NDMxIn0.f1w_187p5i0jChBkIUoxjzmlgbwR2fWwTFC0zga8UJs",
+        "salary_min": 70441.81,
+        "title": "System Administrator",
+        "salary_max": 70441.81,
+        "longitude": -98.119804,
+        "id": "5639136431",
+        "created": "2026-02-20T21:00:15Z",
+        "redirect_url": "https://www.adzuna.com/land/ad/5639136431?se=3BdMI54a8RGcB9b2w1hBeQ&utm_medium=api&utm_source=42b6f469&v=6E38933F367A622BFF30DF18CEC5A3F108BE5320"
     },
     {
-        "salary_min": 83169.52,
-        "created": "2026-03-03T02:53:32Z",
-        "longitude": -98.6753,
-        "salary_max": 83169.52,
-        "category": {
-            "tag": "it-jobs",
-            "label": "IT Jobs",
-            "__CLASS__": "Adzuna::API::Response::Category"
-        },
-        "id": "5652130959",
-        "description": "General information Job Posting Title DevOps / Release Management Engineer Date Tuesday, February 24, 2026 City San Antonio State TX Country United States Working time Full-time Description & Requirements Maximus is a trusted federal partner supporting mission\u2011critical programs across national security, defense, and public service delivery. Recent contract awards in cybersecurity and operational readiness underscore Maximus\u2019 role as a reliable prime for high\u2011impact government missions. Joining \u2026",
-        "redirect_url": "https://www.adzuna.com/land/ad/5652130959?se=oqtKF3Aa8RGdv_0DtWHWaQ&utm_medium=api&utm_source=42b6f469&v=5EC8EABAE3DAA9106A15CABED346C0187EADF4BF",
         "company": {
             "__CLASS__": "Adzuna::API::Response::Company",
             "display_name": "Maximus"
         },
         "contract_time": "full_time",
+        "latitude": 29.580512,
+        "location": {
+            "display_name": "Wetmore, Bexar County",
+            "__CLASS__": "Adzuna::API::Response::Location",
+            "area": [
+                "US",
+                "Texas",
+                "Bexar County",
+                "Wetmore"
+            ]
+        },
+        "salary_is_predicted": "1",
+        "__CLASS__": "Adzuna::API::Response::Job",
+        "description": "General information Job Posting Title Cyber Security Engineer Date Tuesday, February 24, 2026 City San Antonio State TX Country United States Working time Full-time Description & Requirements Maximus is a trusted federal partner supporting mission\u2011critical programs across national security, defense, and public service delivery. Recent contract awards in cybersecurity and operational readiness underscore Maximus\u2019 role as a reliable prime for high\u2011impact government missions. Joining Maximus means\u2026",
+        "category": {
+            "__CLASS__": "Adzuna::API::Response::Category",
+            "label": "IT Jobs",
+            "tag": "it-jobs"
+        },
+        "longitude": -98.408197,
+        "salary_max": 56059.6,
+        "salary_min": 56059.6,
+        "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTY1MjEzMDk3NCIsInMiOiIzQmRNSTU0YThSR2NCOWIydzFoQmVRIn0.WwX0WF7fURqVh9dPUbYr6BtoBHR8bst5MIUueRyVNik",
+        "title": "Cyber Security Engineer",
+        "redirect_url": "https://www.adzuna.com/land/ad/5652130974?se=3BdMI54a8RGcB9b2w1hBeQ&utm_medium=api&utm_source=42b6f469&v=85C76B8985489A0F7F2AB347FA8B5D76BE3DA320",
+        "created": "2026-03-03T02:53:32Z",
+        "id": "5652130974"
+    },
+    {
+        "category": {
+            "label": "IT Jobs",
+            "__CLASS__": "Adzuna::API::Response::Category",
+            "tag": "it-jobs"
+        },
+        "__CLASS__": "Adzuna::API::Response::Job",
+        "description": "Job Description Job Description Automotive technician and repair with experience in diagnosing and repairing brakes, tune-ups, front-end, AC, Engine and Transmission Replacement Company Description This company has served Central Texas for 78 years under the same family ownership. We are a retail tire and automotive service business. Company Description This company has served Central Texas for 78 years under the same family ownership. We are a retail tire and automotive service business.",
+        "salary_is_predicted": "0",
+        "id": "5647388136",
+        "created": "2026-02-27T12:05:27Z",
+        "redirect_url": "https://www.adzuna.com/land/ad/5647388136?se=3BdMI54a8RGcB9b2w1hBeQ&utm_medium=api&utm_source=42b6f469&v=7C9DEF30346069F393DC1586CAF6FAA8F3C0E801",
+        "location": {
+            "display_name": "Waco, McLennan County",
+            "area": [
+                "US",
+                "Texas",
+                "McLennan County",
+                "Waco"
+            ],
+            "__CLASS__": "Adzuna::API::Response::Location"
+        },
+        "title": "Auto Mechanic",
+        "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiM0JkTUk1NGE4UkdjQjliMncxaEJlUSIsImkiOiI1NjQ3Mzg4MTM2In0.fnUA4fim8eX_LqKS4Fg9oLXvV6Ru3CxgCeMiyUXC1lw",
+        "salary_min": 40000,
+        "salary_max": 80000,
+        "longitude": -97.13863,
+        "latitude": 31.551726,
+        "company": {
+            "__CLASS__": "Adzuna::API::Response::Company",
+            "display_name": "City Tire & Battery"
+        }
+    },
+    {
+        "salary_max": 106637.9,
+        "longitude": -98.489353,
+        "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTYzNzM4MzkzMCIsInMiOiIzQmRNSTU0YThSR2NCOWIydzFoQmVRIn0.eX3tMfSlVlQ8eCe8euTO-D5jRiLzB18-B01OAlJmErk",
+        "title": "Back End Developer \u2013 Mid-level",
+        "salary_min": 106637.9,
+        "id": "5637383930",
+        "created": "2026-02-20T00:59:14Z",
+        "redirect_url": "https://www.adzuna.com/land/ad/5637383930?se=3BdMI54a8RGcB9b2w1hBeQ&utm_medium=api&utm_source=42b6f469&v=B722D727D0803633B02E3C4FCA94553183AD25DF",
+        "latitude": 29.425427,
+        "contract_time": "full_time",
+        "company": {
+            "__CLASS__": "Adzuna::API::Response::Company",
+            "display_name": "Maximus"
+        },
+        "location": {
+            "__CLASS__": "Adzuna::API::Response::Location",
+            "area": [
+                "US",
+                "Texas",
+                "Bexar County",
+                "San Antonio"
+            ],
+            "display_name": "San Antonio, Bexar County"
+        },
+        "salary_is_predicted": "1",
+        "category": {
+            "__CLASS__": "Adzuna::API::Response::Category",
+            "label": "IT Jobs",
+            "tag": "it-jobs"
+        },
+        "description": "General information Job Posting Title Back End Developer \u2013 Mid-level Date Wednesday, February 18, 2026 City San Antonio State TX Country United States Working time Full-time Description & Requirements Maximus is a trusted federal partner supporting mission\u2011critical programs across national security, defense, and public service delivery. Recent contract awards in cybersecurity and operational readiness underscore Maximus\u2019 role as a reliable prime for high\u2011impact government missions. Joining Maxi\u2026",
+        "__CLASS__": "Adzuna::API::Response::Job"
+    },
+    {
+        "latitude": 29.590949,
+        "company": {
+            "__CLASS__": "Adzuna::API::Response::Company",
+            "display_name": "Maximus"
+        },
+        "contract_time": "full_time",
+        "location": {
+            "area": [
+                "US",
+                "Texas",
+                "Guadalupe County",
+                "Schertz"
+            ],
+            "__CLASS__": "Adzuna::API::Response::Location",
+            "display_name": "Schertz, Guadalupe County"
+        },
+        "salary_is_predicted": "1",
+        "category": {
+            "tag": "it-jobs",
+            "__CLASS__": "Adzuna::API::Response::Category",
+            "label": "IT Jobs"
+        },
+        "description": "General information Job Posting Title Database Engineer Date Wednesday, February 18, 2026 City San Antonio State TX Country United States Working time Full-time Description & Requirements Maximus is a trusted federal partner supporting mission\u2011critical programs across national security, defense, and public service delivery. Recent contract awards in cybersecurity and operational readiness underscore Maximus\u2019 role as a reliable prime for high\u2011impact government missions. Joining Maximus means con\u2026",
+        "__CLASS__": "Adzuna::API::Response::Job",
+        "salary_max": 88832.97,
+        "longitude": -98.23747,
+        "salary_min": 88832.97,
+        "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTYzOTEzNjQ3NSIsInMiOiIzQmRNSTU0YThSR2NCOWIydzFoQmVRIn0.wNf6PrnzzpsVvMeIxEBZ9zm2C3EsNMH0pu8koFDZsYA",
+        "title": "Database Engineer",
+        "created": "2026-02-20T21:00:16Z",
+        "id": "5639136475",
+        "redirect_url": "https://www.adzuna.com/land/ad/5639136475?se=3BdMI54a8RGcB9b2w1hBeQ&utm_medium=api&utm_source=42b6f469&v=26D6BEF6D8CF19DCAAD8949D37170AF2F3ABC7CF"
+    },
+    {
+        "redirect_url": "https://www.adzuna.com/land/ad/5652130947?se=3BdMI54a8RGcB9b2w1hBeQ&utm_medium=api&utm_source=42b6f469&v=3E61A73610C3CC01A475371D5B15E55191487021",
+        "id": "5652130947",
+        "created": "2026-03-03T02:53:31Z",
+        "salary_max": 95381.7,
+        "longitude": -98.688597,
+        "salary_min": 95381.7,
+        "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiM0JkTUk1NGE4UkdjQjliMncxaEJlUSIsImkiOiI1NjUyMTMwOTQ3In0.o4cfaIhJCDqL3U82lzX_ENp14d1539tzcy0drSWhE4E",
+        "title": "Cyber Security Engineer",
+        "salary_is_predicted": "1",
+        "description": "General information Job Posting Title Cyber Security Engineer Date Tuesday, February 24, 2026 City San Antonio State TX Country United States Working time Full-time Description & Requirements Maximus is a trusted federal partner supporting mission\u2011critical programs across national security, defense, and public service delivery. Recent contract awards in cybersecurity and operational readiness underscore Maximus\u2019 role as a reliable prime for high\u2011impact government missions. Joining Maximus means\u2026",
+        "__CLASS__": "Adzuna::API::Response::Job",
+        "category": {
+            "__CLASS__": "Adzuna::API::Response::Category",
+            "label": "IT Jobs",
+            "tag": "it-jobs"
+        },
+        "company": {
+            "__CLASS__": "Adzuna::API::Response::Company",
+            "display_name": "Maximus"
+        },
+        "contract_time": "full_time",
+        "latitude": 29.414849,
+        "location": {
+            "display_name": "Security Services, Bexar County",
+            "area": [
+                "US",
+                "Texas",
+                "Bexar County",
+                "Security Services"
+            ],
+            "__CLASS__": "Adzuna::API::Response::Location"
+        }
+    },
+    {
+        "redirect_url": "https://www.adzuna.com/land/ad/5637383971?se=3BdMI54a8RGcB9b2w1hBeQ&utm_medium=api&utm_source=42b6f469&v=03AAEAF150EE6678133C1BA6B4D69FE7F8EBC34C",
+        "id": "5637383971",
+        "created": "2026-02-20T00:59:15Z",
+        "title": "Front End Developer \u2013 Mid-level",
+        "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiM0JkTUk1NGE4UkdjQjliMncxaEJlUSIsImkiOiI1NjM3MzgzOTcxIn0.cqWvdt7lN1xvS_h02uI7h6eO3Jcjw0aa9Hvy6IGQI38",
+        "salary_min": 84947.34,
+        "salary_max": 84947.34,
+        "longitude": -98.6753,
+        "description": "General information Job Posting Title Front End Developer \u2013 Mid-level Date Wednesday, February 18, 2026 City San Antonio State TX Country United States Working time Full-time Description & Requirements Maximus is looking to hire a Front End Developer \u2013 Mid-level. This position is onsite, 5 days a week, and requires a TS/SCI security clearance. Maximus TCS (Technology and Consulting Services) Internal Job Profile Code: TCS232, T4, Band 7 Job-Specific Essential Duties and Responsibilities: Provid\u2026",
+        "__CLASS__": "Adzuna::API::Response::Job",
+        "category": {
+            "tag": "it-jobs",
+            "label": "IT Jobs",
+            "__CLASS__": "Adzuna::API::Response::Category"
+        },
         "salary_is_predicted": "1",
         "location": {
             "__CLASS__": "Adzuna::API::Response::Location",
@@ -504,87 +807,28 @@
             ],
             "display_name": "Somerset, Bexar County"
         },
-        "__CLASS__": "Adzuna::API::Response::Job",
-        "latitude": 29.1961,
-        "title": "DevOps / Release Management Engineer",
-        "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTY1MjEzMDk1OSIsInMiOiJvcXRLRjNBYThSR2R2XzBEdFdIV2FRIn0.IFbAVfA3yVXqRZvopL5scrvXqBjA2iQv6iDNEO2Kglo"
-    },
-    {
-        "salary_min": 110037.84,
-        "created": "2026-02-20T00:59:14Z",
-        "longitude": -98.688597,
-        "salary_max": 110037.84,
-        "category": {
-            "__CLASS__": "Adzuna::API::Response::Category",
-            "label": "IT Jobs",
-            "tag": "it-jobs"
-        },
-        "id": "5637383942",
-        "description": "General information Job Posting Title Senior Front-End Developer Date Wednesday, February 18, 2026 City San Antonio State TX Country United States Working time Full-time Description & Requirements Maximus is a trusted federal partner supporting mission\u2011critical programs across national security, defense, and public service delivery. Recent contract awards in cybersecurity and operational readiness underscore Maximus\u2019 role as a reliable prime for high\u2011impact government missions. Joining Maximus \u2026",
-        "redirect_url": "https://www.adzuna.com/land/ad/5637383942?se=oqtKF3Aa8RGdv_0DtWHWaQ&utm_medium=api&utm_source=42b6f469&v=D17069529BA389D4177C35D8747204792F628C96",
         "contract_time": "full_time",
         "company": {
-            "__CLASS__": "Adzuna::API::Response::Company",
-            "display_name": "Maximus"
+            "display_name": "Maximus",
+            "__CLASS__": "Adzuna::API::Response::Company"
         },
-        "salary_is_predicted": "1",
-        "location": {
-            "display_name": "Security Services, Bexar County",
-            "__CLASS__": "Adzuna::API::Response::Location",
-            "area": [
-                "US",
-                "Texas",
-                "Bexar County",
-                "Security Services"
-            ]
-        },
-        "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoib3F0S0YzQWE4Ukdkdl8wRHRXSFdhUSIsImkiOiI1NjM3MzgzOTQyIn0.uu5Txh-9IlrjUrST-xa_BVH9Dw0Icen4G5ytVhN27oE",
-        "latitude": 29.414849,
-        "__CLASS__": "Adzuna::API::Response::Job",
-        "title": "Senior Front-End Developer"
+        "latitude": 29.1961
     },
     {
-        "title": "System Administrator",
-        "__CLASS__": "Adzuna::API::Response::Job",
-        "latitude": 29.425427,
-        "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoib3F0S0YzQWE4Ukdkdl8wRHRXSFdhUSIsImkiOiI1NjM5MTM2NTIxIn0.BehXiz4ZTKpAFcEY26o_yWdK5Ey2X9mlHgpaZp4_pcs",
-        "salary_is_predicted": "1",
-        "location": {
-            "area": [
-                "US",
-                "Texas",
-                "Bexar County",
-                "San Antonio"
-            ],
-            "__CLASS__": "Adzuna::API::Response::Location",
-            "display_name": "San Antonio, Bexar County"
-        },
-        "company": {
-            "__CLASS__": "Adzuna::API::Response::Company",
-            "display_name": "Maximus"
-        },
-        "redirect_url": "https://www.adzuna.com/land/ad/5639136521?se=oqtKF3Aa8RGdv_0DtWHWaQ&utm_medium=api&utm_source=42b6f469&v=08008CB65AF71639012E5FC401ECF1635CC4DEED",
-        "contract_time": "full_time",
-        "description": "General information Job Posting Title System Administrator Date Wednesday, February 18, 2026 City San Antonio State TX Country United States Working time Full-time Description & Requirements Maximus is a trusted federal partner supporting mission\u2011critical programs across national security, defense, and public service delivery. Recent contract awards in cybersecurity and operational readiness underscore Maximus\u2019 role as a reliable prime for high\u2011impact government missions. Joining Maximus means \u2026",
-        "category": {
-            "label": "IT Jobs",
-            "tag": "it-jobs",
-            "__CLASS__": "Adzuna::API::Response::Category"
-        },
-        "id": "5639136521",
-        "salary_max": 89261.23,
-        "longitude": -98.489353,
-        "created": "2026-02-20T21:00:16Z",
-        "salary_min": 89261.23
-    },
-    {
-        "description": "General information Job Posting Title Cyber Security Engineer Date Tuesday, February 24, 2026 City San Antonio State TX Country United States Working time Full-time Description & Requirements Maximus is a trusted federal partner supporting mission\u2011critical programs across national security, defense, and public service delivery. Recent contract awards in cybersecurity and operational readiness underscore Maximus\u2019 role as a reliable prime for high\u2011impact government missions. Joining Maximus means\u2026",
+        "salary_max": 92528.7,
+        "longitude": -98.23747,
+        "title": "Application Subject Matter Expert/Trainer\u2011of\u2011Trainer",
+        "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiM0JkTUk1NGE4UkdjQjliMncxaEJlUSIsImkiOiI1NjQ2NzY3NDMzIn0.cltGvenEdFVCmmBQdFzsEujUnFBicjP7LmE8Fm03NGg",
+        "salary_min": 92528.7,
+        "redirect_url": "https://www.adzuna.com/land/ad/5646767433?se=3BdMI54a8RGcB9b2w1hBeQ&utm_medium=api&utm_source=42b6f469&v=4A6EA2E5928D8D416EB5999B7A13E240E73836DF",
+        "id": "5646767433",
+        "created": "2026-02-26T19:43:50Z",
         "company": {
             "__CLASS__": "Adzuna::API::Response::Company",
             "display_name": "Maximus"
         },
         "contract_time": "full_time",
-        "redirect_url": "https://www.adzuna.com/land/ad/5652130973?se=oqtKF3Aa8RGdv_0DtWHWaQ&utm_medium=api&utm_source=42b6f469&v=A613EAFC0559CE81D93E8A2340DF7911EB4CEFF5",
+        "latitude": 29.590949,
         "location": {
             "__CLASS__": "Adzuna::API::Response::Location",
             "area": [
@@ -596,769 +840,57 @@
             "display_name": "Schertz, Guadalupe County"
         },
         "salary_is_predicted": "1",
-        "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTY1MjEzMDk3MyIsInMiOiJvcXRLRjNBYThSR2R2XzBEdFdIV2FRIn0.LeFMOcQfc5V0w0bUBBj6jZBRJMmknygm320ElWITRq4",
-        "title": "Cyber Security Engineer",
-        "latitude": 29.590949,
         "__CLASS__": "Adzuna::API::Response::Job",
-        "salary_min": 84386.09,
-        "created": "2026-03-03T02:53:32Z",
-        "salary_max": 84386.09,
-        "longitude": -98.23747,
-        "id": "5652130973",
+        "description": "General information Job Posting Title Application Subject Matter Expert/Trainer\u2011of\u2011Trainer Date Wednesday, February 25, 2026 City San Antonio State TX Country United States Working time Full-time Description & Requirements Maximus is a trusted federal partner supporting mission\u2011critical programs across national security, defense, and public service delivery. Recent contract awards in cybersecurity and operational readiness underscore Maximus\u2019 role as a reliable prime for high\u2011impact government \u2026",
         "category": {
-            "tag": "it-jobs",
             "label": "IT Jobs",
-            "__CLASS__": "Adzuna::API::Response::Category"
-        }
-    },
-    {
-        "created": "2026-02-26T19:43:49Z",
-        "salary_min": 83077.4,
-        "category": {
             "__CLASS__": "Adzuna::API::Response::Category",
-            "label": "IT Jobs",
             "tag": "it-jobs"
-        },
-        "id": "5646767417",
-        "salary_max": 83077.4,
-        "longitude": -76.726777,
-        "company": {
-            "__CLASS__": "Adzuna::API::Response::Company",
-            "display_name": "Maximus"
-        },
-        "redirect_url": "https://www.adzuna.com/land/ad/5646767417?se=oqtKF3Aa8RGdv_0DtWHWaQ&utm_medium=api&utm_source=42b6f469&v=D8FE50C9D44BEB06C914C0D8678D59000158810E",
-        "contract_time": "full_time",
-        "description": "General information Job Posting Title Application Subject Matter Expert/Trainer\u2011of\u2011Trainer Date Wednesday, February 25, 2026 City Fort Meade State MD Country United States Working time Full-time Description & Requirements Maximus is a trusted federal partner supporting mission\u2011critical programs across national security, defense, and public service delivery. Recent contract awards in cybersecurity and operational readiness underscore Maximus\u2019 role as a reliable prime for high\u2011impact government m\u2026",
-        "title": "Application Subject Matter Expert/Trainer\u2011of\u2011Trainer",
-        "latitude": 39.11376,
-        "__CLASS__": "Adzuna::API::Response::Job",
-        "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTY0Njc2NzQxNyIsInMiOiJvcXRLRjNBYThSR2R2XzBEdFdIV2FRIn0.W6eYoEI_kn7AaEceXo3JZhaKRvaK4samS_QDFcfTteY",
-        "salary_is_predicted": "1",
-        "location": {
-            "area": [
-                "US",
-                "Maryland",
-                "Anne Arundel County",
-                "Fort George G Meade"
-            ],
-            "__CLASS__": "Adzuna::API::Response::Location",
-            "display_name": "Fort George G Meade, Anne Arundel County"
         }
     },
     {
-        "salary_min": 77462.51,
-        "created": "2026-02-20T21:00:16Z",
+        "salary_max": 79497.33,
         "longitude": -98.0249,
-        "salary_max": 77462.51,
-        "id": "5639136516",
-        "category": {
-            "label": "IT Jobs",
-            "tag": "it-jobs",
-            "__CLASS__": "Adzuna::API::Response::Category"
-        },
-        "description": "General information Job Posting Title System Administrator Date Wednesday, February 18, 2026 City San Antonio State TX Country United States Working time Full-time Description & Requirements Maximus is a trusted federal partner supporting mission\u2011critical programs across national security, defense, and public service delivery. Recent contract awards in cybersecurity and operational readiness underscore Maximus\u2019 role as a reliable prime for high\u2011impact government missions. Joining Maximus means \u2026",
+        "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiM0JkTUk1NGE4UkdjQjliMncxaEJlUSIsImkiOiI1NjM5MTM2NDM5In0.RfXHEi01tx4Ux3wpPYziTNFi_BZT_9TkiKTet6FjKOU",
+        "salary_min": 79497.33,
+        "title": "System Test Engineer",
+        "id": "5639136439",
+        "created": "2026-02-20T21:00:15Z",
+        "redirect_url": "https://www.adzuna.com/land/ad/5639136439?se=3BdMI54a8RGcB9b2w1hBeQ&utm_medium=api&utm_source=42b6f469&v=89C464C21CD1937841E1BB1F1B74EF8A118B6317",
+        "latitude": 29.6105,
         "contract_time": "full_time",
         "company": {
             "__CLASS__": "Adzuna::API::Response::Company",
             "display_name": "Maximus"
         },
-        "redirect_url": "https://www.adzuna.com/land/ad/5639136516?se=oqtKF3Aa8RGdv_0DtWHWaQ&utm_medium=api&utm_source=42b6f469&v=986BD40D78968378EF1684C2DFEE46F623B13826",
         "location": {
+            "display_name": "McQueeney, Guadalupe County",
             "area": [
                 "US",
                 "Texas",
                 "Guadalupe County",
                 "McQueeney"
             ],
-            "__CLASS__": "Adzuna::API::Response::Location",
-            "display_name": "McQueeney, Guadalupe County"
+            "__CLASS__": "Adzuna::API::Response::Location"
         },
         "salary_is_predicted": "1",
-        "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoib3F0S0YzQWE4Ukdkdl8wRHRXSFdhUSIsImkiOiI1NjM5MTM2NTE2In0.QA3C3mXMhslK0xv-QIx6NHbeeHZwaV7leYg5p5WXOk4",
-        "latitude": 29.6105,
-        "title": "System Administrator",
+        "category": {
+            "tag": "it-jobs",
+            "__CLASS__": "Adzuna::API::Response::Category",
+            "label": "IT Jobs"
+        },
+        "description": "General information Job Posting Title System Test Engineer Date Wednesday, February 18, 2026 City San Antonio State TX Country United States Working time Full-time Description & Requirements Maximus is a trusted federal partner supporting mission\u2011critical programs across national security, defense, and public service delivery. Recent contract awards in cybersecurity and operational readiness underscore Maximus\u2019 role as a reliable prime for high\u2011impact government missions. Joining Maximus means \u2026",
         "__CLASS__": "Adzuna::API::Response::Job"
     },
     {
-        "company": {
-            "__CLASS__": "Adzuna::API::Response::Company",
-            "display_name": "City Tire & Battery"
-        },
-        "redirect_url": "https://www.adzuna.com/land/ad/5647388136?se=oqtKF3Aa8RGdv_0DtWHWaQ&utm_medium=api&utm_source=42b6f469&v=7C9DEF30346069F393DC1586CAF6FAA8F3C0E801",
-        "created": "2026-02-27T12:05:27Z",
-        "salary_min": 40000,
-        "description": "Job Description Job Description Automotive technician and repair with experience in diagnosing and repairing brakes, tune-ups, front-end, AC, Engine and Transmission Replacement Company Description This company has served Central Texas for 78 years under the same family ownership. We are a retail tire and automotive service business. Company Description This company has served Central Texas for 78 years under the same family ownership. We are a retail tire and automotive service business.",
-        "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTY0NzM4ODEzNiIsInMiOiJvcXRLRjNBYThSR2R2XzBEdFdIV2FRIn0.Xan2_POXyvGvZ9t0Ul0eWG5JBKDbxhXuC4-O2F8hVSg",
-        "id": "5647388136",
-        "__CLASS__": "Adzuna::API::Response::Job",
-        "title": "Auto Mechanic",
-        "latitude": 31.551726,
-        "category": {
-            "tag": "it-jobs",
-            "label": "IT Jobs",
-            "__CLASS__": "Adzuna::API::Response::Category"
-        },
-        "longitude": -97.13863,
-        "salary_max": 80000,
-        "location": {
-            "display_name": "Waco, McLennan County",
-            "area": [
-                "US",
-                "Texas",
-                "McLennan County",
-                "Waco"
-            ],
-            "__CLASS__": "Adzuna::API::Response::Location"
-        },
-        "salary_is_predicted": "0"
-    },
-    {
-        "salary_is_predicted": "1",
-        "location": {
-            "__CLASS__": "Adzuna::API::Response::Location",
-            "area": [
-                "US",
-                "Texas",
-                "Guadalupe County",
-                "McQueeney"
-            ],
-            "display_name": "McQueeney, Guadalupe County"
-        },
-        "latitude": 29.6105,
-        "title": "Senior Front-End Developer",
-        "__CLASS__": "Adzuna::API::Response::Job",
-        "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTYzNzM4MzkxMSIsInMiOiJvcXRLRjNBYThSR2R2XzBEdFdIV2FRIn0.FM0sT9EHdIvVKE07awLlCg2CoaOrcHu3LM1wG64Ju8A",
-        "description": "General information Job Posting Title Senior Front-End Developer Date Wednesday, February 18, 2026 City San Antonio State TX Country United States Working time Full-time Description & Requirements Maximus is a trusted federal partner supporting mission\u2011critical programs across national security, defense, and public service delivery. Recent contract awards in cybersecurity and operational readiness underscore Maximus\u2019 role as a reliable prime for high\u2011impact government missions. Joining Maximus \u2026",
-        "company": {
-            "__CLASS__": "Adzuna::API::Response::Company",
-            "display_name": "Maximus"
-        },
-        "contract_time": "full_time",
-        "redirect_url": "https://www.adzuna.com/land/ad/5637383911?se=oqtKF3Aa8RGdv_0DtWHWaQ&utm_medium=api&utm_source=42b6f469&v=9A7773D640736043971DF358F989EFE2114C73D6",
-        "salary_max": 95298.95,
-        "longitude": -98.0249,
-        "category": {
-            "tag": "it-jobs",
-            "label": "IT Jobs",
-            "__CLASS__": "Adzuna::API::Response::Category"
-        },
-        "id": "5637383911",
-        "salary_min": 95298.95,
-        "created": "2026-02-20T00:59:14Z"
-    },
-    {
-        "created": "2026-02-23T23:11:42Z",
-        "salary_min": 114455.74,
-        "id": "5643151162",
-        "category": {
-            "__CLASS__": "Adzuna::API::Response::Category",
-            "tag": "it-jobs",
-            "label": "IT Jobs"
-        },
-        "longitude": -98.489353,
-        "salary_max": 114455.74,
-        "company": {
-            "__CLASS__": "Adzuna::API::Response::Company",
-            "display_name": "Maximus"
-        },
-        "contract_time": "full_time",
-        "redirect_url": "https://www.adzuna.com/land/ad/5643151162?se=oqtKF3Aa8RGdv_0DtWHWaQ&utm_medium=api&utm_source=42b6f469&v=75F3C4A71813C9B590CECBFA923F4595ACB81018",
-        "description": "General information Job Posting Title Front End Developer \u2013 Mid-level Date Wednesday, February 18, 2026 City San Antonio State TX Country United States Working time Full-time Description & Requirements Maximus is looking to hire a Front End Developer \u2013 Mid-level. This position is onsite, 5 days a week, and requires a TS/SCI security clearance. Maximus TCS (Technology and Consulting Services) Internal Job Profile Code: TCS232, T4, Band 7 Job-Specific Essential Duties and Responsibilities: Provid\u2026",
-        "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoib3F0S0YzQWE4Ukdkdl8wRHRXSFdhUSIsImkiOiI1NjQzMTUxMTYyIn0._TbkoSF2Wdbc0OQbkkKRxmy6BNP6JJf1KnN_qBvEWFc",
-        "title": "Front End Developer \u2013 Mid-level - TS/SCI Clearance Required",
-        "latitude": 29.425427,
-        "__CLASS__": "Adzuna::API::Response::Job",
-        "location": {
-            "display_name": "San Antonio, Bexar County",
-            "area": [
-                "US",
-                "Texas",
-                "Bexar County",
-                "San Antonio"
-            ],
-            "__CLASS__": "Adzuna::API::Response::Location"
-        },
-        "salary_is_predicted": "1"
-    },
-    {
-        "salary_min": 95381.7,
-        "created": "2026-03-03T02:53:31Z",
-        "longitude": -98.688597,
-        "salary_max": 95381.7,
-        "id": "5652130947",
-        "category": {
-            "__CLASS__": "Adzuna::API::Response::Category",
-            "tag": "it-jobs",
-            "label": "IT Jobs"
-        },
-        "description": "General information Job Posting Title Cyber Security Engineer Date Tuesday, February 24, 2026 City San Antonio State TX Country United States Working time Full-time Description & Requirements Maximus is a trusted federal partner supporting mission\u2011critical programs across national security, defense, and public service delivery. Recent contract awards in cybersecurity and operational readiness underscore Maximus\u2019 role as a reliable prime for high\u2011impact government missions. Joining Maximus means\u2026",
-        "company": {
-            "display_name": "Maximus",
-            "__CLASS__": "Adzuna::API::Response::Company"
-        },
-        "contract_time": "full_time",
-        "redirect_url": "https://www.adzuna.com/land/ad/5652130947?se=oqtKF3Aa8RGdv_0DtWHWaQ&utm_medium=api&utm_source=42b6f469&v=3E61A73610C3CC01A475371D5B15E55191487021",
-        "location": {
-            "area": [
-                "US",
-                "Texas",
-                "Bexar County",
-                "Security Services"
-            ],
-            "__CLASS__": "Adzuna::API::Response::Location",
-            "display_name": "Security Services, Bexar County"
-        },
-        "salary_is_predicted": "1",
-        "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoib3F0S0YzQWE4Ukdkdl8wRHRXSFdhUSIsImkiOiI1NjUyMTMwOTQ3In0.KozggNcC3KJldLLBP9bcsPGz1iJKiaPECgvMFkF71N8",
-        "latitude": 29.414849,
-        "title": "Cyber Security Engineer",
-        "__CLASS__": "Adzuna::API::Response::Job"
-    },
-    {
-        "longitude": -98.193503,
-        "salary_max": 71184.47,
-        "category": {
-            "tag": "it-jobs",
-            "label": "IT Jobs",
-            "__CLASS__": "Adzuna::API::Response::Category"
-        },
-        "id": "5639136466",
-        "salary_min": 71184.47,
-        "created": "2026-02-20T21:00:15Z",
-        "salary_is_predicted": "1",
-        "location": {
-            "__CLASS__": "Adzuna::API::Response::Location",
-            "area": [
-                "US",
-                "Texas",
-                "Wilson County",
-                "Floresville"
-            ],
-            "display_name": "Floresville, Wilson County"
-        },
-        "__CLASS__": "Adzuna::API::Response::Job",
-        "title": "System Administrator",
-        "latitude": 29.175277,
-        "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoib3F0S0YzQWE4Ukdkdl8wRHRXSFdhUSIsImkiOiI1NjM5MTM2NDY2In0.MXSEdFU5kgWVMjCa7hsq_99TvOAkI97bp8UwWfCOqBA",
-        "description": "General information Job Posting Title System Administrator Date Wednesday, February 18, 2026 City San Antonio State TX Country United States Working time Full-time Description & Requirements Maximus is a trusted federal partner supporting mission\u2011critical programs across national security, defense, and public service delivery. Recent contract awards in cybersecurity and operational readiness underscore Maximus\u2019 role as a reliable prime for high\u2011impact government missions. Joining Maximus means \u2026",
-        "contract_time": "full_time",
-        "redirect_url": "https://www.adzuna.com/land/ad/5639136466?se=oqtKF3Aa8RGdv_0DtWHWaQ&utm_medium=api&utm_source=42b6f469&v=BB4CBAE6F4401F7951EB3C23163ED11AB3A4BB76",
-        "company": {
-            "display_name": "Maximus",
-            "__CLASS__": "Adzuna::API::Response::Company"
-        }
-    },
-    {
-        "created": "2026-02-20T00:59:15Z",
-        "salary_min": 73033.48,
-        "category": {
-            "tag": "it-jobs",
-            "label": "IT Jobs",
-            "__CLASS__": "Adzuna::API::Response::Category"
-        },
-        "id": "5637383991",
-        "salary_max": 73033.48,
-        "longitude": -98.884965,
-        "contract_time": "full_time",
-        "redirect_url": "https://www.adzuna.com/land/ad/5637383991?se=oqtKF3Aa8RGdv_0DtWHWaQ&utm_medium=api&utm_source=42b6f469&v=B9EB80064DF4C26F932C7A4EF1D47D3BC6E284AA",
-        "company": {
-            "display_name": "Maximus",
-            "__CLASS__": "Adzuna::API::Response::Company"
-        },
-        "description": "General information Job Posting Title Senior Front-End Developer Date Wednesday, February 18, 2026 City San Antonio State TX Country United States Working time Full-time Description & Requirements Maximus is a trusted federal partner supporting mission\u2011critical programs across national security, defense, and public service delivery. Recent contract awards in cybersecurity and operational readiness underscore Maximus\u2019 role as a reliable prime for high\u2011impact government missions. Joining Maximus \u2026",
-        "title": "Senior Front-End Developer",
-        "__CLASS__": "Adzuna::API::Response::Job",
-        "latitude": 29.347725,
-        "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoib3F0S0YzQWE4Ukdkdl8wRHRXSFdhUSIsImkiOiI1NjM3MzgzOTkxIn0.w-XhcnmwwvvZmy0UcYwun086lK2A7yzkAbPXvUYN47w",
-        "salary_is_predicted": "1",
-        "location": {
-            "__CLASS__": "Adzuna::API::Response::Location",
-            "area": [
-                "US",
-                "Texas",
-                "Medina County",
-                "Castroville"
-            ],
-            "display_name": "Castroville, Medina County"
-        }
-    },
-    {
-        "contract_time": "full_time",
-        "company": {
-            "display_name": "Maximus",
-            "__CLASS__": "Adzuna::API::Response::Company"
-        },
-        "redirect_url": "https://www.adzuna.com/land/ad/5639136434?se=oqtKF3Aa8RGdv_0DtWHWaQ&utm_medium=api&utm_source=42b6f469&v=5290EBCFE076E7D5695BEE3A25EEDDE883E70423",
-        "description": "General information Job Posting Title Database Engineer Date Wednesday, February 18, 2026 City San Antonio State TX Country United States Working time Full-time Description & Requirements Maximus is a trusted federal partner supporting mission\u2011critical programs across national security, defense, and public service delivery. Recent contract awards in cybersecurity and operational readiness underscore Maximus\u2019 role as a reliable prime for high\u2011impact government missions. Joining Maximus means con\u2026",
-        "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoib3F0S0YzQWE4Ukdkdl8wRHRXSFdhUSIsImkiOiI1NjM5MTM2NDM0In0.sfZF02LBk59ZveyLATP7IF-HD5-9cKNb-RgDlzygoak",
-        "__CLASS__": "Adzuna::API::Response::Job",
-        "latitude": 29.1961,
-        "title": "Database Engineer",
-        "location": {
-            "__CLASS__": "Adzuna::API::Response::Location",
-            "area": [
-                "US",
-                "Texas",
-                "Bexar County",
-                "Somerset"
-            ],
-            "display_name": "Somerset, Bexar County"
-        },
-        "salary_is_predicted": "1",
-        "created": "2026-02-20T21:00:15Z",
-        "salary_min": 77845.82,
-        "id": "5639136434",
-        "category": {
-            "__CLASS__": "Adzuna::API::Response::Category",
-            "tag": "it-jobs",
-            "label": "IT Jobs"
-        },
+        "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiM0JkTUk1NGE4UkdjQjliMncxaEJlUSIsImkiOiI1NjM3MzgzOTY5In0.lpqTAD4lzJTGuZPB-eJ-hVExBcdJUYq6gtURnK1HVqM",
+        "salary_min": 97871.18,
+        "title": "Senior Back End Developer",
         "longitude": -98.6753,
-        "salary_max": 77845.82
-    },
-    {
-        "contract_time": "full_time",
-        "company": {
-            "display_name": "Astound",
-            "__CLASS__": "Adzuna::API::Response::Company"
-        },
-        "redirect_url": "https://www.adzuna.com/land/ad/5623950946?se=oqtKF3Aa8RGdv_0DtWHWaQ&utm_medium=api&utm_source=42b6f469&v=8599125BD1504A4517BFCC96513AD88E82E46C4E",
-        "description": "Astound is a leading provider of internet, WiFi, mobile, and TV services, dedicated to connecting communities and empowering lives through innovative technology. We also keep businesses connected with dependable fiber infrastructure and internet solutions backed by award-winning service, helping organizations thrive in an increasingly connected world. At the forefront of digital transformation, we continuously evolve our offerings to meet the dynamic needs of our customers\u2014delivering reliable c\u2026",
-        "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoib3F0S0YzQWE4Ukdkdl8wRHRXSFdhUSIsImkiOiI1NjIzOTUwOTQ2In0.ufEVbeUUiZSro4EQFCLlx5IxxGdVawWMHqQ8WXgtWBk",
-        "title": "Broadband Technician I",
-        "latitude": 42.42245,
-        "__CLASS__": "Adzuna::API::Response::Job",
-        "location": {
-            "area": [
-                "US",
-                "Massachusetts",
-                "Middlesex County",
-                "Medford"
-            ],
-            "__CLASS__": "Adzuna::API::Response::Location",
-            "display_name": "Medford, Middlesex County"
-        },
-        "salary_is_predicted": "1",
-        "created": "2026-02-11T01:49:19Z",
-        "salary_min": 53084.57,
-        "id": "5623950946",
-        "category": {
-            "__CLASS__": "Adzuna::API::Response::Category",
-            "tag": "it-jobs",
-            "label": "IT Jobs"
-        },
-        "longitude": -71.108742,
-        "salary_max": 53084.57
-    },
-    {
-        "description": "General information Job Posting Title Back End Developer \u2013 Mid-level Date Wednesday, February 18, 2026 City Fort Meade State MD Country United States Working time Full-time Description & Requirements Maximus is a trusted federal partner supporting mission\u2011critical programs across national security, defense, and public service delivery. Recent contract awards in cybersecurity and operational readiness underscore Maximus\u2019 role as a reliable prime for high\u2011impact government missions. Joining Maxim\u2026",
-        "contract_time": "full_time",
-        "company": {
-            "__CLASS__": "Adzuna::API::Response::Company",
-            "display_name": "Maximus"
-        },
-        "redirect_url": "https://www.adzuna.com/land/ad/5639136458?se=oqtKF3Aa8RGdv_0DtWHWaQ&utm_medium=api&utm_source=42b6f469&v=3B9FEA5421E6393E1FC0B5E4BFC31F99A4F92CA6",
-        "salary_is_predicted": "1",
-        "location": {
-            "display_name": "Fort George G Meade, Anne Arundel County",
-            "__CLASS__": "Adzuna::API::Response::Location",
-            "area": [
-                "US",
-                "Maryland",
-                "Anne Arundel County",
-                "Fort George G Meade"
-            ]
-        },
-        "latitude": 39.11376,
-        "__CLASS__": "Adzuna::API::Response::Job",
-        "title": "Back End Developer \u2013 Mid-level",
-        "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTYzOTEzNjQ1OCIsInMiOiJvcXRLRjNBYThSR2R2XzBEdFdIV2FRIn0.bbR5vBNuHrYw8izUBQx4_AfpAvFs3cQilKgP_jgjW1o",
-        "salary_min": 83133.36,
-        "created": "2026-02-20T21:00:15Z",
-        "salary_max": 83133.36,
-        "longitude": -76.726777,
-        "category": {
-            "label": "IT Jobs",
-            "tag": "it-jobs",
-            "__CLASS__": "Adzuna::API::Response::Category"
-        },
-        "id": "5639136458"
-    },
-    {
-        "created": "2026-03-03T02:53:32Z",
-        "salary_min": 63049.52,
-        "id": "5652130957",
-        "category": {
-            "tag": "it-jobs",
-            "label": "IT Jobs",
-            "__CLASS__": "Adzuna::API::Response::Category"
-        },
-        "longitude": -98.408197,
-        "salary_max": 63049.52,
-        "contract_time": "full_time",
-        "company": {
-            "__CLASS__": "Adzuna::API::Response::Company",
-            "display_name": "Maximus"
-        },
-        "redirect_url": "https://www.adzuna.com/land/ad/5652130957?se=oqtKF3Aa8RGdv_0DtWHWaQ&utm_medium=api&utm_source=42b6f469&v=4F78F5C21F4D9C53C7FE020C9CE3C916C59297E4",
-        "description": "General information Job Posting Title DevOps / Release Management Engineer Date Tuesday, February 24, 2026 City San Antonio State TX Country United States Working time Full-time Description & Requirements Maximus is a trusted federal partner supporting mission\u2011critical programs across national security, defense, and public service delivery. Recent contract awards in cybersecurity and operational readiness underscore Maximus\u2019 role as a reliable prime for high\u2011impact government missions. Joining \u2026",
-        "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoib3F0S0YzQWE4Ukdkdl8wRHRXSFdhUSIsImkiOiI1NjUyMTMwOTU3In0.d3ao1dLx_2ZneGqehZL3gF4Lpj1-Ygu5kE8HkjKQ0eg",
-        "__CLASS__": "Adzuna::API::Response::Job",
-        "latitude": 29.580512,
-        "title": "DevOps / Release Management Engineer",
-        "location": {
-            "display_name": "Wetmore, Bexar County",
-            "__CLASS__": "Adzuna::API::Response::Location",
-            "area": [
-                "US",
-                "Texas",
-                "Bexar County",
-                "Wetmore"
-            ]
-        },
-        "salary_is_predicted": "1"
-    },
-    {
-        "redirect_url": "https://www.adzuna.com/land/ad/5656870156?se=oqtKF3Aa8RGdv_0DtWHWaQ&utm_medium=api&utm_source=42b6f469&v=9779CB756CE31B659A2B31DEE25CE14EA7E3ED62",
-        "company": {
-            "__CLASS__": "Adzuna::API::Response::Company",
-            "display_name": "Raytheon"
-        },
-        "created": "2026-03-06T18:20:46Z",
-        "description": "Job Description Date Posted: 2026-03-04 Country: United States of America Location: US-MA-MARLBOROUGH-MA2 ~ 1001 Boston Post Rd ~ BLDG 2 Position Role Type: Onsite U.S. Citizen, U.S. Person, or Immigration Status Requirements: Active and transferable U.S. government issued security clearance is required prior to start date.\u200b U.S. citizenship is required, as only U.S. citizens are eligible for a security clearance\u200b Security Clearance Type: DoD Clearance: Secret Security Clearance Status: Ability\u2026",
-        "salary_min": 158225.58,
-        "category": {
-            "__CLASS__": "Adzuna::API::Response::Category",
-            "tag": "it-jobs",
-            "label": "IT Jobs"
-        },
-        "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTY1Njg3MDE1NiIsInMiOiJvcXRLRjNBYThSR2R2XzBEdFdIV2FRIn0.qcsTZT_yoauDGU5R8-GSoHtcNqexqk1Kozv_DCi3lg8",
-        "id": "5656870156",
-        "latitude": 41.623372,
-        "__CLASS__": "Adzuna::API::Response::Job",
-        "title": "Radar Digital Product Line DevSecOps Pipeline Lead",
-        "salary_is_predicted": "1",
-        "salary_max": 158225.58,
-        "longitude": -72.443248,
-        "location": {
-            "__CLASS__": "Adzuna::API::Response::Location",
-            "area": [
-                "US",
-                "Connecticut",
-                "Hartford County",
-                "Marlborough"
-            ],
-            "display_name": "Marlborough, Hartford County"
-        }
-    },
-    {
-        "category": {
-            "tag": "it-jobs",
-            "label": "IT Jobs",
-            "__CLASS__": "Adzuna::API::Response::Category"
-        },
-        "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoib3F0S0YzQWE4Ukdkdl8wRHRXSFdhUSIsImkiOiI1NjQ5Mzk3OTIyIn0.NZrSvO6bCCVyw9rPjLss-_GAet1tpqg7jSM0kRe3WxA",
-        "id": "5649397922",
-        "__CLASS__": "Adzuna::API::Response::Job",
-        "title": "Director Information Services - IM Support Business",
-        "latitude": 32.89297,
-        "salary_is_predicted": "1",
-        "salary_max": 18607.39,
-        "longitude": -96.94904,
-        "location": {
-            "display_name": "Irving, Dallas",
-            "__CLASS__": "Adzuna::API::Response::Location",
-            "area": [
-                "US",
-                "Texas",
-                "Dallas",
-                "Irving"
-            ]
-        },
-        "company": {
-            "display_name": "Christus Health",
-            "__CLASS__": "Adzuna::API::Response::Company"
-        },
-        "redirect_url": "https://www.adzuna.com/land/ad/5649397922?se=oqtKF3Aa8RGdv_0DtWHWaQ&utm_medium=api&utm_source=42b6f469&v=DAD89B8DDC41A6F19F84E88C52EFF37C9BE7176B",
-        "created": "2026-02-28T22:39:18Z",
-        "description": "Description Summary: The Director Information Services will assist with creating business strategies and proposing implementation methods for content within the designated programs. The Director will drive continual process improvement in the delivery of application services throughout CHRISTUS and apply strong knowledge of healthcare operations, proven communication, problem-solving, critical thinking, and management skills to guide design, development, and deployment of critical systems. The \u2026",
-        "salary_min": 18607.39
-    },
-    {
-        "id": "5639136475",
-        "category": {
-            "__CLASS__": "Adzuna::API::Response::Category",
-            "tag": "it-jobs",
-            "label": "IT Jobs"
-        },
-        "longitude": -98.23747,
-        "salary_max": 88832.97,
-        "created": "2026-02-20T21:00:16Z",
-        "salary_min": 88832.97,
-        "latitude": 29.590949,
-        "title": "Database Engineer",
-        "__CLASS__": "Adzuna::API::Response::Job",
-        "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTYzOTEzNjQ3NSIsInMiOiJvcXRLRjNBYThSR2R2XzBEdFdIV2FRIn0.1SC1CrIBykzcH_qzlkrtXb3m47-zggOTokLZG8uJb3U",
-        "location": {
-            "display_name": "Schertz, Guadalupe County",
-            "__CLASS__": "Adzuna::API::Response::Location",
-            "area": [
-                "US",
-                "Texas",
-                "Guadalupe County",
-                "Schertz"
-            ]
-        },
-        "salary_is_predicted": "1",
-        "company": {
-            "__CLASS__": "Adzuna::API::Response::Company",
-            "display_name": "Maximus"
-        },
-        "redirect_url": "https://www.adzuna.com/land/ad/5639136475?se=oqtKF3Aa8RGdv_0DtWHWaQ&utm_medium=api&utm_source=42b6f469&v=26D6BEF6D8CF19DCAAD8949D37170AF2F3ABC7CF",
-        "contract_time": "full_time",
-        "description": "General information Job Posting Title Database Engineer Date Wednesday, February 18, 2026 City San Antonio State TX Country United States Working time Full-time Description & Requirements Maximus is a trusted federal partner supporting mission\u2011critical programs across national security, defense, and public service delivery. Recent contract awards in cybersecurity and operational readiness underscore Maximus\u2019 role as a reliable prime for high\u2011impact government missions. Joining Maximus means con\u2026"
-    },
-    {
-        "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoib3F0S0YzQWE4Ukdkdl8wRHRXSFdhUSIsImkiOiI1NTg1MjExODM3In0.1H5qFMFnOGd4fChhRXYigcxG5Aj2xE9ZUi-6EdnyhuY",
-        "id": "5585211837",
-        "latitude": 40.952626,
-        "__CLASS__": "Adzuna::API::Response::Job",
-        "title": "Senior Solution Architect (Salesforce)",
-        "category": {
-            "__CLASS__": "Adzuna::API::Response::Category",
-            "tag": "it-jobs",
-            "label": "IT Jobs"
-        },
-        "salary_max": 197729.36,
-        "longitude": -83.837406,
-        "location": {
-            "display_name": "Rawson, Hancock County",
-            "area": [
-                "US",
-                "Ohio",
-                "Hancock County",
-                "Rawson"
-            ],
-            "__CLASS__": "Adzuna::API::Response::Location"
-        },
-        "salary_is_predicted": "1",
-        "redirect_url": "https://www.adzuna.com/land/ad/5585211837?se=oqtKF3Aa8RGdv_0DtWHWaQ&utm_medium=api&utm_source=42b6f469&v=8EF593E6C7F8B5902950E06693D23C7963302EB4",
-        "company": {
-            "__CLASS__": "Adzuna::API::Response::Company",
-            "display_name": "Marathon Petroleum"
-        },
-        "created": "2026-01-14T18:19:45Z",
-        "salary_min": 197729.36,
-        "description": "An exciting career awaits you At MPC, we\u2019re committed to being a great place to work \u2013 one that welcomes new ideas, encourages diverse perspectives, develops our people, and fosters a collaborative team environment. Position Summary We are seeking an experienced and strategic Salesforce Solution Architect to lead the design and implementation of robust, scalable Salesforce solutions. This high-profile role combines technical expertise with strategic thinking to align technology with business go\u2026"
-    },
-    {
-        "__CLASS__": "Adzuna::API::Response::Job",
-        "latitude": 37.350211,
-        "title": "Network Security Job Training Opportunity",
-        "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoib3F0S0YzQWE4Ukdkdl8wRHRXSFdhUSIsImkiOiI1NjE3Mjc2NTgxIn0.bkayozfcCfCaNa1y6qFduOn9JkiwTiWI6sQntCe1eaw",
-        "id": "5617276581",
-        "category": {
-            "label": "IT Jobs",
-            "tag": "it-jobs",
-            "__CLASS__": "Adzuna::API::Response::Category"
-        },
-        "location": {
-            "area": [
-                "US",
-                "California",
-                "Santa Clara County",
-                "Cupertino"
-            ],
-            "__CLASS__": "Adzuna::API::Response::Location",
-            "display_name": "Cupertino, Santa Clara County"
-        },
-        "salary_max": 49217.93,
-        "longitude": -122.032489,
-        "salary_is_predicted": "1",
-        "created": "2026-02-06T07:29:48Z",
-        "company": {
-            "display_name": "Year Up United",
-            "__CLASS__": "Adzuna::API::Response::Company"
-        },
-        "redirect_url": "https://www.adzuna.com/land/ad/5617276581?se=oqtKF3Aa8RGdv_0DtWHWaQ&utm_medium=api&utm_source=42b6f469&v=55979ACD2C50246AF82983F3911EE2F7FD81C403",
-        "salary_min": 49217.93,
-        "description": "Year Up United is a one-year or less, intensive job training program that provides young adults with in-classroom skill development, access to internships and/or job placement services, and personalized coaching and mentorship. Year Up United participants also receive an educational stipend. The program combines technical and professional training with access to internships and job placement support through our industry-leading talent placement firm YUPRO Placement. If you receive an internship\u2026"
-    },
-    {
-        "longitude": -83.139142,
-        "salary_max": 63851.1,
-        "location": {
-            "__CLASS__": "Adzuna::API::Response::Location",
-            "area": [
-                "US",
-                "Ohio",
-                "Franklin County",
-                "Dublin"
-            ],
-            "display_name": "Dublin, Franklin County"
-        },
-        "salary_is_predicted": "1",
-        "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTY1NjQyODUwMSIsInMiOiJvcXRLRjNBYThSR2R2XzBEdFdIV2FRIn0.mh-BUXy1r6dqEGR-dhQoXcqLWAO3AcnvLB0I5HIt_XE",
-        "id": "5656428501",
-        "latitude": 40.100256,
-        "__CLASS__": "Adzuna::API::Response::Job",
-        "title": "Consultant, Digital Marketing",
-        "category": {
-            "label": "IT Jobs",
-            "tag": "it-jobs",
-            "__CLASS__": "Adzuna::API::Response::Category"
-        },
-        "salary_min": 63851.1,
-        "description": "Remote Digital Marketing Consultant Location: Remote Start Date: 04/01/2025 (Tentative) Pay Rate: $62.52/hr (paid weekly) About the Role The Digital Marketing Consultant will redesign and optimize the Workfront system for eCommerce and Digital Marketing Operations. This role focuses on streamlining workflows, building templates, configuring automated approvals, and improving visibility into campaign readiness. The position collaborates with cross-functional teams to increase efficiency and supp\u2026",
-        "company": {
-            "display_name": "Tailored Management",
-            "__CLASS__": "Adzuna::API::Response::Company"
-        },
-        "redirect_url": "https://www.adzuna.com/land/ad/5656428501?se=oqtKF3Aa8RGdv_0DtWHWaQ&utm_medium=api&utm_source=42b6f469&v=BDF67DFF161C89E55065B99C11FBBF34B55D8EB1",
-        "created": "2026-03-06T12:12:04Z"
-    },
-    {
-        "category": {
-            "__CLASS__": "Adzuna::API::Response::Category",
-            "tag": "it-jobs",
-            "label": "IT Jobs"
-        },
-        "id": "5639136454",
-        "longitude": -98.884965,
-        "salary_max": 59364.31,
-        "created": "2026-02-20T21:00:15Z",
-        "salary_min": 59364.31,
-        "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoib3F0S0YzQWE4Ukdkdl8wRHRXSFdhUSIsImkiOiI1NjM5MTM2NDU0In0.qPR7DrLIAT8EB2ZL9YLA3NQhdJjmy38CR8pTM6AETB4",
-        "latitude": 29.347725,
-        "title": "System Administrator",
-        "__CLASS__": "Adzuna::API::Response::Job",
-        "salary_is_predicted": "1",
-        "location": {
-            "area": [
-                "US",
-                "Texas",
-                "Medina County",
-                "Castroville"
-            ],
-            "__CLASS__": "Adzuna::API::Response::Location",
-            "display_name": "Castroville, Medina County"
-        },
-        "company": {
-            "__CLASS__": "Adzuna::API::Response::Company",
-            "display_name": "Maximus"
-        },
-        "contract_time": "full_time",
-        "redirect_url": "https://www.adzuna.com/land/ad/5639136454?se=oqtKF3Aa8RGdv_0DtWHWaQ&utm_medium=api&utm_source=42b6f469&v=7BC1687ADC3B9654F59CCBC4D3403C13955A42C5",
-        "description": "General information Job Posting Title System Administrator Date Wednesday, February 18, 2026 City San Antonio State TX Country United States Working time Full-time Description & Requirements Maximus is a trusted federal partner supporting mission\u2011critical programs across national security, defense, and public service delivery. Recent contract awards in cybersecurity and operational readiness underscore Maximus\u2019 role as a reliable prime for high\u2011impact government missions. Joining Maximus means \u2026"
-    },
-    {
-        "latitude": 42.63853,
-        "title": "Security Officer - Immediate Hire",
-        "__CLASS__": "Adzuna::API::Response::Job",
-        "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTY1NjkyMDQ5NiIsInMiOiJvcXRLRjNBYThSR2R2XzBEdFdIV2FRIn0.OkH7nMLNo6xn-xyCQYww3mM9RkyDYDSS8qcy8t-CLOQ",
-        "location": {
-            "__CLASS__": "Adzuna::API::Response::Location",
-            "area": [
-                "US",
-                "Wisconsin",
-                "Kenosha County",
-                "Somers"
-            ],
-            "display_name": "Somers, Kenosha County"
-        },
-        "salary_is_predicted": "1",
-        "contract_time": "full_time",
-        "company": {
-            "__CLASS__": "Adzuna::API::Response::Company",
-            "display_name": "GardaWorld Security Services U.S."
-        },
-        "redirect_url": "https://www.adzuna.com/details/5656920496?utm_medium=api&utm_source=42b6f469",
-        "description": "Job Description: GardaWorld Security Services is Now Hiring a Surveillance Security Officer! Now Offering Hiring & Licensing Bonuses! New hires are eligible for up to $400 in bonus pay , paid out in milestones: Hiring Bonus \u2013 $300 $100 after 45 days $200 after 90 days Security License Bonus \u2013 $100: License bonus applies to applicants with active security licenses. $50 after 30 days $50 after 60 days Bonuses apply to candidates hired between now and January 31st and are paid based on continued e\u2026",
-        "id": "5656920496",
-        "category": {
-            "label": "IT Jobs",
-            "tag": "it-jobs",
-            "__CLASS__": "Adzuna::API::Response::Category"
-        },
-        "longitude": -87.907747,
-        "salary_max": 41983.1,
-        "created": "2026-03-06T18:37:51Z",
-        "salary_min": 41983.1
-    },
-    {
-        "created": "2026-03-06T05:19:18Z",
-        "salary_min": 99540.59,
-        "id": "5656195215",
-        "category": {
-            "label": "IT Jobs",
-            "tag": "it-jobs",
-            "__CLASS__": "Adzuna::API::Response::Category"
-        },
-        "longitude": -91.788,
-        "salary_max": 99540.59,
-        "contract_time": "full_time",
-        "redirect_url": "https://www.adzuna.com/land/ad/5656195215?se=oqtKF3Aa8RGdv_0DtWHWaQ&utm_medium=api&utm_source=42b6f469&v=32E3162E4586E3A6FA8A22CAD12FE34377741D94",
-        "company": {
-            "__CLASS__": "Adzuna::API::Response::Company",
-            "display_name": "NextEra"
-        },
-        "contract_type": "permanent",
-        "description": "Requisition ID: 93184 NextEra Energy Resources is one of America's largest wholesale electricity generators, harnessing diverse energy sources to power progress. We deliver tailored energy solutions that fuel economic growth, strengthen communities, and help customers achieve their energy goals. Ready to make a lasting impact? Take the next step in your career with us! Position Specific Description This position is responsible for day-to-day IT infrastructure\\operational support. This role prov\u2026",
-        "__CLASS__": "Adzuna::API::Response::Job",
-        "title": "Associate IT Technology Specialist",
-        "latitude": 42.036,
-        "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoib3F0S0YzQWE4Ukdkdl8wRHRXSFdhUSIsImkiOiI1NjU2MTk1MjE1In0.krc6yPVpzn6cM-RAZbTHPZg526Ye_KZA1M9P-FjF4B8",
-        "location": {
-            "display_name": "Palo, Linn County",
-            "area": [
-                "US",
-                "Iowa",
-                "Linn County",
-                "Palo"
-            ],
-            "__CLASS__": "Adzuna::API::Response::Location"
-        },
-        "salary_is_predicted": "1"
-    },
-    {
-        "salary_is_predicted": "1",
-        "salary_max": 52838.44,
-        "longitude": -122.265204,
-        "location": {
-            "area": [
-                "US",
-                "California",
-                "Alameda County",
-                "Berkeley"
-            ],
-            "__CLASS__": "Adzuna::API::Response::Location",
-            "display_name": "Berkeley, Alameda County"
-        },
-        "category": {
-            "label": "IT Jobs",
-            "tag": "it-jobs",
-            "__CLASS__": "Adzuna::API::Response::Category"
-        },
-        "id": "5617274973",
-        "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoib3F0S0YzQWE4Ukdkdl8wRHRXSFdhUSIsImkiOiI1NjE3Mjc0OTczIn0.oVOc6_tYKbfk76OixGEc-pgNG3qolL6Gc2B1suybhK0",
-        "latitude": 37.879319,
-        "__CLASS__": "Adzuna::API::Response::Job",
-        "title": "Computer Architecture & Systems Fundamentals Career Training Program",
-        "description": "Year Up United is a one-year or less, intensive job training program that provides young adults with in-classroom skill development, access to internships and/or job placement services, and personalized coaching and mentorship. Year Up United participants also receive an educational stipend. The program combines technical and professional training with access to internships and job placement support through our industry-leading talent placement firm YUPRO Placement. If you receive an internship\u2026",
-        "salary_min": 52838.44,
-        "company": {
-            "__CLASS__": "Adzuna::API::Response::Company",
-            "display_name": "Year Up United"
-        },
-        "redirect_url": "https://www.adzuna.com/land/ad/5617274973?se=oqtKF3Aa8RGdv_0DtWHWaQ&utm_medium=api&utm_source=42b6f469&v=0C07A58EF1F96F0C604AA38D1DC318D9C39D3981",
-        "created": "2026-02-06T07:28:21Z"
-    },
-    {
-        "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoib3F0S0YzQWE4Ukdkdl8wRHRXSFdhUSIsImkiOiI1NjM3MzgzOTcxIn0.53zRtJ99d2pMjCn0oKyCCYhRZQVXhYuaSZQi-_j4u-M",
-        "__CLASS__": "Adzuna::API::Response::Job",
-        "title": "Front End Developer \u2013 Mid-level",
-        "latitude": 29.1961,
-        "salary_is_predicted": "1",
+        "salary_max": 97871.18,
+        "id": "5637383969",
+        "created": "2026-02-20T00:59:15Z",
+        "redirect_url": "https://www.adzuna.com/land/ad/5637383969?se=3BdMI54a8RGcB9b2w1hBeQ&utm_medium=api&utm_source=42b6f469&v=79ED0FA69595EAB3F5FCC0359557E58F1FAD9793",
         "location": {
             "display_name": "Somerset, Bexar County",
             "__CLASS__": "Adzuna::API::Response::Location",
@@ -1369,326 +901,799 @@
                 "Somerset"
             ]
         },
+        "latitude": 29.1961,
         "contract_time": "full_time",
-        "redirect_url": "https://www.adzuna.com/land/ad/5637383971?se=oqtKF3Aa8RGdv_0DtWHWaQ&utm_medium=api&utm_source=42b6f469&v=03AAEAF150EE6678133C1BA6B4D69FE7F8EBC34C",
         "company": {
-            "display_name": "Maximus",
-            "__CLASS__": "Adzuna::API::Response::Company"
+            "__CLASS__": "Adzuna::API::Response::Company",
+            "display_name": "Maximus"
         },
-        "description": "General information Job Posting Title Front End Developer \u2013 Mid-level Date Wednesday, February 18, 2026 City San Antonio State TX Country United States Working time Full-time Description & Requirements Maximus is looking to hire a Front End Developer \u2013 Mid-level. This position is onsite, 5 days a week, and requires a TS/SCI security clearance. Maximus TCS (Technology and Consulting Services) Internal Job Profile Code: TCS232, T4, Band 7 Job-Specific Essential Duties and Responsibilities: Provid\u2026",
         "category": {
             "tag": "it-jobs",
             "label": "IT Jobs",
             "__CLASS__": "Adzuna::API::Response::Category"
         },
-        "id": "5637383971",
-        "longitude": -98.6753,
-        "salary_max": 84947.34,
-        "created": "2026-02-20T00:59:15Z",
-        "salary_min": 84947.34
-    },
-    {
-        "company": {
-            "display_name": "Marathon Petroleum",
-            "__CLASS__": "Adzuna::API::Response::Company"
-        },
-        "redirect_url": "https://www.adzuna.com/land/ad/5649562889?se=oqtKF3Aa8RGdv_0DtWHWaQ&utm_medium=api&utm_source=42b6f469&v=A2C649E6F75B5E9EE392C1DB88FAB14508FCF47C",
-        "created": "2026-03-01T02:01:33Z",
-        "salary_min": 270892.06,
-        "description": "An exciting career awaits you At MPC, we\u2019re committed to being a great place to work \u2013 one that welcomes new ideas, encourages diverse perspectives, develops our people, and fosters a collaborative team environment. Position Summary At Marathon, we are trailblazers in the Oil & Gas industry, driving innovation and creating value through cutting edge digital platforms and infrastructure. Our Midstream IT organization supports Marathon\u2019s Midstream Business Units, including Gathering, Transporting\u2026",
-        "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoib3F0S0YzQWE4Ukdkdl8wRHRXSFdhUSIsImkiOiI1NjQ5NTYyODg5In0.AbrFfzLa11OBalTWK-_7_UesuWFBiHZ1nIasKbq-148",
-        "id": "5649562889",
         "__CLASS__": "Adzuna::API::Response::Job",
-        "latitude": 40.887114,
-        "title": "Senior Platforms Engineer",
-        "category": {
-            "__CLASS__": "Adzuna::API::Response::Category",
-            "tag": "it-jobs",
-            "label": "IT Jobs"
-        },
-        "longitude": -83.894251,
-        "salary_max": 270892.06,
-        "location": {
-            "display_name": "Bluffton, Allen County",
-            "__CLASS__": "Adzuna::API::Response::Location",
-            "area": [
-                "US",
-                "Ohio",
-                "Allen County",
-                "Bluffton"
-            ]
-        },
+        "description": "General information Job Posting Title Senior Back End Developer Date Thursday, February 19, 2026 City San Antonio State TX Country United States Working time Full-time Description & Requirements Maximus is a trusted federal partner supporting mission\u2011critical programs across national security, defense, and public service delivery. Recent contract awards in cybersecurity and operational readiness underscore Maximus\u2019 role as a reliable prime for high\u2011impact government missions. Joining Maximus me\u2026",
         "salary_is_predicted": "1"
     },
     {
-        "salary_is_predicted": "1",
-        "location": {
-            "display_name": "Floresville, Wilson County",
-            "__CLASS__": "Adzuna::API::Response::Location",
-            "area": [
-                "US",
-                "Texas",
-                "Wilson County",
-                "Floresville"
-            ]
-        },
-        "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoib3F0S0YzQWE4Ukdkdl8wRHRXSFdhUSIsImkiOiI1NjUyMTMwOTcwIn0.KyFpoHgh9En7ezLi012W_Nh9Pk_QsD7-2VYqMZEJvBo",
-        "__CLASS__": "Adzuna::API::Response::Job",
-        "title": "DevOps / Release Management Engineer",
-        "latitude": 29.175277,
-        "description": "General information Job Posting Title DevOps / Release Management Engineer Date Tuesday, February 24, 2026 City San Antonio State TX Country United States Working time Full-time Description & Requirements Maximus is a trusted federal partner supporting mission\u2011critical programs across national security, defense, and public service delivery. Recent contract awards in cybersecurity and operational readiness underscore Maximus\u2019 role as a reliable prime for high\u2011impact government missions. Joining \u2026",
-        "redirect_url": "https://www.adzuna.com/land/ad/5652130970?se=oqtKF3Aa8RGdv_0DtWHWaQ&utm_medium=api&utm_source=42b6f469&v=11ACFD8A28D26F03BB1709CE1DA05B33A51146D6",
-        "company": {
-            "__CLASS__": "Adzuna::API::Response::Company",
-            "display_name": "Maximus"
-        },
-        "contract_time": "full_time",
-        "salary_max": 85376.16,
-        "longitude": -98.193503,
-        "category": {
-            "__CLASS__": "Adzuna::API::Response::Category",
-            "label": "IT Jobs",
-            "tag": "it-jobs"
-        },
-        "id": "5652130970",
-        "salary_min": 85376.16,
-        "created": "2026-03-03T02:53:32Z"
-    },
-    {
-        "salary_min": 214143.72,
-        "created": "2026-02-23T15:04:18Z",
-        "longitude": -99.695514,
-        "salary_max": 214143.72,
-        "id": "5642814966",
-        "category": {
-            "__CLASS__": "Adzuna::API::Response::Category",
-            "label": "IT Jobs",
-            "tag": "it-jobs"
-        },
-        "contract_type": "contract",
-        "description": "JLL empowers you to shape a brighter way . Our people at JLL are shaping the future of real estate for a better world by combining world class services, advisory and technology for our clients. We are committed to hiring the best, most talented people and empowering them to thrive, grow meaningful careers and to find a place where they belong. Whether you\u2019ve got deep experience in commercial real estate, skilled trades or technology, or you\u2019re looking to apply your relevant experience to a new \u2026",
-        "contract_time": "full_time",
-        "company": {
-            "__CLASS__": "Adzuna::API::Response::Company",
-            "display_name": "*US AMR-Jones Lang LaSalle Americas, Inc."
-        },
-        "redirect_url": "https://www.adzuna.com/details/5642814966?utm_medium=api&utm_source=42b6f469",
-        "location": {
-            "area": [
-                "US",
-                "Texas",
-                "Taylor County",
-                "Impact"
-            ],
-            "__CLASS__": "Adzuna::API::Response::Location",
-            "display_name": "Impact, Taylor County"
-        },
-        "salary_is_predicted": "1",
-        "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoib3F0S0YzQWE4Ukdkdl8wRHRXSFdhUSIsImkiOiI1NjQyODE0OTY2In0.uyz8ifomqYyPfFqXfxeAJ0s_D84VcO2CXh8lywhtIGU",
-        "title": "Assistant Chief Engineer - Critical Environments",
-        "__CLASS__": "Adzuna::API::Response::Job",
-        "latitude": 32.495813
-    },
-    {
-        "location": {
-            "__CLASS__": "Adzuna::API::Response::Location",
-            "area": [
-                "US",
-                "California",
-                "San Diego County",
-                "Oceanside"
-            ],
-            "display_name": "Oceanside, San Diego County"
-        },
-        "longitude": -117.3489,
-        "salary_max": 81281.88,
-        "salary_is_predicted": "1",
-        "latitude": 33.1626,
-        "__CLASS__": "Adzuna::API::Response::Job",
-        "title": "Field Services Engineer",
-        "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTY1NjQzNDM5NCIsInMiOiJvcXRLRjNBYThSR2R2XzBEdFdIV2FRIn0.xzLR4y5rtHdCBMN39qHv_2IEIvAOgLVjHCTXIeehV_w",
-        "id": "5656434394",
+        "id": "5637383909",
+        "created": "2026-02-20T00:59:14Z",
+        "redirect_url": "https://www.adzuna.com/land/ad/5637383909?se=3BdMI54a8RGcB9b2w1hBeQ&utm_medium=api&utm_source=42b6f469&v=74A6C8859DF4CA56B462EFFDE77367929448CE83",
+        "salary_min": 109345.33,
+        "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiM0JkTUk1NGE4UkdjQjliMncxaEJlUSIsImkiOiI1NjM3MzgzOTA5In0.CjEX_TIrgPGZIqIQXSglxlZ1Cb6CTubJUm1INCJUTyc",
+        "title": "Front End Developer \u2013 Mid-level",
+        "longitude": -98.489353,
+        "salary_max": 109345.33,
         "category": {
             "tag": "it-jobs",
             "label": "IT Jobs",
             "__CLASS__": "Adzuna::API::Response::Category"
         },
-        "salary_min": 81281.88,
-        "description": "Job Description: Saab, Inc. is seeking an experienced Field Services Engineer to join our team in Camp Pendleton, CA. This role provides highly visible customer support through on-site installation, as well as overseeing diagnoses, troubleshooting, service, and repair of complex equipment and systems. The Field Services Engineer ensures operational quality of system equipment and instructs customers on proper system operation and maintenance. Responsibilities include: Work effectively as part o\u2026",
-        "created": "2026-03-06T12:30:19Z",
-        "redirect_url": "https://www.adzuna.com/land/ad/5656434394?se=oqtKF3Aa8RGdv_0DtWHWaQ&utm_medium=api&utm_source=42b6f469&v=7826E1132876DEDF8F41026D01200FC77AE1B85D",
-        "company": {
-            "__CLASS__": "Adzuna::API::Response::Company",
-            "display_name": "Saab"
-        }
-    },
-    {
+        "description": "General information Job Posting Title Front End Developer \u2013 Mid-level Date Wednesday, February 18, 2026 City San Antonio State TX Country United States Working time Full-time Description & Requirements Maximus is looking to hire a Front End Developer \u2013 Mid-level. This position is onsite, 5 days a week, and requires a TS/SCI security clearance. Maximus TCS (Technology and Consulting Services) Internal Job Profile Code: TCS232, T4, Band 7 Job-Specific Essential Duties and Responsibilities: Provid\u2026",
         "__CLASS__": "Adzuna::API::Response::Job",
-        "title": "Database Engineer - TS/SCI Clearance Required",
-        "latitude": 39.11376,
-        "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTY0MzE1MTI4MyIsInMiOiJvcXRLRjNBYThSR2R2XzBEdFdIV2FRIn0.ULSeyvzrnXExf8xEsckyDU_dcNqC1RzmKiYbMXuEvcU",
-        "location": {
-            "display_name": "Fort George G Meade, Anne Arundel County",
-            "__CLASS__": "Adzuna::API::Response::Location",
-            "area": [
-                "US",
-                "Maryland",
-                "Anne Arundel County",
-                "Fort George G Meade"
-            ]
-        },
-        "salary_is_predicted": "1",
-        "company": {
-            "display_name": "Maximus",
-            "__CLASS__": "Adzuna::API::Response::Company"
-        },
-        "contract_time": "full_time",
-        "redirect_url": "https://www.adzuna.com/land/ad/5643151283?se=oqtKF3Aa8RGdv_0DtWHWaQ&utm_medium=api&utm_source=42b6f469&v=D8F483FA605D3DDC0AB419D28FBFB9F2D69397C0",
-        "description": "General information Job Posting Title Database Engineer Date Wednesday, February 18, 2026 City Fort Meade State MD Country United States Working time Full-time Description & Requirements Maximus is a trusted federal partner supporting mission\u2011critical programs across national security, defense, and public service delivery. Recent contract awards in cybersecurity and operational readiness underscore Maximus\u2019 role as a reliable prime for high\u2011impact government missions. Joining Maximus means cont\u2026",
-        "id": "5643151283",
-        "category": {
-            "__CLASS__": "Adzuna::API::Response::Category",
-            "label": "IT Jobs",
-            "tag": "it-jobs"
-        },
-        "longitude": -76.726777,
-        "salary_max": 81037.22,
-        "created": "2026-02-23T23:11:49Z",
-        "salary_min": 81037.22
-    },
-    {
-        "salary_min": 43778.38,
-        "created": "2025-12-04T16:11:19Z",
-        "salary_max": 43778.38,
-        "longitude": -85.953654,
-        "id": "5528370818",
-        "category": {
-            "__CLASS__": "Adzuna::API::Response::Category",
-            "label": "IT Jobs",
-            "tag": "it-jobs"
-        },
-        "contract_type": "contract",
-        "description": "The Data Quality Intern will support the Solutions team by ensuring the accuracy and reliability of labeled data. This role focuses on validating, auditing, and improving data quality across various projects and processes. ESSENTIAL FUNCTIONS/ SUPERVISORY RESPONSIBILITIES Label and validate AI-generated logo data, broadcast television data, and social media data. Assist with the preparation and delivery of training data to external systems. Audit data labeling processes for accuracy and consist\u2026",
-        "company": {
-            "display_name": "Zoomph",
-            "__CLASS__": "Adzuna::API::Response::Company"
-        },
-        "redirect_url": "https://www.adzuna.com/land/ad/5528370818?se=oqtKF3Aa8RGdv_0DtWHWaQ&utm_medium=api&utm_source=42b6f469&v=A5A00DC719CA7C4DAC4AB200C1E1C594AA873EB8",
-        "location": {
-            "display_name": "Allendale, Ottawa County",
-            "__CLASS__": "Adzuna::API::Response::Location",
-            "area": [
-                "US",
-                "Michigan",
-                "Ottawa County",
-                "Allendale"
-            ]
-        },
-        "salary_is_predicted": "1",
-        "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoib3F0S0YzQWE4Ukdkdl8wRHRXSFdhUSIsImkiOiI1NTI4MzcwODE4In0.FbpvBlIIK4L8ir4n0LifnKhqWQIvmL5scu3S3IofK1Y",
-        "__CLASS__": "Adzuna::API::Response::Job",
-        "latitude": 42.972246,
-        "title": "Data Quality - Intern"
-    },
-    {
-        "latitude": 42.34,
-        "title": "Broadband Technician I",
-        "__CLASS__": "Adzuna::API::Response::Job",
-        "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTYyMzk1MDk2MiIsInMiOiJvcXRLRjNBYThSR2R2XzBEdFdIV2FRIn0.KsFSuxaBI9746utz2s5GKXJlumNosYmwkDYs8S8Ml4k",
-        "location": {
-            "display_name": "South Boston, Suffolk County",
-            "__CLASS__": "Adzuna::API::Response::Location",
-            "area": [
-                "US",
-                "Massachusetts",
-                "Suffolk County",
-                "South Boston"
-            ]
-        },
-        "salary_is_predicted": "1",
-        "redirect_url": "https://www.adzuna.com/land/ad/5623950962?se=oqtKF3Aa8RGdv_0DtWHWaQ&utm_medium=api&utm_source=42b6f469&v=97FDB827FF4FD001D3B0F6A13D6356BB16F01EB6",
-        "contract_time": "full_time",
-        "company": {
-            "display_name": "Astound",
-            "__CLASS__": "Adzuna::API::Response::Company"
-        },
-        "description": "Astound is a leading provider of internet, WiFi, mobile, and TV services, dedicated to connecting communities and empowering lives through innovative technology. We also keep businesses connected with dependable fiber infrastructure and internet solutions backed by award-winning service, helping organizations thrive in an increasingly connected world. At the forefront of digital transformation, we continuously evolve our offerings to meet the dynamic needs of our customers\u2014delivering reliable c\u2026",
-        "id": "5623950962",
-        "category": {
-            "__CLASS__": "Adzuna::API::Response::Category",
-            "tag": "it-jobs",
-            "label": "IT Jobs"
-        },
-        "longitude": -71.05,
-        "salary_max": 47577.39,
-        "created": "2026-02-11T01:49:20Z",
-        "salary_min": 47577.39
-    },
-    {
-        "description": "General information Job Posting Title Senior Back End Developer Date Thursday, February 19, 2026 City San Antonio State TX Country United States Working time Full-time Description & Requirements Maximus is a trusted federal partner supporting mission\u2011critical programs across national security, defense, and public service delivery. Recent contract awards in cybersecurity and operational readiness underscore Maximus\u2019 role as a reliable prime for high\u2011impact government missions. Joining Maximus me\u2026",
-        "company": {
-            "__CLASS__": "Adzuna::API::Response::Company",
-            "display_name": "Maximus"
-        },
-        "contract_time": "full_time",
-        "redirect_url": "https://www.adzuna.com/land/ad/5637383914?se=oqtKF3Aa8RGdv_0DtWHWaQ&utm_medium=api&utm_source=42b6f469&v=3DEC854EFE761CC558A1CA8CA00394A2F772647C",
         "salary_is_predicted": "1",
         "location": {
-            "display_name": "San Antonio, Bexar County",
-            "__CLASS__": "Adzuna::API::Response::Location",
             "area": [
                 "US",
                 "Texas",
                 "Bexar County",
                 "San Antonio"
-            ]
+            ],
+            "__CLASS__": "Adzuna::API::Response::Location",
+            "display_name": "San Antonio, Bexar County"
         },
-        "__CLASS__": "Adzuna::API::Response::Job",
         "latitude": 29.425427,
-        "title": "Senior Back End Developer",
-        "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTYzNzM4MzkxNCIsInMiOiJvcXRLRjNBYThSR2R2XzBEdFdIV2FRIn0.JpCoXobvTUnI9XC0Ecr8segix8a_rK55XFfgPq6jU5s",
-        "salary_min": 125980.95,
+        "contract_time": "full_time",
+        "company": {
+            "__CLASS__": "Adzuna::API::Response::Company",
+            "display_name": "Maximus"
+        }
+    },
+    {
+        "salary_is_predicted": "1",
+        "description": "General information Job Posting Title Senior Back End Developer Date Thursday, February 19, 2026 City San Antonio State TX Country United States Working time Full-time Description & Requirements Maximus is a trusted federal partner supporting mission\u2011critical programs across national security, defense, and public service delivery. Recent contract awards in cybersecurity and operational readiness underscore Maximus\u2019 role as a reliable prime for high\u2011impact government missions. Joining Maximus me\u2026",
+        "__CLASS__": "Adzuna::API::Response::Job",
+        "category": {
+            "label": "IT Jobs",
+            "__CLASS__": "Adzuna::API::Response::Category",
+            "tag": "it-jobs"
+        },
+        "company": {
+            "__CLASS__": "Adzuna::API::Response::Company",
+            "display_name": "Maximus"
+        },
+        "contract_time": "full_time",
+        "latitude": 29.734485,
+        "location": {
+            "display_name": "Fair Oaks, Kendall County",
+            "area": [
+                "US",
+                "Texas",
+                "Kendall County",
+                "Fair Oaks"
+            ],
+            "__CLASS__": "Adzuna::API::Response::Location"
+        },
+        "redirect_url": "https://www.adzuna.com/land/ad/5637383922?se=3BdMI54a8RGcB9b2w1hBeQ&utm_medium=api&utm_source=42b6f469&v=C7CB86AD921A7CA611E11DAA5EB3F0240ADF0041",
+        "id": "5637383922",
         "created": "2026-02-20T00:59:14Z",
-        "longitude": -98.489353,
-        "salary_max": 125980.95,
+        "salary_max": 117836.4,
+        "longitude": -98.648018,
+        "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTYzNzM4MzkyMiIsInMiOiIzQmRNSTU0YThSR2NCOWIydzFoQmVRIn0.Md4D4IKtQxmyOnRu7Bbc2Hpuz8ln1VVQCb6EXesT7SA",
+        "salary_min": 117836.4,
+        "title": "Senior Back End Developer"
+    },
+    {
+        "latitude": 29.580512,
+        "contract_time": "full_time",
+        "company": {
+            "__CLASS__": "Adzuna::API::Response::Company",
+            "display_name": "Maximus"
+        },
+        "location": {
+            "__CLASS__": "Adzuna::API::Response::Location",
+            "area": [
+                "US",
+                "Texas",
+                "Bexar County",
+                "Wetmore"
+            ],
+            "display_name": "Wetmore, Bexar County"
+        },
+        "salary_is_predicted": "1",
+        "category": {
+            "tag": "it-jobs",
+            "__CLASS__": "Adzuna::API::Response::Category",
+            "label": "IT Jobs"
+        },
+        "description": "General information Job Posting Title DevOps / Release Management Engineer Date Tuesday, February 24, 2026 City San Antonio State TX Country United States Working time Full-time Description & Requirements Maximus is a trusted federal partner supporting mission\u2011critical programs across national security, defense, and public service delivery. Recent contract awards in cybersecurity and operational readiness underscore Maximus\u2019 role as a reliable prime for high\u2011impact government missions. Joining \u2026",
+        "__CLASS__": "Adzuna::API::Response::Job",
+        "salary_max": 63049.52,
+        "longitude": -98.408197,
+        "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTY1MjEzMDk1NyIsInMiOiIzQmRNSTU0YThSR2NCOWIydzFoQmVRIn0.9393yWtj72MqdWqtD0mXg8e5bp5jSYeznSCkIjuFzdo",
+        "salary_min": 63049.52,
+        "title": "DevOps / Release Management Engineer",
+        "created": "2026-03-03T02:53:32Z",
+        "id": "5652130957",
+        "redirect_url": "https://www.adzuna.com/land/ad/5652130957?se=3BdMI54a8RGcB9b2w1hBeQ&utm_medium=api&utm_source=42b6f469&v=4F78F5C21F4D9C53C7FE020C9CE3C916C59297E4"
+    },
+    {
+        "longitude": -98.0249,
+        "salary_max": 82605.91,
+        "title": "Cyber Security Engineer",
+        "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTY1MjEzMDk1MiIsInMiOiIzQmRNSTU0YThSR2NCOWIydzFoQmVRIn0.udRqMVyPNn4aHsD7_76bq9_AQfj2l-mOFfAD8D7zSZQ",
+        "salary_min": 82605.91,
+        "id": "5652130952",
+        "created": "2026-03-03T02:53:31Z",
+        "redirect_url": "https://www.adzuna.com/land/ad/5652130952?se=3BdMI54a8RGcB9b2w1hBeQ&utm_medium=api&utm_source=42b6f469&v=0F776E114B5A59136DD76D764D8CD940FB4CC4B9",
+        "latitude": 29.6105,
+        "company": {
+            "__CLASS__": "Adzuna::API::Response::Company",
+            "display_name": "Maximus"
+        },
+        "contract_time": "full_time",
+        "location": {
+            "__CLASS__": "Adzuna::API::Response::Location",
+            "area": [
+                "US",
+                "Texas",
+                "Guadalupe County",
+                "McQueeney"
+            ],
+            "display_name": "McQueeney, Guadalupe County"
+        },
+        "salary_is_predicted": "1",
+        "category": {
+            "tag": "it-jobs",
+            "__CLASS__": "Adzuna::API::Response::Category",
+            "label": "IT Jobs"
+        },
+        "description": "General information Job Posting Title Cyber Security Engineer Date Tuesday, February 24, 2026 City San Antonio State TX Country United States Working time Full-time Description & Requirements Maximus is a trusted federal partner supporting mission\u2011critical programs across national security, defense, and public service delivery. Recent contract awards in cybersecurity and operational readiness underscore Maximus\u2019 role as a reliable prime for high\u2011impact government missions. Joining Maximus means\u2026",
+        "__CLASS__": "Adzuna::API::Response::Job"
+    },
+    {
+        "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiM0JkTUk1NGE4UkdjQjliMncxaEJlUSIsImkiOiI1NjUyMTMwOTM3In0.BVA2f9neDFnAANngpusC-nWgRhHCNKrQHhuVhdTuo20",
+        "title": "Cyber Security Engineer",
+        "salary_min": 75295.56,
+        "salary_max": 75295.56,
+        "longitude": -76.726777,
+        "created": "2026-03-03T02:53:30Z",
+        "id": "5652130937",
+        "redirect_url": "https://www.adzuna.com/land/ad/5652130937?se=3BdMI54a8RGcB9b2w1hBeQ&utm_medium=api&utm_source=42b6f469&v=1F7AF0B618C6C4043E63FDFB483C7BFAC62FB15F",
+        "location": {
+            "display_name": "Fort George G Meade, Anne Arundel County",
+            "area": [
+                "US",
+                "Maryland",
+                "Anne Arundel County",
+                "Fort George G Meade"
+            ],
+            "__CLASS__": "Adzuna::API::Response::Location"
+        },
+        "latitude": 39.11376,
+        "company": {
+            "__CLASS__": "Adzuna::API::Response::Company",
+            "display_name": "Maximus"
+        },
+        "contract_time": "full_time",
         "category": {
             "tag": "it-jobs",
             "label": "IT Jobs",
             "__CLASS__": "Adzuna::API::Response::Category"
         },
-        "id": "5637383914"
+        "__CLASS__": "Adzuna::API::Response::Job",
+        "description": "General information Job Posting Title Cyber Security Engineer Date Tuesday, February 24, 2026 City Fort Meade State MD Country United States Working time Full-time Description & Requirements Maximus is a trusted federal partner supporting mission\u2011critical programs across national security, defense, and public service delivery. Recent contract awards in cybersecurity and operational readiness underscore Maximus\u2019 role as a reliable prime for high\u2011impact government missions. Joining Maximus means \u2026",
+        "salary_is_predicted": "1"
     },
     {
-        "salary_min": 204894.28,
-        "description": "Job Description: Principal Trading Engineer (Java, Algo, SOR) We are currently sourcing for a Principal Trading Engineer (Java, Algo, SOR) for Crypto Trading to work in Jersey City, NJ. The Role The Principal Trading Engineer (Java, Algo, SOR) will be working in development and delivery of high quality, timely and maintainable software solutions in an Agile environment which meet functional and non-functional business requirements. This role will involve partner & stakeholder engagement, design\u2026",
-        "redirect_url": "https://www.adzuna.com/land/ad/5643564961?se=oqtKF3Aa8RGdv_0DtWHWaQ&utm_medium=api&utm_source=42b6f469&v=C917C82B93A68D2D8B1659A1690119B86741BFEC",
-        "company": {
-            "__CLASS__": "Adzuna::API::Response::Company",
-            "display_name": "Fidelity Investments"
+        "id": "5637383952",
+        "created": "2026-02-20T00:59:14Z",
+        "redirect_url": "https://www.adzuna.com/land/ad/5637383952?se=3BdMI54a8RGcB9b2w1hBeQ&utm_medium=api&utm_source=42b6f469&v=5306A52BD6F46412D3EBE4E6CBAA5706846E16FF",
+        "salary_max": 86291.56,
+        "longitude": -98.119804,
+        "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiM0JkTUk1NGE4UkdjQjliMncxaEJlUSIsImkiOiI1NjM3MzgzOTUyIn0.VNfwrp5gxrD0DMtHaEaVfcdljJoG5E1L4KLyvSjmKWg",
+        "title": "Front End Developer \u2013 Mid-level",
+        "salary_min": 86291.56,
+        "salary_is_predicted": "1",
+        "category": {
+            "tag": "it-jobs",
+            "label": "IT Jobs",
+            "__CLASS__": "Adzuna::API::Response::Category"
         },
-        "created": "2026-02-24T06:15:39Z",
-        "longitude": -74.049884,
-        "salary_max": 204894.28,
+        "__CLASS__": "Adzuna::API::Response::Job",
+        "description": "General information Job Posting Title Front End Developer \u2013 Mid-level Date Wednesday, February 18, 2026 City San Antonio State TX Country United States Working time Full-time Description & Requirements Maximus is looking to hire a Front End Developer \u2013 Mid-level. This position is onsite, 5 days a week, and requires a TS/SCI security clearance. Maximus TCS (Technology and Consulting Services) Internal Job Profile Code: TCS232, T4, Band 7 Job-Specific Essential Duties and Responsibilities: Provid\u2026",
+        "latitude": 29.333722,
+        "contract_time": "full_time",
+        "company": {
+            "display_name": "Maximus",
+            "__CLASS__": "Adzuna::API::Response::Company"
+        },
         "location": {
-            "display_name": "Hackensack, Bergen County",
-            "__CLASS__": "Adzuna::API::Response::Location",
+            "display_name": "La Vernia, Wilson County",
             "area": [
                 "US",
-                "New Jersey",
-                "Bergen County",
-                "Hackensack"
-            ]
-        },
-        "salary_is_predicted": "1",
-        "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTY0MzU2NDk2MSIsInMiOiJvcXRLRjNBYThSR2R2XzBEdFdIV2FRIn0.bgtVSv2NnytPUG61S-WPh0vYilIvkF4Es7j_eOu8duI",
-        "id": "5643564961",
-        "latitude": 40.887572,
+                "Texas",
+                "Wilson County",
+                "La Vernia"
+            ],
+            "__CLASS__": "Adzuna::API::Response::Location"
+        }
+    },
+    {
         "__CLASS__": "Adzuna::API::Response::Job",
-        "title": "Principal Trading Engineer (Java, Algo, SOR)",
+        "description": "General information Job Posting Title Front End Developer \u2013 Mid-level Date Wednesday, February 18, 2026 City San Antonio State TX Country United States Working time Full-time Description & Requirements Maximus is looking to hire a Front End Developer \u2013 Mid-level. This position is onsite, 5 days a week, and requires a TS/SCI security clearance. Maximus TCS (Technology and Consulting Services) Internal Job Profile Code: TCS232, T4, Band 7 Job-Specific Essential Duties and Responsibilities: Provid\u2026",
         "category": {
             "__CLASS__": "Adzuna::API::Response::Category",
             "label": "IT Jobs",
             "tag": "it-jobs"
+        },
+        "salary_is_predicted": "1",
+        "location": {
+            "display_name": "China Grove, Bexar County",
+            "__CLASS__": "Adzuna::API::Response::Location",
+            "area": [
+                "US",
+                "Texas",
+                "Bexar County",
+                "China Grove"
+            ]
+        },
+        "company": {
+            "display_name": "Maximus",
+            "__CLASS__": "Adzuna::API::Response::Company"
+        },
+        "contract_time": "full_time",
+        "latitude": 29.353554,
+        "redirect_url": "https://www.adzuna.com/land/ad/5637383984?se=3BdMI54a8RGcB9b2w1hBeQ&utm_medium=api&utm_source=42b6f469&v=8BC67D5A84ED07501DD386BBE1A66536B267EB4B",
+        "created": "2026-02-20T00:59:15Z",
+        "id": "5637383984",
+        "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTYzNzM4Mzk4NCIsInMiOiIzQmRNSTU0YThSR2NCOWIydzFoQmVRIn0.xrtYNP8LoJ7IrEMxcqqPfPkt8Zhz2MkjU0WwLiMNXto",
+        "title": "Front End Developer \u2013 Mid-level",
+        "salary_min": 88891.7,
+        "longitude": -98.433749,
+        "salary_max": 88891.7
+    },
+    {
+        "latitude": 29.425427,
+        "contract_time": "full_time",
+        "company": {
+            "display_name": "Maximus",
+            "__CLASS__": "Adzuna::API::Response::Company"
+        },
+        "location": {
+            "area": [
+                "US",
+                "Texas",
+                "Bexar County",
+                "San Antonio"
+            ],
+            "__CLASS__": "Adzuna::API::Response::Location",
+            "display_name": "San Antonio, Bexar County"
+        },
+        "salary_is_predicted": "1",
+        "category": {
+            "label": "IT Jobs",
+            "__CLASS__": "Adzuna::API::Response::Category",
+            "tag": "it-jobs"
+        },
+        "description": "General information Job Posting Title Senior Back End Developer Date Thursday, February 19, 2026 City San Antonio State TX Country United States Working time Full-time Description & Requirements Maximus is a trusted federal partner supporting mission\u2011critical programs across national security, defense, and public service delivery. Recent contract awards in cybersecurity and operational readiness underscore Maximus\u2019 role as a reliable prime for high\u2011impact government missions. Joining Maximus me\u2026",
+        "__CLASS__": "Adzuna::API::Response::Job",
+        "longitude": -98.489353,
+        "salary_max": 129812.41,
+        "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiM0JkTUk1NGE4UkdjQjliMncxaEJlUSIsImkiOiI1NjQzMTUxMTY4In0.HuIQ9v6RRzhEWK3fPOv1GWggR3CzfgtFsKbv3fJeq6c",
+        "salary_min": 129812.41,
+        "title": "Senior Back End Developer - TS/SCI Clearance Required",
+        "created": "2026-02-23T23:11:43Z",
+        "id": "5643151168",
+        "redirect_url": "https://www.adzuna.com/land/ad/5643151168?se=3BdMI54a8RGcB9b2w1hBeQ&utm_medium=api&utm_source=42b6f469&v=E75D83D5BB7CB96BE6E9413C1432B731D9AFB3AB"
+    },
+    {
+        "description": "General information Job Posting Title System Administrator Date Wednesday, February 18, 2026 City San Antonio State TX Country United States Working time Full-time Description & Requirements Maximus is a trusted federal partner supporting mission\u2011critical programs across national security, defense, and public service delivery. Recent contract awards in cybersecurity and operational readiness underscore Maximus\u2019 role as a reliable prime for high\u2011impact government missions. Joining Maximus means \u2026",
+        "__CLASS__": "Adzuna::API::Response::Job",
+        "category": {
+            "__CLASS__": "Adzuna::API::Response::Category",
+            "label": "IT Jobs",
+            "tag": "it-jobs"
+        },
+        "salary_is_predicted": "1",
+        "location": {
+            "display_name": "San Antonio, Bexar County",
+            "area": [
+                "US",
+                "Texas",
+                "Bexar County",
+                "San Antonio"
+            ],
+            "__CLASS__": "Adzuna::API::Response::Location"
+        },
+        "contract_time": "full_time",
+        "company": {
+            "__CLASS__": "Adzuna::API::Response::Company",
+            "display_name": "Maximus"
+        },
+        "latitude": 29.425427,
+        "redirect_url": "https://www.adzuna.com/land/ad/5639136521?se=3BdMI54a8RGcB9b2w1hBeQ&utm_medium=api&utm_source=42b6f469&v=08008CB65AF71639012E5FC401ECF1635CC4DEED",
+        "id": "5639136521",
+        "created": "2026-02-20T21:00:16Z",
+        "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTYzOTEzNjUyMSIsInMiOiIzQmRNSTU0YThSR2NCOWIydzFoQmVRIn0.Kyc7uIdR6et0D6bFEkD981_OwUY9Tc1x6QBPUrlay7k",
+        "salary_min": 89261.23,
+        "title": "System Administrator",
+        "longitude": -98.489353,
+        "salary_max": 89261.23
+    },
+    {
+        "longitude": -98.60616,
+        "salary_max": 86305.63,
+        "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiM0JkTUk1NGE4UkdjQjliMncxaEJlUSIsImkiOiI1NjUyMTMwOTU4In0.JNEIQW2UYXhI9xkYXRRF4sRuGZPJFRDEbE1Qp_N94-Y",
+        "title": "DevOps / Release Management Engineer",
+        "salary_min": 86305.63,
+        "id": "5652130958",
+        "created": "2026-03-03T02:53:32Z",
+        "redirect_url": "https://www.adzuna.com/land/ad/5652130958?se=3BdMI54a8RGcB9b2w1hBeQ&utm_medium=api&utm_source=42b6f469&v=3631B30F3E0A65C007A0269AD59AE6C5BA9E4718",
+        "latitude": 29.51736,
+        "contract_time": "full_time",
+        "company": {
+            "__CLASS__": "Adzuna::API::Response::Company",
+            "display_name": "Maximus"
+        },
+        "location": {
+            "__CLASS__": "Adzuna::API::Response::Location",
+            "area": [
+                "US",
+                "Texas",
+                "Bexar County",
+                "Leon Valley"
+            ],
+            "display_name": "Leon Valley, Bexar County"
+        },
+        "salary_is_predicted": "1",
+        "category": {
+            "__CLASS__": "Adzuna::API::Response::Category",
+            "label": "IT Jobs",
+            "tag": "it-jobs"
+        },
+        "__CLASS__": "Adzuna::API::Response::Job",
+        "description": "General information Job Posting Title DevOps / Release Management Engineer Date Tuesday, February 24, 2026 City San Antonio State TX Country United States Working time Full-time Description & Requirements Maximus is a trusted federal partner supporting mission\u2011critical programs across national security, defense, and public service delivery. Recent contract awards in cybersecurity and operational readiness underscore Maximus\u2019 role as a reliable prime for high\u2011impact government missions. Joining \u2026"
+    },
+    {
+        "salary_min": 101442.41,
+        "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTYzOTEzNjQzNiIsInMiOiIzQmRNSTU0YThSR2NCOWIydzFoQmVRIn0.szaDdkymg7ZXfG0qqmXOKIOuWuEcfni72TnL2n_41Rs",
+        "title": "System Test Engineer - Top Secret Clearance Required",
+        "longitude": -98.489353,
+        "salary_max": 101442.41,
+        "redirect_url": "https://www.adzuna.com/land/ad/5639136436?se=3BdMI54a8RGcB9b2w1hBeQ&utm_medium=api&utm_source=42b6f469&v=77C76D768DE016C8B15E2B86D37B73C6E638E53D",
+        "created": "2026-02-20T21:00:15Z",
+        "id": "5639136436",
+        "location": {
+            "display_name": "San Antonio, Bexar County",
+            "area": [
+                "US",
+                "Texas",
+                "Bexar County",
+                "San Antonio"
+            ],
+            "__CLASS__": "Adzuna::API::Response::Location"
+        },
+        "company": {
+            "display_name": "Maximus",
+            "__CLASS__": "Adzuna::API::Response::Company"
+        },
+        "contract_time": "full_time",
+        "latitude": 29.425427,
+        "description": "General information Job Posting Title System Test Engineer Date Wednesday, February 18, 2026 City San Antonio State TX Country United States Working time Full-time Description & Requirements Maximus is a trusted federal partner supporting mission\u2011critical programs across national security, defense, and public service delivery. Recent contract awards in cybersecurity and operational readiness underscore Maximus\u2019 role as a reliable prime for high\u2011impact government missions. Joining Maximus means \u2026",
+        "__CLASS__": "Adzuna::API::Response::Job",
+        "category": {
+            "__CLASS__": "Adzuna::API::Response::Category",
+            "label": "IT Jobs",
+            "tag": "it-jobs"
+        },
+        "salary_is_predicted": "1"
+    },
+    {
+        "latitude": 29.347725,
+        "company": {
+            "display_name": "Maximus",
+            "__CLASS__": "Adzuna::API::Response::Company"
+        },
+        "contract_time": "full_time",
+        "location": {
+            "area": [
+                "US",
+                "Texas",
+                "Medina County",
+                "Castroville"
+            ],
+            "__CLASS__": "Adzuna::API::Response::Location",
+            "display_name": "Castroville, Medina County"
+        },
+        "salary_is_predicted": "1",
+        "category": {
+            "label": "IT Jobs",
+            "__CLASS__": "Adzuna::API::Response::Category",
+            "tag": "it-jobs"
+        },
+        "description": "General information Job Posting Title Cyber Security Engineer Date Tuesday, February 24, 2026 City San Antonio State TX Country United States Working time Full-time Description & Requirements Maximus is a trusted federal partner supporting mission\u2011critical programs across national security, defense, and public service delivery. Recent contract awards in cybersecurity and operational readiness underscore Maximus\u2019 role as a reliable prime for high\u2011impact government missions. Joining Maximus means\u2026",
+        "__CLASS__": "Adzuna::API::Response::Job",
+        "salary_max": 63305.95,
+        "longitude": -98.884965,
+        "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiM0JkTUk1NGE4UkdjQjliMncxaEJlUSIsImkiOiI1NjUyMTMwOTM0In0.m4JYXg7aB_DZWDVLPYtb6D4mNPLwhskW1XgnF2Lzm0s",
+        "title": "Cyber Security Engineer",
+        "salary_min": 63305.95,
+        "created": "2026-03-03T02:53:30Z",
+        "id": "5652130934",
+        "redirect_url": "https://www.adzuna.com/land/ad/5652130934?se=3BdMI54a8RGcB9b2w1hBeQ&utm_medium=api&utm_source=42b6f469&v=8E8A69A69DF62DE663B5E5EA1E5A465131B21906"
+    },
+    {
+        "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTYzOTEzNjQ0MiIsInMiOiIzQmRNSTU0YThSR2NCOWIydzFoQmVRIn0.mwYC_vxRq1rrtDX3EyOUrUy7YqXyPkfKyKRUXUWa9iI",
+        "salary_min": 69344.43,
+        "title": "System Administrator",
+        "salary_max": 69344.43,
+        "longitude": -98.6753,
+        "created": "2026-02-20T21:00:15Z",
+        "id": "5639136442",
+        "redirect_url": "https://www.adzuna.com/land/ad/5639136442?se=3BdMI54a8RGcB9b2w1hBeQ&utm_medium=api&utm_source=42b6f469&v=C9C629D88C16F8B11C7F185734E1505679069C2D",
+        "location": {
+            "display_name": "Somerset, Bexar County",
+            "__CLASS__": "Adzuna::API::Response::Location",
+            "area": [
+                "US",
+                "Texas",
+                "Bexar County",
+                "Somerset"
+            ]
+        },
+        "latitude": 29.1961,
+        "company": {
+            "display_name": "Maximus",
+            "__CLASS__": "Adzuna::API::Response::Company"
+        },
+        "contract_time": "full_time",
+        "category": {
+            "label": "IT Jobs",
+            "__CLASS__": "Adzuna::API::Response::Category",
+            "tag": "it-jobs"
+        },
+        "__CLASS__": "Adzuna::API::Response::Job",
+        "description": "General information Job Posting Title System Administrator Date Wednesday, February 18, 2026 City San Antonio State TX Country United States Working time Full-time Description & Requirements Maximus is a trusted federal partner supporting mission\u2011critical programs across national security, defense, and public service delivery. Recent contract awards in cybersecurity and operational readiness underscore Maximus\u2019 role as a reliable prime for high\u2011impact government missions. Joining Maximus means \u2026",
+        "salary_is_predicted": "1"
+    },
+    {
+        "redirect_url": "https://www.adzuna.com/land/ad/5652130949?se=3BdMI54a8RGcB9b2w1hBeQ&utm_medium=api&utm_source=42b6f469&v=CF2DC7B746466A34A98A0B29A58BCCBF31954E70",
+        "created": "2026-03-03T02:53:31Z",
+        "id": "5652130949",
+        "title": "DevOps / Release Management Engineer",
+        "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTY1MjEzMDk0OSIsInMiOiIzQmRNSTU0YThSR2NCOWIydzFoQmVRIn0.gD3PyqgE-O8_4t6tQyMdGTBPxWW_csMIpaUG0zL0ZE4",
+        "salary_min": 86355.28,
+        "longitude": -98.487307,
+        "salary_max": 86355.28,
+        "description": "General information Job Posting Title DevOps / Release Management Engineer Date Tuesday, February 24, 2026 City San Antonio State TX Country United States Working time Full-time Description & Requirements Maximus is a trusted federal partner supporting mission\u2011critical programs across national security, defense, and public service delivery. Recent contract awards in cybersecurity and operational readiness underscore Maximus\u2019 role as a reliable prime for high\u2011impact government missions. Joining \u2026",
+        "__CLASS__": "Adzuna::API::Response::Job",
+        "category": {
+            "label": "IT Jobs",
+            "__CLASS__": "Adzuna::API::Response::Category",
+            "tag": "it-jobs"
+        },
+        "salary_is_predicted": "1",
+        "location": {
+            "display_name": "Timberwood Park, Bexar County",
+            "__CLASS__": "Adzuna::API::Response::Location",
+            "area": [
+                "US",
+                "Texas",
+                "Bexar County",
+                "Timberwood Park"
+            ]
+        },
+        "company": {
+            "__CLASS__": "Adzuna::API::Response::Company",
+            "display_name": "Maximus"
+        },
+        "contract_time": "full_time",
+        "latitude": 29.682328
+    },
+    {
+        "category": {
+            "tag": "it-jobs",
+            "label": "IT Jobs",
+            "__CLASS__": "Adzuna::API::Response::Category"
+        },
+        "description": "General information Job Posting Title UX/UI Designer Date Tuesday, February 24, 2026 City San Antonio State TX Country United States Working time Full-time Description & Requirements Maximus is a trusted federal partner supporting mission\u2011critical programs across national security, defense, and public service delivery. Recent contract awards in cybersecurity and operational readiness underscore Maximus\u2019 role as a reliable prime for high\u2011impact government missions. Joining Maximus means contribu\u2026",
+        "__CLASS__": "Adzuna::API::Response::Job",
+        "salary_is_predicted": "1",
+        "location": {
+            "display_name": "Somerset, Bexar County",
+            "area": [
+                "US",
+                "Texas",
+                "Bexar County",
+                "Somerset"
+            ],
+            "__CLASS__": "Adzuna::API::Response::Location"
+        },
+        "latitude": 29.1961,
+        "contract_time": "full_time",
+        "company": {
+            "__CLASS__": "Adzuna::API::Response::Company",
+            "display_name": "Maximus"
+        },
+        "created": "2026-02-26T19:43:51Z",
+        "id": "5646767458",
+        "redirect_url": "https://www.adzuna.com/land/ad/5646767458?se=3BdMI54a8RGcB9b2w1hBeQ&utm_medium=api&utm_source=42b6f469&v=487EDDF96211D3A613EE6914CFA9EF04F6B17FF2",
+        "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTY0Njc2NzQ1OCIsInMiOiIzQmRNSTU0YThSR2NCOWIydzFoQmVRIn0.2FEoqipijTi0RzU-4uSXgoFydsfaC4vrXPYu90d7678",
+        "salary_min": 75218.2,
+        "title": "UX/UI Designer",
+        "longitude": -98.6753,
+        "salary_max": 75218.2
+    },
+    {
+        "location": {
+            "display_name": "One Horse Store, Arkansas County",
+            "area": [
+                "US",
+                "Arkansas",
+                "Arkansas County",
+                "One Horse Store"
+            ],
+            "__CLASS__": "Adzuna::API::Response::Location"
+        },
+        "contract_time": "full_time",
+        "company": {
+            "display_name": "Mercy",
+            "__CLASS__": "Adzuna::API::Response::Company"
+        },
+        "latitude": 36.304508,
+        "description": "Find your calling at Mercy! The Director of HIM & Privacy, reporting to Mercy\u2019s Executive Director, leads strategic efforts to ensure the integrity, security, and compliance of health information systems. This role oversees patient record accuracy, privacy policy enforcement, and EHR system management in alignment with HIPAA and other regulations. The Director collaborates across departments to strengthen data governance, mitigate risk, and optimize information workflows. Position Details: Mini\u2026",
+        "__CLASS__": "Adzuna::API::Response::Job",
+        "category": {
+            "__CLASS__": "Adzuna::API::Response::Category",
+            "label": "IT Jobs",
+            "tag": "it-jobs"
+        },
+        "salary_is_predicted": "1",
+        "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiM0JkTUk1NGE4UkdjQjliMncxaEJlUSIsImkiOiI1NjU4MzA2NTMzIn0.ii-fs1mAnw_S97hxWK9Pgi-4v1DsIHqdHGh8HpaZ1z4",
+        "salary_min": 164476.31,
+        "title": "Director-Health Information Management & Privacy",
+        "longitude": -94.149474,
+        "salary_max": 164476.31,
+        "redirect_url": "https://www.adzuna.com/land/ad/5658306533?se=3BdMI54a8RGcB9b2w1hBeQ&utm_medium=api&utm_source=42b6f469&v=78ACB1C7E19FDEC12FA7B6D9DDE5AE34ACE9C027",
+        "id": "5658306533",
+        "created": "2026-03-07T22:20:18Z"
+    },
+    {
+        "salary_is_predicted": "1",
+        "__CLASS__": "Adzuna::API::Response::Job",
+        "description": "General information Job Posting Title Database Engineer Date Wednesday, February 18, 2026 City San Antonio State TX Country United States Working time Full-time Description & Requirements Maximus is a trusted federal partner supporting mission\u2011critical programs across national security, defense, and public service delivery. Recent contract awards in cybersecurity and operational readiness underscore Maximus\u2019 role as a reliable prime for high\u2011impact government missions. Joining Maximus means con\u2026",
+        "category": {
+            "tag": "it-jobs",
+            "__CLASS__": "Adzuna::API::Response::Category",
+            "label": "IT Jobs"
+        },
+        "contract_time": "full_time",
+        "company": {
+            "display_name": "Maximus",
+            "__CLASS__": "Adzuna::API::Response::Company"
+        },
+        "latitude": 29.333722,
+        "location": {
+            "area": [
+                "US",
+                "Texas",
+                "Wilson County",
+                "La Vernia"
+            ],
+            "__CLASS__": "Adzuna::API::Response::Location",
+            "display_name": "La Vernia, Wilson County"
+        },
+        "redirect_url": "https://www.adzuna.com/land/ad/5639136438?se=3BdMI54a8RGcB9b2w1hBeQ&utm_medium=api&utm_source=42b6f469&v=9134348192B61B6DD9C58E143BBDB8AD59C97B07",
+        "id": "5639136438",
+        "created": "2026-02-20T21:00:15Z",
+        "salary_max": 79077.67,
+        "longitude": -98.119804,
+        "salary_min": 79077.67,
+        "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiM0JkTUk1NGE4UkdjQjliMncxaEJlUSIsImkiOiI1NjM5MTM2NDM4In0.U9dtPV3Tsl-1CIpCi-rYe6S_L1tnCpSNCSJYs8EmQ-U",
+        "title": "Database Engineer"
+    },
+    {
+        "salary_is_predicted": "1",
+        "category": {
+            "tag": "it-jobs",
+            "__CLASS__": "Adzuna::API::Response::Category",
+            "label": "IT Jobs"
+        },
+        "__CLASS__": "Adzuna::API::Response::Job",
+        "description": "Job Description At Boeing, we innovate and collaborate to make the world a better place. We\u2019re committed to fostering an environment for every teammate that\u2019s welcoming, respectful and inclusive, with great opportunity for professional growth. Find your future with us. The Boeing Company is looking for Real Time Software Engineers (Experienced, Senior) for a Phantom Works Proprietary program located in Berkeley, MO . This position will focus on developing Vehicle Management System (VMS) softwar\u2026",
+        "latitude": 38.777448,
+        "company": {
+            "__CLASS__": "Adzuna::API::Response::Company",
+            "display_name": "Boeing"
+        },
+        "location": {
+            "display_name": "Robertson, Saint Louis County",
+            "__CLASS__": "Adzuna::API::Response::Location",
+            "area": [
+                "US",
+                "Missouri",
+                "Saint Louis County",
+                "Robertson"
+            ]
+        },
+        "id": "5654994654",
+        "created": "2026-03-05T10:07:07Z",
+        "redirect_url": "https://www.adzuna.com/land/ad/5654994654?se=3BdMI54a8RGcB9b2w1hBeQ&utm_medium=api&utm_source=42b6f469&v=CF2CB064A7C17D4F9E06C58E7D2F947A233E0C4B",
+        "salary_max": 145301.36,
+        "longitude": -90.373536,
+        "contract_type": "permanent",
+        "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTY1NDk5NDY1NCIsInMiOiIzQmRNSTU0YThSR2NCOWIydzFoQmVRIn0.6vg3LjrEEeWWeYnv2F0ufjJwd3mKfbWC5ZraxmA13QE",
+        "title": "Software Engineer (Experienced, Senior)",
+        "salary_min": 145301.36
+    },
+    {
+        "longitude": -96.679985,
+        "latitude": 34.783,
+        "salary_max": 212900.14,
+        "company": {
+            "__CLASS__": "Adzuna::API::Response::Company",
+            "display_name": "Mercy"
+        },
+        "location": {
+            "display_name": "Ada, Pontotoc County",
+            "area": [
+                "US",
+                "Oklahoma",
+                "Pontotoc County",
+                "Ada"
+            ],
+            "__CLASS__": "Adzuna::API::Response::Location"
+        },
+        "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiM0JkTUk1NGE4UkdjQjliMncxaEJlUSIsImkiOiI1NjA4NjQ0OTE0In0.tQancjV_c1sRBp5SyYYT4w6Cy6FZP4IYSMVDCLzFa5I",
+        "title": "Ada - Senior Radiologic Technologist - PRN",
+        "salary_min": 212900.14,
+        "created": "2026-02-01T07:09:15Z",
+        "id": "5608644914",
+        "salary_is_predicted": "1",
+        "redirect_url": "https://www.adzuna.com/land/ad/5608644914?se=3BdMI54a8RGcB9b2w1hBeQ&utm_medium=api&utm_source=42b6f469&v=CADDA03CB498B30B3C0983C8F05B814DBCFAEEF7",
+        "category": {
+            "tag": "it-jobs",
+            "label": "IT Jobs",
+            "__CLASS__": "Adzuna::API::Response::Category"
+        },
+        "__CLASS__": "Adzuna::API::Response::Job",
+        "description": "Find your calling at Mercy! Assist radiologist and/or performing physician in the performance of interventional and special procedures (myelography, hysterosalpingography, arthrography and any other such procedures). Provide the patient care essential to the exams. Is able to perform surgery procedures required by team/shift and is able to take OR call when necessary. Position Details: Requirements: Education : Graduate of an accredited Radiologic Technologist Program and completed required cli\u2026"
+    },
+    {
+        "redirect_url": "https://www.adzuna.com/land/ad/5639136453?se=3BdMI54a8RGcB9b2w1hBeQ&utm_medium=api&utm_source=42b6f469&v=89727E9F5A691874B6253187B15EEBBCA1B0C824",
+        "id": "5639136453",
+        "created": "2026-02-20T21:00:15Z",
+        "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiM0JkTUk1NGE4UkdjQjliMncxaEJlUSIsImkiOiI1NjM5MTM2NDUzIn0.MMqtaldLI6nThh0GvI87cJa82ahu7LNAmY4067VZi3s",
+        "salary_min": 80827.82,
+        "title": "Database Engineer",
+        "longitude": -98.487307,
+        "salary_max": 80827.82,
+        "__CLASS__": "Adzuna::API::Response::Job",
+        "description": "General information Job Posting Title Database Engineer Date Wednesday, February 18, 2026 City San Antonio State TX Country United States Working time Full-time Description & Requirements Maximus is a trusted federal partner supporting mission\u2011critical programs across national security, defense, and public service delivery. Recent contract awards in cybersecurity and operational readiness underscore Maximus\u2019 role as a reliable prime for high\u2011impact government missions. Joining Maximus means con\u2026",
+        "category": {
+            "__CLASS__": "Adzuna::API::Response::Category",
+            "label": "IT Jobs",
+            "tag": "it-jobs"
+        },
+        "salary_is_predicted": "1",
+        "location": {
+            "area": [
+                "US",
+                "Texas",
+                "Bexar County",
+                "Timberwood Park"
+            ],
+            "__CLASS__": "Adzuna::API::Response::Location",
+            "display_name": "Timberwood Park, Bexar County"
+        },
+        "contract_time": "full_time",
+        "company": {
+            "display_name": "Maximus",
+            "__CLASS__": "Adzuna::API::Response::Company"
+        },
+        "latitude": 29.682328
+    },
+    {
+        "salary_is_predicted": "1",
+        "category": {
+            "tag": "it-jobs",
+            "__CLASS__": "Adzuna::API::Response::Category",
+            "label": "IT Jobs"
+        },
+        "description": "JOB SUMMARY: Directs all operations, maintenance, cleanliness, and product quality control for grain elevator along with sales of feed, petroleum and assist Agronomy Manager with seed and anhydrous Ammonia sales. Supervises all full and part time employees to accomplish these responsibilities. Responsible to weigh all incoming and outgoing grain trucks, make grain settlements with customers. Perform duties in a manner that will optimize the cooperative\u2019s efficiency, help achieve the cooperative\u2026",
+        "__CLASS__": "Adzuna::API::Response::Job",
+        "latitude": 37.260174,
+        "company": {
+            "display_name": "MKC",
+            "__CLASS__": "Adzuna::API::Response::Company"
+        },
+        "contract_time": "part_time",
+        "location": {
+            "area": [
+                "US",
+                "Kansas",
+                "Meade County",
+                "Plains"
+            ],
+            "__CLASS__": "Adzuna::API::Response::Location",
+            "display_name": "Plains, Meade County"
+        },
+        "created": "2026-03-05T15:30:49Z",
+        "id": "5655387186",
+        "redirect_url": "https://www.adzuna.com/details/5655387186?utm_medium=api&utm_source=42b6f469",
+        "longitude": -100.593248,
+        "salary_max": 58241.81,
+        "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiM0JkTUk1NGE4UkdjQjliMncxaEJlUSIsImkiOiI1NjU1Mzg3MTg2In0.P6goerv6WjK00KHP4_hgf3kL1F3OXAUKC5WpIAzrgEQ",
+        "salary_min": 58241.81,
+        "title": "Grain Operations Manager"
+    },
+    {
+        "redirect_url": "https://www.adzuna.com/land/ad/5639136435?se=3BdMI54a8RGcB9b2w1hBeQ&utm_medium=api&utm_source=42b6f469&v=BB1D768915F6E3C8E1D65D90DA0C8B371E72E3F4",
+        "created": "2026-02-20T21:00:15Z",
+        "id": "5639136435",
+        "salary_max": 105284.41,
+        "longitude": -98.648018,
+        "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTYzOTEzNjQzNSIsInMiOiIzQmRNSTU0YThSR2NCOWIydzFoQmVRIn0.WOZNPRhgW84HjC_RS6AA-7RJ8cKGkPL_t2yFOGFn0_o",
+        "title": "Technical Advisor (Full Stack Developer)",
+        "salary_min": 105284.41,
+        "salary_is_predicted": "1",
+        "__CLASS__": "Adzuna::API::Response::Job",
+        "description": "General information Job Posting Title Technical Advisor (Full Stack Developer) Date Thursday, February 19, 2026 City San Antonio State TX Country United States Working time Full-time Description & Requirements Maximus is a trusted federal partner supporting mission\u2011critical programs across national security, defense, and public service delivery. Recent contract awards in cybersecurity and operational readiness underscore Maximus\u2019 role as a reliable prime for high\u2011impact government missions. Joi\u2026",
+        "category": {
+            "label": "IT Jobs",
+            "__CLASS__": "Adzuna::API::Response::Category",
+            "tag": "it-jobs"
+        },
+        "contract_time": "full_time",
+        "company": {
+            "__CLASS__": "Adzuna::API::Response::Company",
+            "display_name": "Maximus"
+        },
+        "latitude": 29.734485,
+        "location": {
+            "display_name": "Fair Oaks, Kendall County",
+            "__CLASS__": "Adzuna::API::Response::Location",
+            "area": [
+                "US",
+                "Texas",
+                "Kendall County",
+                "Fair Oaks"
+            ]
         }
+    },
+    {
+        "location": {
+            "area": [
+                "US",
+                "Texas",
+                "Dallas",
+                "Irving"
+            ],
+            "__CLASS__": "Adzuna::API::Response::Location",
+            "display_name": "Irving, Dallas"
+        },
+        "title": "Application System Analyst Lead - Converge Revenue Cycle",
+        "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTYyNzM2MzMxNSIsInMiOiIzQmRNSTU0YThSR2NCOWIydzFoQmVRIn0.gMyFYziGKNyH3hGVmRlKi9X_YWBqgNKjOCEm3iRtuTY",
+        "salary_min": 31025.11,
+        "latitude": 32.89297,
+        "longitude": -96.94904,
+        "salary_max": 31025.11,
+        "company": {
+            "display_name": "Christus Health",
+            "__CLASS__": "Adzuna::API::Response::Company"
+        },
+        "category": {
+            "__CLASS__": "Adzuna::API::Response::Category",
+            "label": "IT Jobs",
+            "tag": "it-jobs"
+        },
+        "description": "Description Summary: The Information Services Lead is responsible for leading and coordinating the efforts and content within the designated focus area. This position is the most senior level and will require coordination and consistency across related IS teams. Specific responsibilities include providing oversight for applications support including Incident, Problem, Request and Change Management. This position requires a self-starter with the ability to work with minimal oversight. Responsibi\u2026",
+        "__CLASS__": "Adzuna::API::Response::Job",
+        "created": "2026-02-13T01:35:42Z",
+        "id": "5627363315",
+        "salary_is_predicted": "1",
+        "redirect_url": "https://www.adzuna.com/land/ad/5627363315?se=3BdMI54a8RGcB9b2w1hBeQ&utm_medium=api&utm_source=42b6f469&v=DD38E437C86666F55AC0EFC143572D7E0572A471"
     }
 ]
