@@ -25,7 +25,7 @@ headers = {
 DB_URL = os.getenv("DATABASE_URL")
 
 def fetch_jobs():
-    r = requests.get(API_URL, headers=headers, params=querystring, timeout=10)
+    r = requests.get(API_URL, headers=headers, params=querystring, timeout=30)
     r.raise_for_status()
     return r.json()['data']
 
