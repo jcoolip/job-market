@@ -121,11 +121,14 @@ def assign_job_info(cur, jobs):
         salary_min = job['salary_min']
         salary_max = job['salary_max']
         salary_predicted = job['salary_is_predicted']
-        country = job['location']['area'][0]
-        state = job['location']['area'][1]
-        county = job['location']['area'][2]
-        if len(job['location']['area']) > 3:
-            city = job['location']['area'][3]
+        if len(job['location']['area']) == 0:
+            country = "Unknown"
+            state = "Unknown"
+            city = ""
+        else:
+            country = job['location']['area'][0]
+            state = job['location']['area'][1]
+            city = ""
         company = job['company']['display_name']
         source = "adzuna"
         source_url = job['redirect_url']
