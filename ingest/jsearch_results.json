@@ -1,134 +1,5 @@
 [
     {
-        "job_id": "HFiOYwCHlFHLls9DAAAAAA==",
-        "job_title": "Data Analyst - Telemetry & Operations - Remote (United States)",
-        "employer_name": "Decima International",
-        "employer_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9xHqjJRgOjt140SDA7Zk2_pPlAAn46KY6gyHW&s=0",
-        "employer_website": "https://decimaintl.com",
-        "job_publisher": "Indeed",
-        "job_employment_type": "Full-time",
-        "job_employment_types": [
-            "FULLTIME"
-        ],
-        "job_apply_link": "https://www.indeed.com/viewjob?jk=6b03649df528e4c1&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
-        "job_apply_is_direct": false,
-        "apply_options": [
-            {
-                "publisher": "Indeed",
-                "apply_link": "https://www.indeed.com/viewjob?jk=6b03649df528e4c1&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
-                "is_direct": false
-            },
-            {
-                "publisher": "Monster",
-                "apply_link": "https://www.monster.com/job-openings/data-analyst-telemetry-operations-remote-united-states-allen-tx--193b63b5-2a8b-4383-b23f-c5253a2960d8?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
-                "is_direct": false
-            },
-            {
-                "publisher": "Jobgether",
-                "apply_link": "https://jobgether.com/offer/6981ea9e9242569942716ae5-data-analyst---telemetry-operations---remote-united-states?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
-                "is_direct": false
-            },
-            {
-                "publisher": "Teal",
-                "apply_link": "https://www.tealhq.com/job/data-analyst-telemetry-operations_7ea1a52e593553f445962ff6cb47b2023efce?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
-                "is_direct": false
-            },
-            {
-                "publisher": "Workday",
-                "apply_link": "https://zoll.wd5.myworkdayjobs.com/ZOLLMedicalCorp/job/Pittsburgh-PA/Operations-Data-Analyst_R17952/apply?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
-                "is_direct": false
-            },
-            {
-                "publisher": "LinkedIn",
-                "apply_link": "https://www.linkedin.com/jobs/view/data-analyst-telemetry-operations-remote-united-states-at-decima-international-4368401664?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
-                "is_direct": false
-            },
-            {
-                "publisher": "Jooble",
-                "apply_link": "https://jooble.org/jdp/-5310243113484184765?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
-                "is_direct": false
-            },
-            {
-                "publisher": "Glassdoor",
-                "apply_link": "https://www.glassdoor.com/job-listing/data-analyst-telemetry-and-operations-remote-united-states-decima-international-JV_IC1139946_KO0,58_KE59,79.htm?jl=1010020525450&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
-                "is_direct": false
-            },
-            {
-                "apply_link": "https://www.indeed.com/viewjob?jk=6b03649df528e4c1",
-                "is_direct": null,
-                "publisher": "Indeed"
-            }
-        ],
-        "job_description": "Decima International is a professional services company, providing project management and controls services to clients in the United States and the Middle East. Our mission is to become the premier professional services provider across all industry sectors we are engaged in. To accomplish this, Decima International's founders established a simple yet powerful formula:\n\nApproach each client engagement as a partnership, create an environment that attracts the most talented professionals and allows them to flourish, and regulate growth to maintain excellence in our service standards.\n\nDecima International is a professional services company, providing project management and controls services to clients in the United States and the Middle East. Our mission is to become the premier professional services provider across all industry sectors we are engaged in. To accomplish this, Decima International's founders established a simple yet powerful formula:\n\nApproach each client engagement as a partnership, create an environment that attracts the most talented professionals and allows them to flourish, and regulate growth to maintain excellence in our service standards.\n\nDecima International is a professional services company, providing project management and controls services to clients in the United States and the Middle East. Our mission is to become the premier professional services provider across all industry sectors we are engaged in. To accomplish this, Decima International's founders established a simple yet powerful formula:\nApproach each client engagement as a partnership, create an environment that attracts the most talented professionals and allows them to flourish, and regulate growth to maintain excellence in our service standards.\n\nWe are looking for a driven and capable Data Analyst \u2013 Telemetry & Operations (Critical Infrastructure | Data Center Operations) to support our clients by analyzing operational and telemetry data across critical infrastructure environments, enabling informed decision-making and improved operational performance.\n\nYou will play an integral role in analyzing real-time and historical operational data, validating telemetry signals, supporting incident investigations, and producing clear, evidence-based insights that assist clients, vendors, and project teams in managing risk, performance, and reliability.\n\nWe are looking to bring in dedicated individuals with strong analytical skills and a passion for operational data who thrive in fast-paced, incident-driven environments. We will help you grow, pursue, and fulfill what inspires you so we can make big impacts on the world together.\n\nRESPONSIBILITIES:\n\nTelemetry & Incident Data Analysis\nOperational Data Analysis:\n\u2022 Analyze real-time telemetry alerts and operational datasets to validate incidents, identify anomalies, and assess operational impact.\n\u2022 Differentiate true events from false positives, duplicate alerts, and known recurring conditions.\n\u2022 Correlate trends, timestamps, logs, and event data to support severity assessment and operational decision-making.\n\u2022 Prepare clear, data-backed incident summaries to support client and stakeholder response activities.\n\nOperational Support & Vendor Coordination\nIncident & Stakeholder Support:\n\u2022 Provide analytical context and data-driven insights to clients and external vendors during incident investigations.\n\u2022 Track remediation actions, response timelines, and outcomes using structured operational data.\n\u2022 Support escalation and prioritization decisions through evidence-based analysis.\nCommunicate findings clearly and concisely to operations, service management, and project stakeholders.\n\nData Quality, Trends & Insights\nPerformance & Trend Analysis:\n\u2022 Identify recurring incident patterns, systemic operational risks, and vendor performance trends.\n\u2022 Highlight gaps in telemetry coverage, data quality, alert logic, or monitoring effectiveness.\n\u2022 Recommend opportunities for alert tuning, automation, and improved monitoring or reporting practices.\n\u2022 Support continuous improvement initiatives by surfacing actionable insights from operational data.\n\nDocumentation & Continuous Improvement\nReporting & Knowledge Management:\n\u2022 Maintain accurate, auditable records of analyses, incidents, and findings in approved client and company tools.\n\u2022 Contribute analytical insights to improve runbooks, alert definitions, and operational standards.\n\u2022 Support initiatives aimed at reducing Mean Time to Resolution (MTTR) and minimizing repeat incidents.\n\nQUALIFICATIONS\n\nRequired Qualifications:\n\u2022 Bachelor's degree in Data Analytics, Data Science, Computer Science, Engineering (Electrical, Mechanical, Computer, Network), Information Systems, Information Technology, or a related technical field.\n\u2022 10+ years of experience in a data analyst, operations analyst, or telemetry/monitoring-focused role.\n\u2022 Hands-on experience working with time-series data, logs, alerts, or event-driven datasets.\n\u2022 Strong analytical skills with the ability to interpret noisy, incomplete, or real-time data.\n\u2022 Excellent documentation, written, and verbal communication skills.\n\u2022 Ability to operate independently in fast-paced, incident-driven environments.\n\u2022 Comfort working across vendors and cross-functional technical teams.\n\nPreferred Qualifications:\n\u2022 Experience supporting data centers, infrastructure operations, NOC/SOC environments, or other critical systems.\n\u2022 Familiarity with incident management, problem management, or operational analytics practices.\n\u2022 Exposure to telemetry, observability, or monitoring platforms.\n\u2022 Understanding of root cause analysis concepts and service management frameworks (e.g., ITIL).\n\nPOSITION DETAILS:\n\u2022 Location: Remote Position (US-based)\n\u2022 Position: Data Analyst \u2013 Telemetry & Operations\n\u2022 Position Classification: Salary-based full-time hours\n\u2022 Current US work permit required. This position does not offer sponsorship for employment (e.g., H-1B visa sponsorship or transfer not offered)\n\nPRODUCTIVITY TOOLS:\n\u2022 Microsoft Office\n\u2022 Microsoft 365\n\nDecima International is an Equal Opportunity Employer who is committed to the safety and wellbeing of all. All qualified applicants will receive consideration for employment without regard to race, religion, creed, color, national origin, ancestry, sex (including pregnancy, childbirth, breastfeeding, or medical conditions related to pregnancy, childbirth, or breastfeeding), age, medical condition, marital or domestic partner status, sexual orientation, gender, gender identity, gender expression and transgender status, mental disability or physical disability, genetic information, military or veteran status, citizenship, low-income status or any other status or characteristic protected by applicable law.\n\nAt Decima International, we offer a competitive salary package, including paid time off and performance-based bonuses. We also provide excellent medical, vision and dental insurance for our employees.",
-        "job_is_remote": true,
-        "job_posted_at": null,
-        "job_posted_at_timestamp": null,
-        "job_posted_at_datetime_utc": null,
-        "job_location": "Allen, TX",
-        "job_city": "Allen",
-        "job_state": "Texas",
-        "job_country": "US",
-        "job_latitude": 33.1031744,
-        "job_longitude": -96.6705503,
-        "job_benefits": [
-            "paid_time_off",
-            "dental_coverage",
-            "health_insurance"
-        ],
-        "job_google_link": "https://www.google.com/search?q=jobs&gl=us&hl=en&udm=8#vhid=vt%3D20/docid%3DHFiOYwCHlFHLls9DAAAAAA%3D%3D&vssid=jobs-detail-viewer",
-        "job_salary": null,
-        "job_min_salary": null,
-        "job_max_salary": null,
-        "job_salary_period": null,
-        "job_highlights": {
-            "Qualifications": [
-                "We are looking to bring in dedicated individuals with strong analytical skills and a passion for operational data who thrive in fast-paced, incident-driven environments",
-                "Bachelor's degree in Data Analytics, Data Science, Computer Science, Engineering (Electrical, Mechanical, Computer, Network), Information Systems, Information Technology, or a related technical field",
-                "10+ years of experience in a data analyst, operations analyst, or telemetry/monitoring-focused role",
-                "Hands-on experience working with time-series data, logs, alerts, or event-driven datasets",
-                "Strong analytical skills with the ability to interpret noisy, incomplete, or real-time data",
-                "Excellent documentation, written, and verbal communication skills",
-                "Ability to operate independently in fast-paced, incident-driven environments",
-                "Comfort working across vendors and cross-functional technical teams",
-                "Current US work permit required",
-                "This position does not offer sponsorship for employment (e.g., H-1B visa sponsorship or transfer not offered)",
-                "Microsoft Office"
-            ],
-            "Benefits": [
-                "At Decima International, we offer a competitive salary package, including paid time off and performance-based bonuses",
-                "We also provide excellent medical, vision and dental insurance for our employees"
-            ],
-            "Responsibilities": [
-                "We are looking for a driven and capable Data Analyst \u2013 Telemetry & Operations (Critical Infrastructure | Data Center Operations) to support our clients by analyzing operational and telemetry data across critical infrastructure environments, enabling informed decision-making and improved operational performance",
-                "You will play an integral role in analyzing real-time and historical operational data, validating telemetry signals, supporting incident investigations, and producing clear, evidence-based insights that assist clients, vendors, and project teams in managing risk, performance, and reliability",
-                "Telemetry & Incident Data Analysis",
-                "Operational Data Analysis:",
-                "Analyze real-time telemetry alerts and operational datasets to validate incidents, identify anomalies, and assess operational impact",
-                "Differentiate true events from false positives, duplicate alerts, and known recurring conditions",
-                "Correlate trends, timestamps, logs, and event data to support severity assessment and operational decision-making",
-                "Prepare clear, data-backed incident summaries to support client and stakeholder response activities",
-                "Operational Support & Vendor Coordination",
-                "Incident & Stakeholder Support:",
-                "Provide analytical context and data-driven insights to clients and external vendors during incident investigations",
-                "Track remediation actions, response timelines, and outcomes using structured operational data",
-                "Support escalation and prioritization decisions through evidence-based analysis",
-                "Communicate findings clearly and concisely to operations, service management, and project stakeholders",
-                "Identify recurring incident patterns, systemic operational risks, and vendor performance trends",
-                "Highlight gaps in telemetry coverage, data quality, alert logic, or monitoring effectiveness",
-                "Recommend opportunities for alert tuning, automation, and improved monitoring or reporting practices",
-                "Support continuous improvement initiatives by surfacing actionable insights from operational data",
-                "Documentation & Continuous Improvement",
-                "Reporting & Knowledge Management:",
-                "Maintain accurate, auditable records of analyses, incidents, and findings in approved client and company tools",
-                "Contribute analytical insights to improve runbooks, alert definitions, and operational standards",
-                "Support initiatives aimed at reducing Mean Time to Resolution (MTTR) and minimizing repeat incidents",
-                "Position Classification: Salary-based full-time hours"
-            ]
-        },
-        "job_onet_soc": "43911100",
-        "job_onet_job_zone": "4"
-    },
-    {
         "job_id": "nOs3wtZPaR9Cu38ZAAAAAA==",
         "job_title": "Virtual Data Analyst Full Time ( 100% Remote)",
         "employer_name": "Ark Solutions, Inc.",
@@ -223,6 +94,135 @@
         "job_onet_job_zone": "4"
     },
     {
+        "job_id": "HFiOYwCHlFHLls9DAAAAAA==",
+        "job_title": "Data Analyst - Telemetry & Operations - Remote (United States)",
+        "employer_name": "Decima International",
+        "employer_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9xHqjJRgOjt140SDA7Zk2_pPlAAn46KY6gyHW&s=0",
+        "employer_website": "https://decimaintl.com",
+        "job_publisher": "Indeed",
+        "job_employment_type": "Full-time",
+        "job_employment_types": [
+            "FULLTIME"
+        ],
+        "job_apply_link": "https://www.indeed.com/viewjob?jk=6b03649df528e4c1&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+        "job_apply_is_direct": false,
+        "apply_options": [
+            {
+                "publisher": "Indeed",
+                "apply_link": "https://www.indeed.com/viewjob?jk=6b03649df528e4c1&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                "is_direct": false
+            },
+            {
+                "publisher": "Monster",
+                "apply_link": "https://www.monster.com/job-openings/data-analyst-telemetry-operations-remote-united-states-allen-tx--193b63b5-2a8b-4383-b23f-c5253a2960d8?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                "is_direct": false
+            },
+            {
+                "publisher": "Jobgether",
+                "apply_link": "https://jobgether.com/offer/6981ea9e9242569942716ae5-data-analyst---telemetry-operations---remote-united-states?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                "is_direct": false
+            },
+            {
+                "publisher": "Teal",
+                "apply_link": "https://www.tealhq.com/job/data-analyst-telemetry-operations_7ea1a52e593553f445962ff6cb47b2023efce?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                "is_direct": false
+            },
+            {
+                "publisher": "Workday",
+                "apply_link": "https://zoll.wd5.myworkdayjobs.com/ZOLLMedicalCorp/job/Pittsburgh-PA/Operations-Data-Analyst_R17952/apply?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                "is_direct": false
+            },
+            {
+                "publisher": "LinkedIn",
+                "apply_link": "https://www.linkedin.com/jobs/view/data-analyst-telemetry-operations-remote-united-states-at-decima-international-4368401664?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                "is_direct": false
+            },
+            {
+                "publisher": "Jooble",
+                "apply_link": "https://jooble.org/jdp/-5310243113484184765?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                "is_direct": false
+            },
+            {
+                "publisher": "Glassdoor",
+                "apply_link": "https://www.glassdoor.com/job-listing/data-analyst-telemetry-and-operations-remote-united-states-decima-international-JV_IC1139946_KO0,58_KE59,79.htm?jl=1010020525450&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                "is_direct": false
+            },
+            {
+                "apply_link": "https://www.indeed.com/viewjob?jk=6b03649df528e4c1",
+                "is_direct": null,
+                "publisher": "Indeed"
+            }
+        ],
+        "job_description": "Decima International is a professional services company, providing project management and controls services to clients in the United States and the Middle East. Our mission is to become the premier professional services provider across all industry sectors we are engaged in. To accomplish this, Decima International's founders established a simple yet powerful formula:\n\nApproach each client engagement as a partnership, create an environment that attracts the most talented professionals and allows them to flourish, and regulate growth to maintain excellence in our service standards.\n\nDecima International is a professional services company, providing project management and controls services to clients in the United States and the Middle East. Our mission is to become the premier professional services provider across all industry sectors we are engaged in. To accomplish this, Decima International's founders established a simple yet powerful formula:\n\nApproach each client engagement as a partnership, create an environment that attracts the most talented professionals and allows them to flourish, and regulate growth to maintain excellence in our service standards.\n\nDecima International is a professional services company, providing project management and controls services to clients in the United States and the Middle East. Our mission is to become the premier professional services provider across all industry sectors we are engaged in. To accomplish this, Decima International's founders established a simple yet powerful formula:\nApproach each client engagement as a partnership, create an environment that attracts the most talented professionals and allows them to flourish, and regulate growth to maintain excellence in our service standards.\n\nWe are looking for a driven and capable Data Analyst \u2013 Telemetry & Operations (Critical Infrastructure | Data Center Operations) to support our clients by analyzing operational and telemetry data across critical infrastructure environments, enabling informed decision-making and improved operational performance.\n\nYou will play an integral role in analyzing real-time and historical operational data, validating telemetry signals, supporting incident investigations, and producing clear, evidence-based insights that assist clients, vendors, and project teams in managing risk, performance, and reliability.\n\nWe are looking to bring in dedicated individuals with strong analytical skills and a passion for operational data who thrive in fast-paced, incident-driven environments. We will help you grow, pursue, and fulfill what inspires you so we can make big impacts on the world together.\n\nRESPONSIBILITIES:\n\nTelemetry & Incident Data Analysis\nOperational Data Analysis:\n\u2022 Analyze real-time telemetry alerts and operational datasets to validate incidents, identify anomalies, and assess operational impact.\n\u2022 Differentiate true events from false positives, duplicate alerts, and known recurring conditions.\n\u2022 Correlate trends, timestamps, logs, and event data to support severity assessment and operational decision-making.\n\u2022 Prepare clear, data-backed incident summaries to support client and stakeholder response activities.\n\nOperational Support & Vendor Coordination\nIncident & Stakeholder Support:\n\u2022 Provide analytical context and data-driven insights to clients and external vendors during incident investigations.\n\u2022 Track remediation actions, response timelines, and outcomes using structured operational data.\n\u2022 Support escalation and prioritization decisions through evidence-based analysis.\nCommunicate findings clearly and concisely to operations, service management, and project stakeholders.\n\nData Quality, Trends & Insights\nPerformance & Trend Analysis:\n\u2022 Identify recurring incident patterns, systemic operational risks, and vendor performance trends.\n\u2022 Highlight gaps in telemetry coverage, data quality, alert logic, or monitoring effectiveness.\n\u2022 Recommend opportunities for alert tuning, automation, and improved monitoring or reporting practices.\n\u2022 Support continuous improvement initiatives by surfacing actionable insights from operational data.\n\nDocumentation & Continuous Improvement\nReporting & Knowledge Management:\n\u2022 Maintain accurate, auditable records of analyses, incidents, and findings in approved client and company tools.\n\u2022 Contribute analytical insights to improve runbooks, alert definitions, and operational standards.\n\u2022 Support initiatives aimed at reducing Mean Time to Resolution (MTTR) and minimizing repeat incidents.\n\nQUALIFICATIONS\n\nRequired Qualifications:\n\u2022 Bachelor's degree in Data Analytics, Data Science, Computer Science, Engineering (Electrical, Mechanical, Computer, Network), Information Systems, Information Technology, or a related technical field.\n\u2022 10+ years of experience in a data analyst, operations analyst, or telemetry/monitoring-focused role.\n\u2022 Hands-on experience working with time-series data, logs, alerts, or event-driven datasets.\n\u2022 Strong analytical skills with the ability to interpret noisy, incomplete, or real-time data.\n\u2022 Excellent documentation, written, and verbal communication skills.\n\u2022 Ability to operate independently in fast-paced, incident-driven environments.\n\u2022 Comfort working across vendors and cross-functional technical teams.\n\nPreferred Qualifications:\n\u2022 Experience supporting data centers, infrastructure operations, NOC/SOC environments, or other critical systems.\n\u2022 Familiarity with incident management, problem management, or operational analytics practices.\n\u2022 Exposure to telemetry, observability, or monitoring platforms.\n\u2022 Understanding of root cause analysis concepts and service management frameworks (e.g., ITIL).\n\nPOSITION DETAILS:\n\u2022 Location: Remote Position (US-based)\n\u2022 Position: Data Analyst \u2013 Telemetry & Operations\n\u2022 Position Classification: Salary-based full-time hours\n\u2022 Current US work permit required. This position does not offer sponsorship for employment (e.g., H-1B visa sponsorship or transfer not offered)\n\nPRODUCTIVITY TOOLS:\n\u2022 Microsoft Office\n\u2022 Microsoft 365\n\nDecima International is an Equal Opportunity Employer who is committed to the safety and wellbeing of all. All qualified applicants will receive consideration for employment without regard to race, religion, creed, color, national origin, ancestry, sex (including pregnancy, childbirth, breastfeeding, or medical conditions related to pregnancy, childbirth, or breastfeeding), age, medical condition, marital or domestic partner status, sexual orientation, gender, gender identity, gender expression and transgender status, mental disability or physical disability, genetic information, military or veteran status, citizenship, low-income status or any other status or characteristic protected by applicable law.\n\nAt Decima International, we offer a competitive salary package, including paid time off and performance-based bonuses. We also provide excellent medical, vision and dental insurance for our employees.",
+        "job_is_remote": true,
+        "job_posted_at": null,
+        "job_posted_at_timestamp": null,
+        "job_posted_at_datetime_utc": null,
+        "job_location": "Allen, TX",
+        "job_city": "Allen",
+        "job_state": "Texas",
+        "job_country": "US",
+        "job_latitude": 33.1031744,
+        "job_longitude": -96.6705503,
+        "job_benefits": [
+            "dental_coverage",
+            "health_insurance",
+            "paid_time_off"
+        ],
+        "job_google_link": "https://www.google.com/search?q=jobs&gl=us&hl=en&udm=8#vhid=vt%3D20/docid%3DHFiOYwCHlFHLls9DAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+        "job_salary": null,
+        "job_min_salary": null,
+        "job_max_salary": null,
+        "job_salary_period": null,
+        "job_highlights": {
+            "Qualifications": [
+                "We are looking to bring in dedicated individuals with strong analytical skills and a passion for operational data who thrive in fast-paced, incident-driven environments",
+                "Bachelor's degree in Data Analytics, Data Science, Computer Science, Engineering (Electrical, Mechanical, Computer, Network), Information Systems, Information Technology, or a related technical field",
+                "10+ years of experience in a data analyst, operations analyst, or telemetry/monitoring-focused role",
+                "Hands-on experience working with time-series data, logs, alerts, or event-driven datasets",
+                "Strong analytical skills with the ability to interpret noisy, incomplete, or real-time data",
+                "Excellent documentation, written, and verbal communication skills",
+                "Ability to operate independently in fast-paced, incident-driven environments",
+                "Comfort working across vendors and cross-functional technical teams",
+                "Current US work permit required",
+                "This position does not offer sponsorship for employment (e.g., H-1B visa sponsorship or transfer not offered)",
+                "Microsoft Office"
+            ],
+            "Benefits": [
+                "At Decima International, we offer a competitive salary package, including paid time off and performance-based bonuses",
+                "We also provide excellent medical, vision and dental insurance for our employees"
+            ],
+            "Responsibilities": [
+                "We are looking for a driven and capable Data Analyst \u2013 Telemetry & Operations (Critical Infrastructure | Data Center Operations) to support our clients by analyzing operational and telemetry data across critical infrastructure environments, enabling informed decision-making and improved operational performance",
+                "You will play an integral role in analyzing real-time and historical operational data, validating telemetry signals, supporting incident investigations, and producing clear, evidence-based insights that assist clients, vendors, and project teams in managing risk, performance, and reliability",
+                "Telemetry & Incident Data Analysis",
+                "Operational Data Analysis:",
+                "Analyze real-time telemetry alerts and operational datasets to validate incidents, identify anomalies, and assess operational impact",
+                "Differentiate true events from false positives, duplicate alerts, and known recurring conditions",
+                "Correlate trends, timestamps, logs, and event data to support severity assessment and operational decision-making",
+                "Prepare clear, data-backed incident summaries to support client and stakeholder response activities",
+                "Operational Support & Vendor Coordination",
+                "Incident & Stakeholder Support:",
+                "Provide analytical context and data-driven insights to clients and external vendors during incident investigations",
+                "Track remediation actions, response timelines, and outcomes using structured operational data",
+                "Support escalation and prioritization decisions through evidence-based analysis",
+                "Communicate findings clearly and concisely to operations, service management, and project stakeholders",
+                "Identify recurring incident patterns, systemic operational risks, and vendor performance trends",
+                "Highlight gaps in telemetry coverage, data quality, alert logic, or monitoring effectiveness",
+                "Recommend opportunities for alert tuning, automation, and improved monitoring or reporting practices",
+                "Support continuous improvement initiatives by surfacing actionable insights from operational data",
+                "Documentation & Continuous Improvement",
+                "Reporting & Knowledge Management:",
+                "Maintain accurate, auditable records of analyses, incidents, and findings in approved client and company tools",
+                "Contribute analytical insights to improve runbooks, alert definitions, and operational standards",
+                "Support initiatives aimed at reducing Mean Time to Resolution (MTTR) and minimizing repeat incidents",
+                "Position Classification: Salary-based full-time hours"
+            ]
+        },
+        "job_onet_soc": "43911100",
+        "job_onet_job_zone": "4"
+    },
+    {
         "job_id": "mABtyJlIyjNLl7KCAAAAAA==",
         "job_title": "UT/UTCD Data Analyst [Level 3]",
         "employer_name": "Pipecare Group",
@@ -265,6 +265,155 @@
         "job_longitude": null,
         "job_benefits": null,
         "job_google_link": "https://www.google.com/search?q=jobs&gl=us&hl=en&udm=8#vhid=vt%3D20/docid%3DmABtyJlIyjNLl7KCAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+        "job_salary": null,
+        "job_min_salary": null,
+        "job_max_salary": null,
+        "job_salary_period": null,
+        "job_highlights": {},
+        "job_onet_soc": "43911100",
+        "job_onet_job_zone": "4"
+    },
+    {
+        "job_id": "_-VUNwwdD2krOkVJAAAAAA==",
+        "job_title": "Remote Work: Data Analyst",
+        "employer_name": "Jobgether",
+        "employer_logo": null,
+        "employer_website": "https://jobgether.com",
+        "job_publisher": "Jooble",
+        "job_employment_type": "Full-time",
+        "job_employment_types": [
+            "FULLTIME"
+        ],
+        "job_apply_link": "https://jooble.org/jdp/-2661551596311687385?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+        "job_apply_is_direct": false,
+        "apply_options": [
+            {
+                "publisher": "Jooble",
+                "apply_link": "https://jooble.org/jdp/-2661551596311687385?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                "is_direct": false
+            },
+            {
+                "publisher": "Remote Jobs USA",
+                "apply_link": "https://hiringremotejobs.net/job/602946?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                "is_direct": false
+            },
+            {
+                "publisher": "Remote Part-Time Customer Support Agent (Entry-Level) At Amazon",
+                "apply_link": "https://tildaquest.net/job/416355?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                "is_direct": false
+            },
+            {
+                "publisher": "Learn4Good",
+                "apply_link": "https://www.learn4good.com/jobs/online_remote/info_technology/4854500776/e/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                "is_direct": false
+            },
+            {
+                "publisher": "Jobzen",
+                "apply_link": "https://jobzen.topsiksha.com/job/remote-data-systems-analyst?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                "is_direct": false
+            },
+            {
+                "apply_link": "https://jooble.org/jdp/-2661551596311687385",
+                "is_direct": null,
+                "publisher": "Jooble"
+            }
+        ],
+        "job_description": "This position is posted by Jobgether on behalf of a partner company. We are currently looking for a Data Analyst. This role is crucial in supporting the evaluation of key initiatives related to crisis intervention and suicide prevention. You will be instrumental in advancing data-driven insights that inform national behavioral health strategy and enhance crisis system performance. Joining a multidisciplinary team, you will collect, manage, analyze, and interpret complex datasets related to healthcare systems. The ideal candidate will demonstrate strong analytical abilities and a commitment to improving behavioral health outcomes through data.\n\nAccountabilities\n\nClean and manage quantitative and qualitative data.\n\nConduct statistical analyses to evaluate program performance, service utilization, and outcomes.\n\nDevelop dashboards, visualizations, and reports for federal stakeholders.\n\nSupport the preparation of technical deliverables and evaluation briefs.\n\nCollaborate with project managers and experts to translate findings into actionable insights.\n\nEnsure data integrity and contribute to continuous quality improvement efforts.\n\nRequirements\n\n5+ years of experience in data analysis related to program evaluation or public health.\n\nBachelor\u2019s degree in a quantitative field such as Public Health, Statistics, or Data Science.\n\nExperience managing and analyzing large datasets.\n\nProficiency in statistical software such as R, SAS, Stata, or Python.\n\nExperience with SQL for data extraction and manipulation.\n\nAbility to create data visualizations using tools like Tableau or Power BI.\n\nExperience with automated processes and documenting data workflows.\n\nStrong communication skills to convey technical findings to non-technical stakeholders.\n\nAbility to work collaboratively in a fast-paced, multidisciplinary environment.\n\nBenefits\n\nFlexible remote work options.\n\nOpportunity to have a direct impact on behavioral health initiatives.\n\nCollaborative and supportive team environment.\n\nProfessional development opportunities.\n\nWork on critical federal contracts and initiatives.\n\nCompetitive salaries and benefits.\n\nWhy Apply Through Jobgether?\nWe use an AI-powered matching process to ensure your application is reviewed quickly, objectively, and fairly against the role's core requirements. Our system identifies the top-fitting candidates, and this shortlist is then shared directly with the hiring company. The final decision and next steps (interviews, assessments) are managed by their internal team.\n\nWe appreciate your interest and wish you the best!\n\nData Privacy Notice: By submitting your application, you acknowledge that Jobgether will process your personal data to evaluate your candidacy and share relevant information with the hiring employer. This processing is based on legitimate interest and pre-contractual measures under applicable data protection laws (including GDPR). You may exercise your rights (access, rectification, erasure, objection) at any time.\n\n#J-18808-Ljbffr Jobgether",
+        "job_is_remote": true,
+        "job_posted_at": "1 day ago",
+        "job_posted_at_timestamp": 1772841600,
+        "job_posted_at_datetime_utc": "2026-03-07T00:00:00.000Z",
+        "job_location": "Trenton, NJ",
+        "job_city": "Trenton",
+        "job_state": "New Jersey",
+        "job_country": "US",
+        "job_latitude": 40.2201787,
+        "job_longitude": -74.7642295,
+        "job_benefits": null,
+        "job_google_link": "https://www.google.com/search?q=jobs&gl=us&hl=en&udm=8#vhid=vt%3D20/docid%3D_-VUNwwdD2krOkVJAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+        "job_salary": null,
+        "job_min_salary": null,
+        "job_max_salary": null,
+        "job_salary_period": null,
+        "job_highlights": {
+            "Qualifications": [
+                "5+ years of experience in data analysis related to program evaluation or public health",
+                "Bachelor\u2019s degree in a quantitative field such as Public Health, Statistics, or Data Science",
+                "Experience managing and analyzing large datasets",
+                "Proficiency in statistical software such as R, SAS, Stata, or Python",
+                "Experience with SQL for data extraction and manipulation",
+                "Ability to create data visualizations using tools like Tableau or Power BI",
+                "Experience with automated processes and documenting data workflows",
+                "Strong communication skills to convey technical findings to non-technical stakeholders",
+                "Ability to work collaboratively in a fast-paced, multidisciplinary environment"
+            ],
+            "Benefits": [
+                "Flexible remote work options",
+                "Opportunity to have a direct impact on behavioral health initiatives",
+                "Collaborative and supportive team environment",
+                "Professional development opportunities",
+                "Competitive salaries and benefits"
+            ],
+            "Responsibilities": [
+                "This role is crucial in supporting the evaluation of key initiatives related to crisis intervention and suicide prevention",
+                "You will be instrumental in advancing data-driven insights that inform national behavioral health strategy and enhance crisis system performance",
+                "Joining a multidisciplinary team, you will collect, manage, analyze, and interpret complex datasets related to healthcare systems",
+                "The ideal candidate will demonstrate strong analytical abilities and a commitment to improving behavioral health outcomes through data",
+                "Clean and manage quantitative and qualitative data",
+                "Conduct statistical analyses to evaluate program performance, service utilization, and outcomes",
+                "Develop dashboards, visualizations, and reports for federal stakeholders",
+                "Support the preparation of technical deliverables and evaluation briefs",
+                "Collaborate with project managers and experts to translate findings into actionable insights",
+                "Ensure data integrity and contribute to continuous quality improvement efforts",
+                "Work on critical federal contracts and initiatives"
+            ]
+        },
+        "job_onet_soc": "43911100",
+        "job_onet_job_zone": "4"
+    },
+    {
+        "job_id": "SS7xs2-YmIN9D75fAAAAAA==",
+        "job_title": "Data Analyst Graduate | Brighty Agency | Remote US",
+        "employer_name": "Brighty Agency",
+        "employer_logo": null,
+        "employer_website": null,
+        "job_publisher": "Jobera",
+        "job_employment_type": "Full-time",
+        "job_employment_types": [
+            "FULLTIME"
+        ],
+        "job_apply_link": "https://jobera.com/remote-job/data-analyst-graduate-brighty-agency-remote-us/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+        "job_apply_is_direct": false,
+        "apply_options": [
+            {
+                "publisher": "Jobera",
+                "apply_link": "https://jobera.com/remote-job/data-analyst-graduate-brighty-agency-remote-us/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                "is_direct": false
+            },
+            {
+                "publisher": "Google Store",
+                "apply_link": "https://hosting45.tamsconsultants.com/blogs/news/data-analyst-graduate-brighty-agency-remote-us?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                "is_direct": false
+            },
+            {
+                "apply_link": "https://jobera.com/remote-job/data-analyst-graduate-brighty-agency-remote-us/",
+                "is_direct": null,
+                "publisher": "Jobera"
+            }
+        ],
+        "job_description": "Bright Interactive is a digital marketing company based in LA. We specialize in crafting tailored campaigns that resonate with your audience and drive meaningful results, from marketing strategy to SEO optimization. Leveraging our diverse perspectives, we deliver personalized, data-driven strategies that elevate your brand\u2019s online presence. At Bright Interactive, we\u2019re committed to innovation and inclusivity, staying ahead in the ever-evolving digital landscape while upholding integrity and creativity in all our endeavors.\n\nAbout the role\n\nAs a Graduate Data Analyst, you\u2019ll utilize your analytical abilities to collect, organize, and analyze data to provide insights that drive decision-making and optimize business performance. You\u2019ll be responsible for interpreting data, identifying trends, and generating reports to support various departments within the organization. This role offers an exciting opportunity to contribute to our company\u2019s growth and success while upholding our core values through diligent analysis and strategic recommendations.\n\nSome of what you will do:\n\u2022 Collecting and compiling data from various sources, including databases, spreadsheets, and external APIs.\n\u2022 Cleaning and preprocessing data to ensure accuracy and reliability for analysis.\n\u2022 Performing exploratory data analysis to identify patterns, trends, and correlations within the data.\n\u2022 Utilizing statistical methods and data visualization techniques to present findings effectively.\n\u2022 Assisting in the development and implementation of data models and algorithms.\n\u2022 Collaborating with team members to understand data requirements and objectives.\n\u2022 Generating reports and dashboards to communicate insights and recommendations to stakeholders.\n\u2022 Supporting ad-hoc analysis and data inquiries from different departments.\n\u2022 Monitoring data quality and integrity to ensure consistency and reliability.\n\u2022 Staying updated on industry trends and best practices in data analysis and data management.\n\nWhat will help you be successful:\n\u2022 Bachelor\u2019s degree in a quantitative field such as Mathematics, Statistics, Computer Science, Economics, or related field.\n\u2022 Proficiency in data manipulation and analysis using tools such as Microsoft Excel, SQL, or Python.\n\u2022 Basic understanding of statistical concepts and techniques.\n\u2022 Familiarity with data visualization tools such as Tableau, Power BI, or matplotlib.\n\u2022 Strong analytical and problem-solving skills with attention to detail.\n\u2022 Excellent verbal and written communication skills to convey complex findings to non-technical stakeholders.\n\u2022 Ability to work independently as well as collaboratively within a team environment.\n\u2022 Eagerness to learn and adapt to new technologies and methodologies.\n\u2022 Prior internship or coursework experience in data analysis or related field is a plus.\n\u2022 Strong organizational skills and ability to manage multiple tasks efficiently.\n\u2022 Knowledge of machine learning concepts and algorithms is desirable but not required.\n\u2022 Understanding of database management systems and data warehousing principles is advantageous.\n\nWhat we offer:\n\u2022 Highly competitive salary and extensive employee benefits package.\n\u2022 An impactful role offering genuine influence and contribution opportunities.\n\u2022 A nurturing culture that prizes creativity, learning, and empowerment within a supportive team environment.\n\u2022 Ample opportunities for professional growth in a company at the forefront of digital innovation.\n\u2022 Wellness Days dedicated to prioritizing physical and mental well-being.\n\u2022 Additional leave allowance of 2 weeks annually\n\u2022 Two paid volunteer days each year to support our affiliated charities and give back to the community.\n\nHow to Apply:\n\nAt Bright Interactive, we are dedicated to fostering a workplace that celebrates diversity and inclusivity, where every employee\u2019s unique qualities are embraced and valued for their significant contribution. We firmly believe that a diverse and inclusive environment brings out the best in each individual and enables us to deliver a truly exceptional client experience. We welcome applications from candidates of all cultural backgrounds, genders, and sexual orientations. If you believe this role aligns with your aspirations, we warmly invite you to apply today. We look forward to connecting with you!",
+        "job_is_remote": true,
+        "job_posted_at": null,
+        "job_posted_at_timestamp": null,
+        "job_posted_at_datetime_utc": null,
+        "job_location": null,
+        "job_city": null,
+        "job_state": null,
+        "job_country": null,
+        "job_latitude": null,
+        "job_longitude": null,
+        "job_benefits": null,
+        "job_google_link": "https://www.google.com/search?q=jobs&gl=us&hl=en&udm=8#vhid=vt%3D20/docid%3DSS7xs2-YmIN9D75fAAAAAA%3D%3D&vssid=jobs-detail-viewer",
         "job_salary": null,
         "job_min_salary": null,
         "job_max_salary": null,
@@ -522,9 +671,9 @@
         "job_latitude": 43.005945499999996,
         "job_longitude": -123.8925908,
         "job_benefits": [
-            "dental_coverage",
+            "paid_time_off",
             "health_insurance",
-            "paid_time_off"
+            "dental_coverage"
         ],
         "job_google_link": "https://www.google.com/search?q=jobs&gl=us&hl=en&udm=8#vhid=vt%3D20/docid%3DU_EczjGychzKHW_AAAAAAA%3D%3D&vssid=jobs-detail-viewer",
         "job_min_salary": 40000,
@@ -581,6 +730,11 @@
             {
                 "publisher": "Talent.com",
                 "apply_link": "https://www.talent.com/view?id=d4e5d451c9fe&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                "is_direct": false
+            },
+            {
+                "publisher": "MySmartPros",
+                "apply_link": "https://www.mysmartpros.com/tuition/job/remote-data-analyst-work-from-home/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
                 "is_direct": false
             },
             {
@@ -775,148 +929,6 @@
                 "Identification of workflow improvements",
                 "Data-driven insights that improve review efficiency and reduce client costs",
                 "Opportunity to shape AI-driven workflows in litigation"
-            ]
-        },
-        "job_onet_soc": "43911100",
-        "job_onet_job_zone": "4"
-    },
-    {
-        "job_id": "WlWznQrnMempo2FxAAAAAA==",
-        "job_title": "Remote Economic Data Analyst: Policy & Forecasting",
-        "employer_name": "Corner Alliance",
-        "employer_logo": null,
-        "employer_website": "https://www.corneralliance.com",
-        "job_publisher": "JobLeads",
-        "job_employment_type": "Full-time",
-        "job_employment_types": [
-            "FULLTIME"
-        ],
-        "job_apply_link": "https://www.jobleads.com/us/job/remote-economic-data-analyst-policy-forecasting--washington--e52d303dfc2bfc39aa5ca5514889f7714?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
-        "job_apply_is_direct": false,
-        "apply_options": [
-            {
-                "publisher": "JobLeads",
-                "apply_link": "https://www.jobleads.com/us/job/remote-economic-data-analyst-policy-forecasting--washington--e52d303dfc2bfc39aa5ca5514889f7714?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
-                "is_direct": false
-            },
-            {
-                "publisher": "Learn4Good",
-                "apply_link": "https://www.learn4good.com/jobs/online_remote/info_technology/4890058682/e/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
-                "is_direct": false
-            },
-            {
-                "apply_link": "https://www.jobleads.com/us/job/remote-economic-data-analyst-policy-forecasting--washington--e52d303dfc2bfc39aa5ca5514889f7714",
-                "is_direct": null,
-                "publisher": "JobLeads"
-            }
-        ],
-        "job_description": "A growing consulting firm is seeking an Economic Data Analyst to provide rigorous data-driven analysis for federal government clients. Ideal candidates will have 3\u20136 years of experience in federal consulting, a strong background in economics, and proficiency with data analysis tools like Excel and Python. The role involves analyzing large datasets and translating findings into actionable insights, ideally suited for individuals comfortable in government decision-making environments.",
-        "job_is_remote": true,
-        "job_posted_at": "3 days ago",
-        "job_posted_at_timestamp": 1772668800,
-        "job_posted_at_datetime_utc": "2026-03-05T00:00:00.000Z",
-        "job_location": "Washington, DC",
-        "job_city": "Washington",
-        "job_state": "District of Columbia",
-        "job_country": "US",
-        "job_latitude": 38.9072873,
-        "job_longitude": -77.0369274,
-        "job_benefits": null,
-        "job_google_link": "https://www.google.com/search?q=jobs&gl=us&hl=en&udm=8#vhid=vt%3D20/docid%3DWlWznQrnMempo2FxAAAAAA%3D%3D&vssid=jobs-detail-viewer",
-        "job_min_salary": 90000,
-        "job_max_salary": 110000,
-        "job_salary_period": "YEAR",
-        "job_highlights": {
-            "Qualifications": [
-                "Ideal candidates will have 3\u20136 years of experience in federal consulting, a strong background in economics, and proficiency with data analysis tools like Excel and Python",
-                "The role involves analyzing large datasets and translating findings into actionable insights, ideally suited for individuals comfortable in government decision-making environments"
-            ]
-        },
-        "job_onet_soc": "19301100",
-        "job_onet_job_zone": "5"
-    },
-    {
-        "job_id": "TAqEy2guWB8bQ0LbAAAAAA==",
-        "job_title": "Data Analyst - Remote",
-        "employer_name": "SynergisticIT",
-        "employer_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ27GYnNl74POfKYF6exj_-Pc9dDCCYQ6h48QD0&s=0",
-        "employer_website": "https://www.synergisticit.com",
-        "job_publisher": "Jobgether",
-        "job_employment_type": "Full-time",
-        "job_employment_types": [
-            "FULLTIME"
-        ],
-        "job_apply_link": "https://jobgether.com/offer/6965f4ce96ae97ba4ad10f6a-data-analyst---remote?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
-        "job_apply_is_direct": false,
-        "apply_options": [
-            {
-                "publisher": "Jobgether",
-                "apply_link": "https://jobgether.com/offer/6965f4ce96ae97ba4ad10f6a-data-analyst---remote?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
-                "is_direct": false
-            },
-            {
-                "publisher": "Teal",
-                "apply_link": "https://www.tealhq.com/job/lead-data-analyst_7ea1a39023d612425c52aa6791c1f674454c5?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
-                "is_direct": false
-            },
-            {
-                "publisher": "Workday",
-                "apply_link": "https://bigcommerce.wd12.myworkdayjobs.com/en-US/Commerce/job/United-States---Remote/Marketplace-Product-Data-Analyst---Remote_JR102224?ajs_aid=a66abd9c-5816-42b9-9bb6-642abcf1782b&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
-                "is_direct": false
-            },
-            {
-                "publisher": "Magic, Inc Careers",
-                "apply_link": "https://magic.pinpointhq.com/postings/946e819a-1164-4742-a012-5ae2f560f828?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
-                "is_direct": false
-            },
-            {
-                "publisher": "Jooble",
-                "apply_link": "https://jooble.org/jdp/1302027843779559950?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
-                "is_direct": false
-            },
-            {
-                "publisher": "LinkedIn",
-                "apply_link": "https://www.linkedin.com/jobs/view/enterprise-data-analyst-remote-at-jobgether-4381690474?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
-                "is_direct": false
-            },
-            {
-                "publisher": "Monster",
-                "apply_link": "https://www.monster.com/job-openings/data-analyst-remote-austin-tx--c4a0220c-29af-4059-8989-1513784f7999?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
-                "is_direct": false
-            },
-            {
-                "publisher": "Jobs - Alooba",
-                "apply_link": "https://jobs.alooba.com/us/job/optum-data-analyst-1-national-remote-836971/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
-                "is_direct": false
-            },
-            {
-                "apply_link": "https://jobgether.com/offer/6965f4ce96ae97ba4ad10f6a-data-analyst---remote",
-                "is_direct": null,
-                "publisher": "Jobgether"
-            }
-        ],
-        "job_description": "This a Full Remote job, the offer is available from: Alabama (USA), Michigan (USA)\n\n\ud83c\udf93 Let SynergisticIT Help You Secure Your First Tech Role\u2014Fast\n\nIf you're a Computer Science graduate on F-1 OPT and planning to file for your STEM extension, time is of the essence. The clock is ticking\u2014and getting placed in a qualifying tech job isn't optional. It's essential.\n\nThat's where SynergisticIT comes in. We specialize in helping international CS grads like you land roles that not only meet STEM OPT and H-1B requirements but also launch long-term careers in development, data, DevOps, and cloud.\n\n\ud83d\udcbc Why International Grads Choose SynergisticIT\n\nWe've helped thousands of candidates land full-time roles at companies like Apple, PayPal, Visa, Client, and Google\u2014many of them F-1 students just like you, looking to transition smoothly from OPT to STEM and beyond.\n\nHere's how we set you up for success:\n\n\u2705 STEM-Qualifying Roles \u2013 Our client network hires for Java Full Stack Development, Data Science, Data Analytics, Machine Learning, DevOps, and Software Engineering\u2014all STEM-friendly.\n\n\u2705 End-to-End Support \u2013 We offer placement assistance with clients who are E-Verified and can support your STEM extension, H-1B, and even Green Card down the road.\n\n\u2705 Real Projects & Job-Ready Skills \u2013 Learn Spring Boot, AWS, Docker, Power BI, Tableau, Snowflake, TensorFlow, and more\u2014skills directly tied to in-demand jobs.\n\n\u2705 1-on-1 Mentorship & Interview Prep \u2013 From technical assessments to behavioral coaching, we guide you until you're confident\u2014and hired.\n\n\ud83d\udc65 Who Should Apply?\n\u2022 F-1 OPT holders who need employment to file the STEM extension\n\u2022 CS grads who haven't landed a job post-graduation or were recently laid off\n\u2022 Recent STEM grads who want to build real projects, earn certifications, and get placed in stable, long-term roles\n\n\ud83c\udfaf It's Not Just About Getting a Job. It's About Keeping Your Status.\n\nEmployers today are more selective than ever. With remote hiring, global competition, and evolving tech stacks, it's not enough to have a degree\u2014you need to demonstrate real value.\n\nWe help you become the candidate they don't want to pass up.\n\n\ud83d\udc49 See how others transitioned from OPT to full-time roles\n\n\ud83d\udd17 Let's secure your future\u2014starting now. Apply today at SynergisticIT.com and get connected with employers who understand your timeline and support your goals.\n\nBecause your skills deserve more than a time limit\u2014they deserve a career.\n\nThis offer from \"SynergisticIT\" has been enriched by Jobgether.com and got a 75% flex score.",
-        "job_is_remote": true,
-        "job_posted_at": null,
-        "job_posted_at_timestamp": null,
-        "job_posted_at_datetime_utc": null,
-        "job_location": "United States",
-        "job_city": null,
-        "job_state": null,
-        "job_country": "US",
-        "job_latitude": 38.794595199999996,
-        "job_longitude": -106.5348379,
-        "job_benefits": null,
-        "job_google_link": "https://www.google.com/search?q=jobs&gl=us&hl=en&udm=8#vhid=vt%3D20/docid%3DTAqEy2guWB8bQ0LbAAAAAA%3D%3D&vssid=jobs-detail-viewer",
-        "job_salary": null,
-        "job_min_salary": null,
-        "job_max_salary": null,
-        "job_salary_period": null,
-        "job_highlights": {
-            "Qualifications": [
-                "F-1 OPT holders who need employment to file the STEM extension",
-                "CS grads who haven't landed a job post-graduation or were recently laid off",
-                "Recent STEM grads who want to build real projects, earn certifications, and get placed in stable, long-term roles"
             ]
         },
         "job_onet_soc": "43911100",
