@@ -4,6 +4,7 @@ import usajobs
 import usajobs_skills
 import adzuna
 import jsearch
+import industry_classify
 import logging
 from datetime import datetime
 
@@ -17,22 +18,17 @@ logging.basicConfig(
     format="%(asctime)s - %(levelname)s - %(message)s",
 )
 
-
 def main():
     logging.info("-- BEGIN --")
-    print("_.-`` remotive ``-._")
+    print("start")
     remotive.main()
-    print("``-._  skills  _.-``")
     remotive_skills.main()
-    print("_.-`` usajobs ``-._")
     usajobs.main()
-    print("``-._  skills  _.-``")
     usajobs_skills.main()
-    print("_.-``  adzuna  ``-._")
     adzuna.main()
-    logging.info("attempt jsearch")
-    print("_.-``  jsearch  ``-._")
     jsearch.main()
+    industry_classify.main()
+    print("finish")
     logging.info("-- COMPLETE --")
 
 

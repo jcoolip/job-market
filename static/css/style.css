@@ -21,7 +21,9 @@
 * { margin: 0; padding: 0; box-sizing: border-box; }
 
 body {
-    height: 100vh;
+    /*height: 100vh;*/
+    min-height: 100vh;
+    padding: 1rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -29,6 +31,17 @@ body {
     font-family: Helvetica, sans-serif;
     color: black;
     text-align: center;
+}
+@media (max-width: 768px) {
+    .card {
+        width: 100%;
+        padding: 1.5rem;
+        border-radius: 12px;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
 }
 .card {
     font-family: "LavishlyYours", Helvetica, sans-serif;
@@ -42,8 +55,9 @@ body {
     background: var(--color6);
     backdrop-filter: blur(1px);
     box-shadow: 5px 15px 10px 10px rgba(0,0,0,0.6);
+    width: 100%;
     max-width: 400px;
-    width: 90%;
+    
 }
 h1 {
     font-size: clamp(2rem, 5vw, 4rem);

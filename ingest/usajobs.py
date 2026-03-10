@@ -13,21 +13,41 @@ HEADERS = {
     "User-Agent": os.getenv("USAJOBS_EMAIL"),
     "Authorization-Key": os.getenv("USAJOBS_API_KEY"),
 }
-
-PARAMS = {"Keyword": "data analyst", "ResultsPerPage": 25}
+PARAMS_LIST = [
+    {"keyword": "it jobs"},
+    {"keyword": "engineering jobs"},
+    {"keyword": "data analyst"},
+    {"keyword": "scrub tech"}
+]
+# PARAMS = {"Keyword": "data analyst", "ResultsPerPage": 25}
 
 DB_URL = os.getenv("DATABASE_URL")
 
+def fetch_jobs(cur):
+    rows_added = 0
+    for p in PARAMS_LIST:
+        r = requests.get(API_URL, headers=HEADERS, params=p, timeout=10)
+        r.raise_for_status()
+        f = f"1{p.get('keyword')}.json"
+        jobs = r.json()["SearchResult"]["SearchResultItems"]
+        with open(f, "w") as json_file:
+            json.dump(jobs, json_file, indent=4)
+        
+        for item in jobs:
+            job = item["MatchedObjectDescriptor"]
+            external_id = item["MatchedObjectId"]
+            company_id = upsert_company(cur, job["OrganizationName"])
+            location = job.get("PositionLocation", [{}])[0]
 
-def fetch_jobs():
-    r = requests.get(API_URL, headers=HEADERS, params=PARAMS, timeout=10)
-    r.raise_for_status()
-    return r.json()["SearchResult"]["SearchResultItems"]
+            location_id = upsert_location(cur, location)
 
+            _, inserted = insert_job(cur, external_id, job, company_id, location_id)
+            rows_added += inserted
+        
+    return rows_added
 
 def get_connection():
     return psycopg2.connect(DB_URL)
-
 
 def upsert_company(cur, name):
     cur.execute(
@@ -41,7 +61,6 @@ def upsert_company(cur, name):
         (name,),
     )
     return cur.fetchone()[0]
-
 
 def upsert_location(cur, location_obj):
 
@@ -67,11 +86,11 @@ def upsert_location(cur, location_obj):
 
     return cur.fetchone()[0]
 
-
 def insert_job(cur, external_id, job, company_id, location_id):
     r = job.get("PositionRemuneration", [{}])[0]
     salary_min = float(r.get("MinimumRange")) if r.get("MinimumRange") else None
     salary_max = float(r.get("MaximumRange")) if r.get("MaximumRange") else None
+
 
     cur.execute(
         """
@@ -97,7 +116,7 @@ def insert_job(cur, external_id, job, company_id, location_id):
             salary_min = EXCLUDED.salary_min,
             salary_max = EXCLUDED.salary_max,
             is_active = TRUE
-        RETURNING id;
+        RETURNING id, (xmax = 0) AS inserted;
     """,
         (
             external_id,
@@ -112,33 +131,22 @@ def insert_job(cur, external_id, job, company_id, location_id):
             salary_max,
         ),
     )
+    job_id, inserted = cur.fetchone()
 
-    return cur.fetchone()[0]
-
+    return job_id, int(inserted)
 
 def main():
-    jobs = fetch_jobs()
+
     conn = get_connection()
     cur = conn.cursor()
 
-    # jobs.to_json("jsonSave.json", orient="records", indent=2)
-    f = "usajobsResults.json"
-    with open(f, "w") as json_file:
-        json.dump(jobs, json_file, indent=4)
-
-    for item in jobs:
-        job = item["MatchedObjectDescriptor"]
-        external_id = item["MatchedObjectId"]
-        company_id = upsert_company(cur, job["OrganizationName"])
-        location = job.get("PositionLocation", [{}])[0]
-
-        location_id = upsert_location(cur, location)
-
-        insert_job(cur, external_id, job, company_id, location_id)
+    rows_added = fetch_jobs(cur)
 
     conn.commit()
     cur.close()
     conn.close()
+
+    print(f"USAJobs added {rows_added}")
 
 if __name__ == "__main__":
     main()

@@ -65,7 +65,7 @@ def insert_job(cur, external_id, company_id, location_id,
                salary_min, salary_max, salary_freq,
                employment_type, qualifications, benefits, 
                responsibilities, is_remote):
-    
+  
     cur.execute(
         """
         INSERT INTO jobs (
@@ -99,7 +99,7 @@ def insert_job(cur, external_id, company_id, location_id,
             benefits = EXCLUDED.benefits,
             responsibilities = EXCLUDED.responsibilities,
             work_mode = EXCLUDED.work_mode
-        RETURNING id;
+        RETURNING id, (xmax = 0) AS inserted;
     """,
         (
             external_id,
@@ -119,7 +119,9 @@ def insert_job(cur, external_id, company_id, location_id,
             is_remote
         ),
     )
-    return cur.fetchone()[0]
+    job_id, inserted = cur.fetchone()
+
+    return job_id, int(inserted)
 
 def assign_job_info(cur, jobs):
     for job in jobs:
@@ -155,8 +157,10 @@ def assign_job_info(cur, jobs):
             is_remote = "unknown"
         company_id = upsert_company(cur, company)
         location_id = upsert_location(cur, city, state, country)
-        job_id = insert_job(cur, external_id, company_id, location_id, title, description_raw, source, source_url, salary_min, salary_max, salary_freq, employment_type, qualifications, benefits, responsibilities, is_remote)
+        job_id, inserted = insert_job(cur, external_id, company_id, location_id, title, description_raw, source, source_url, salary_min, salary_max, salary_freq, employment_type, qualifications, benefits, responsibilities, is_remote)
         fetch_dbskills(cur, job_id, description_raw)
+
+        return inserted
 
 def fetch_dbskills(cur, job_id, job_desc):
     # populate our skills from table
@@ -204,7 +208,7 @@ def db_open():
     return conn, cur
 
 def main():
-
+    rows_added = 0
     ## api call to retrieve and store jobs
     jobs = fetch_jobs()
     ## save api call results in json 
@@ -217,11 +221,13 @@ def main():
     ## upsert company, location, 
     ## insert job
     ## scan job description for known skills and insert
-    assign_job_info(cur, jobs)
+    rows_added = assign_job_info(cur, jobs)
     
     ## commit our sql 
     ## close our cursor and connection
     db_close(cur, conn)
+
+    print(f"Jsearch added {rows_added}")
 
 if __name__ == "__main__":
     main()

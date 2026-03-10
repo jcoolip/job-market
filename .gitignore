@@ -16,9 +16,9 @@ ENV/
 # =========================
 # Environment variables
 # =========================
-#.env
-#.env.*
-#*.env
+.env
+.env.*
+*.env
 
 # =========================
 # Flask / runtime

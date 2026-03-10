@@ -95,6 +95,7 @@ def insert_job(cur, external_id, item, company_id, location_id):
     tags = item["tags"]
     tags_row = ",".join(tags)
 
+
     cur.execute(
         """
         INSERT INTO jobs (
@@ -126,8 +127,7 @@ def insert_job(cur, external_id, item, company_id, location_id):
             salary_currency = EXCLUDED.salary_currency,
             salary_raw = EXCLUDED.salary_raw,
             tags = EXCLUDED.tags
-
-        RETURNING id;
+        RETURNING id, (xmax = 0) AS inserted;
     """,
         (
             external_id,
@@ -147,9 +147,14 @@ def insert_job(cur, external_id, item, company_id, location_id):
             tags_row
         ),
     )
-    return cur.fetchone()[0]
+    job_id, inserted = cur.fetchone()
+
+    return job_id, int(inserted)
 
 def main():
+
+    rows_added = 0
+
     jobs = fetch_jobs()
     conn = get_connection()
     cur = conn.cursor()
@@ -160,12 +165,14 @@ def main():
         company_id = upsert_company(cur, item["company_name"])
         location = item["candidate_required_location"]
         location_id = upsert_location(cur, location)
-        insert_job(cur, external_id, item, company_id, location_id)
-
+        _, inserted = insert_job(cur, external_id, item, company_id, location_id)
+        rows_added += inserted
 
     conn.commit()
     cur.close()
     conn.close()
+
+    print(f"Remotive added {rows_added}")
 
 if __name__ == "__main__":
     main()

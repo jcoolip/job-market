@@ -54,7 +54,6 @@ def upsert_location(cur, city, state, country):
     return cur.fetchone()[0]
 
 def insert_job(cur, external_id, company_id, location_id, title, description_raw, source, source_url, salary_min, salary_max, salary_predicted, employment_type):
-    
     cur.execute(
         """
         INSERT INTO jobs (
@@ -83,7 +82,7 @@ def insert_job(cur, external_id, company_id, location_id, title, description_raw
             salary_max = EXCLUDED.salary_max,
             salary_currency = EXCLUDED.salary_currency,
             salary_predicted = EXCLUDED.salary_predicted
-        RETURNING id;
+        RETURNING id, (xmax = 0) AS inserted;
     """,
         (
             external_id,
@@ -100,7 +99,9 @@ def insert_job(cur, external_id, company_id, location_id, title, description_raw
             salary_predicted
         ),
     )
-    return cur.fetchone()[0]
+    job_id, inserted = cur.fetchone()
+
+    return job_id, int(inserted)
 
 def db_close(cur, conn):
     if not debug:
@@ -114,6 +115,7 @@ def db_open():
     return conn, cur
 
 def assign_job_info(cur, jobs):
+    rows_added = 0
     for job in jobs:
         title = job['title']
         external_id = job['id']
@@ -139,8 +141,10 @@ def assign_job_info(cur, jobs):
         )
         company_id = upsert_company(cur, company)
         location_id = upsert_location(cur, city, state, country)
-        job_id = insert_job(cur, external_id, company_id, location_id, title, description_raw, source, source_url, salary_min, salary_max, salary_predicted, employment_type)
+        job_id, inserted = insert_job(cur, external_id, company_id, location_id, title, description_raw, source, source_url, salary_min, salary_max, salary_predicted, employment_type)
+        rows_added += inserted
         fetch_dbskills(cur, job_id, description_raw)
+        return rows_added
 
 def fetch_dbskills(cur, job_id, job_desc):
     # populate our skills from table
@@ -191,11 +195,13 @@ def main():
     ## upsert company, location, 
     ## insert job
     ## scan job description for known skills and insert
-    assign_job_info(cur, jobs)
+    rows_added = assign_job_info(cur, jobs)
     
     ## commit our sql 
     ## close our cursor and connection
     db_close(cur, conn)
+
+    print(f"Adzuna added {rows_added}")
 
 if __name__ == "__main__":
     main()

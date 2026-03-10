@@ -42,12 +42,10 @@ def fetch_dbskills(cur):
             if weight:
                 tag_skill_on_job(cur, j_id, s_id, weight)
 
-
 def check_skills(cur, job, skill):
     weight = len(re.findall(rf"\b{re.escape(skill[0])}\b", job[1] or "", re.IGNORECASE))
     if weight:
         tag_skill_on_job(cur, job, skill, weight)
-
 
 def is_remote(cur):
     ## very important WHERE statement here... ##
@@ -89,8 +87,6 @@ def is_remote(cur):
             (workplace, j_id),
         )
 
-
-
 def tag_skill_on_job(cur, job, skill, weight):
     cur.execute(
         """
@@ -105,7 +101,6 @@ def tag_skill_on_job(cur, job, skill, weight):
 def get_conn():
     return psycopg2.connect(DB_URL)
 
-
 def main():
     conn = get_conn()
     cur = conn.cursor()
@@ -115,7 +110,6 @@ def main():
     conn.commit()
     cur.close()
     conn.close()
-
 
 if __name__ == "__main__":
     main()

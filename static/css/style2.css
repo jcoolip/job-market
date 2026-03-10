@@ -1,0 +1,141 @@
+/* Root colors and fonts */
+:root {
+    --color0: #02151f;
+    --color10: #000000;
+    --color1: #274C77;
+    --color5: #CB9152;
+    --color50:rgb(112, 76, 37)2;
+    --color6: rgba(39, 76, 119, 0.2);
+}
+
+/* Fonts */
+@font-face {
+    font-family: "LavishlyYours";
+    src: url("../fonts/LavishlyYours-Regular.woff2") format("woff2");
+}
+@font-face {
+    font-family: "HackNerd";
+    src: url("../fonts/HackNerdFontMono-Regular.woff2") format("woff2");
+}
+@font-face {
+    font-family: "Inter";
+    src: url("../fonts/Inter.woff2") format("woff2");
+}
+
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a:link {
+  color: white;
+  text-decoration: none;
+}
+
+a:visited {
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--color10);
+  text-decoration: underline;
+}
+
+a:active {
+  color: var(--color1)
+}
+
+/* Body */
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    background: linear-gradient(-25deg, var(--color10), var(--color0));
+    font-family: "Inter", Helvetica, sans-serif;
+    color: black;
+    text-align: center;
+}
+
+/* Card */
+.card {
+    font-family: "Inter", Helvetica, sans-serif;
+    color: rgb(3, 6, 29);
+    padding: 0 0 2rem 0;
+    justify-content: right;
+    border-radius: 5px 26px 5px 26px ;
+    background: var(--color6);
+    /* backdrop-filter: blur(2px);          */
+    box-shadow: 5px 20px 15px 15px rgba(0,0,0,0.6);
+    width: 60%;
+    max-width: 400px;
+}
+
+/* Headline */
+h1 {
+    font-family: "HackNerd";
+    font-size: 2em;
+    color: rgb(255, 255, 255);
+}
+
+/* Badge / details */
+.badge {
+    margin-top: 1rem;
+    font-size: 0.7em;
+    font-family: "Inter", Helvetica, sans-serif;
+    opacity: 0.8;
+}
+.signature {
+    font-size: 5em;
+    font-family: "LavishlyYours";
+    font-weight: 400;
+    color: white;
+    /* padding: 6rem 0 1rem 7rem; */
+}
+
+/* Paragraphs */
+p {
+    /* opacity: 0.8; */
+    font-size: 0.9rem;
+    font-family: "Inter", Helvetica, sans-serif;
+}
+.skills-card {
+    font-family: "Inter", Helvetica, sans-serif;
+    color: rgb(3, 6, 29);
+    border-radius: 20px;
+    /* padding: 1rem; */
+    background: rgba(39, 76, 119, 0.2);
+    /* backdrop-filter: blur(1px); */
+    box-shadow: 5px 15px 10px 10px rgba(0,0,0,0.6);
+    width: 100%;
+    max-width: 600px;
+}
+.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    /* gap: 0.5rem 1rem; vertical and horizontal spacing */
+    justify-content: left;
+    margin: 1.5rem 0 0 1.5rem;
+
+    font-family: "Inter", Helvetica, sans-serif";
+}
+
+.skills-list h1 {
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+}
+.skill {
+    background: var(--color1);
+    color: white;
+    border-radius: 8px;
+    /* padding: t r b l   */
+    padding: 0.5rem 0.9rem 0.5rem 0.9rem;
+    box-shadow: 2px 2px 1px 1px rgba(0,0,0,0.6);
+    font-size: 0.85rem;
+    /* white-space: nowrap; */
+}
