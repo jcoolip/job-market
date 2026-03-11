@@ -62,3 +62,10 @@ Thumbs.db
 # sql queries
 # =========================
 *.sql
+
+# =========================
+# user added
+# =========================
+ingest/logs/
+ingest/logs/*.json
+*.log
