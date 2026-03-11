@@ -4,6 +4,7 @@ import usajobs
 import usajobs_skills
 import adzuna
 import jsearch
+import jooble
 import industry_classify
 import logging
 from datetime import datetime
@@ -27,6 +28,7 @@ def main():
     usajobs_skills.main()
     adzuna.main()
     jsearch.main()
+    jooble.main()
     industry_classify.main()
     print("finish")
     logging.info("-- COMPLETE --")

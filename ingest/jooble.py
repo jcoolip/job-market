@@ -5,21 +5,52 @@ import json
 import re
 from dotenv import load_dotenv
 
-debug = True
-
 load_dotenv()
+# key = "96d5229d-435e-41ea-aad5-21a3b46309f4"
 
-API_URL = "https://serpapi.com/search.json?q=data-analyst&engine=google&api_key=fa14df0786becf9eaa9c4645f91fb0fa5462b702aa9dcf6086eb5e8ce73ac464"
+debug = False
+
+API_KEY = "96d5229d-435e-41ea-aad5-21a3b46309f4"
+API_URL = f"https://jooble.org/api/{API_KEY}"
+
+BODY_LIST = [
+    {"keywords":"it", "location": "USA"},
+    {"keywords":"data+analyst", "location": "USA"},
+    {"keywords":"scrub+tech", "location": "WV"},
+
+]
+
+# body = {
+#     "keywords": "it",
+#     "location": "USA"
+# }
+
+headers = {
+    "Content-Type": "application/json"
+}
+
+
+def fetch_jobs(cur):
+    inserted = 0
+    for query in BODY_LIST:
+        r = requests.post(
+            API_URL,
+            json=query,
+            headers=headers,
+            timeout=20
+        )
+        r.raise_for_status()
+        jobs = r.json()['jobs']
+        save_json(jobs, query)
+        inserted += assign_job_info(cur, jobs)
+        
+    return inserted
 
 DB_URL = os.getenv("DATABASE_URL")
 
-def fetch_jobs():
-    r = requests.get(API_URL, timeout=10)
-    r.raise_for_status()
-    return r.json()['results']
-
-def save_json(jobs):
-    with open("1serpTest.json", "w") as f:
+def save_json(jobs, x):
+    file = x.get("keywords")
+    with open(f"logs/{file}.json", "w") as f:
         json.dump(jobs, f, indent=4)
 
 def get_connection():
@@ -53,7 +84,7 @@ def upsert_location(cur, city, state, country):
 
     return cur.fetchone()[0]
 
-def insert_job(cur, external_id, company_id, location_id, title, description_raw, source, source_url, salary_min, salary_max, salary_predicted, employment_type):
+def insert_job(cur, external_id, company_id, location_id, title, description_raw, source, source_url, sraw):
     cur.execute(
         """
         INSERT INTO jobs (
@@ -64,24 +95,16 @@ def insert_job(cur, external_id, company_id, location_id, title, description_raw
             description_raw,
             source,
             source_url,
-            employment_type,
-            salary_min,
-            salary_max,
-            salary_currency,
-            salary_predicted
+            salary_raw
         )
-        VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+        VALUES (%s, %s, %s, %s, %s, %s, %s, %s)
         ON CONFLICT (source, external_id)
         DO UPDATE SET 
             last_seen = now(),
             source_url = EXCLUDED.source_url,
             title = EXCLUDED.title,
             description_raw = EXCLUDED.description_raw,
-            employment_type = EXCLUDED.employment_type,
-            salary_min = EXCLUDED.salary_min,
-            salary_max = EXCLUDED.salary_max,
-            salary_currency = EXCLUDED.salary_currency,
-            salary_predicted = EXCLUDED.salary_predicted
+            salary_raw = EXCLUDED.salary_raw
         RETURNING id, (xmax = 0) AS inserted;
     """,
         (
@@ -90,13 +113,9 @@ def insert_job(cur, external_id, company_id, location_id, title, description_raw
             location_id,
             title,
             description_raw,
-            "adzuna",
+            source,
             source_url,
-            employment_type,
-            salary_min,
-            salary_max,
-            "$",
-            salary_predicted
+            sraw
         ),
     )
     job_id, inserted = cur.fetchone()
@@ -114,37 +133,64 @@ def db_open():
     cur = conn.cursor()
     return conn, cur
 
+# sometimes remotive (maybe others?) uses this: 
+# en dash (Unicode U+2013)"–" instead of usual hyphen "-"
+salary_pattern = re.compile(
+    r'(?P<currency>[$€£])?\s*(?P<min>\d[\d,\.]*k?)\s*(?:[-–]\s*(?P<max>\d[\d,\.]*k?))?\s*(?:/?\s*(?P<freq>hour|hr|year|yr|month|mo|day))?',
+    re.IGNORECASE
+)
+
+def parse_salary(text):
+    m = salary_pattern.search(text)
+    if not m:
+        return None,None,None,None
+
+    currency = m.group("currency")
+    smin = m.group("min")
+    smax = m.group("max")
+    freq = m.group("freq")
+
+    def normalize(v):
+        if not v:
+            return ""
+        v = v.replace(",", "").lower()
+        if "k" in v:
+            return float(v.replace("k", "")) * 1000
+        return float(v)
+
+    return normalize(smin), normalize(smax), freq, currency
+
 def assign_job_info(cur, jobs):
     rows_added = 0
     for job in jobs:
         title = job['title']
         external_id = job['id']
-        description_raw = job['description']
-        salary_min = job['salary_min']
-        salary_max = job['salary_max']
-        salary_predicted = job['salary_is_predicted']
-        if len(job['location']['area']) == 0:
-            country = "Unknown"
-            state = "Unknown"
+        description_raw = job['snippet']
+        salary_raw = job['salary']
+        # smin, smax, freq, curr = parse_salary(text)  ## TODO
+        loc = job.get('location')
+        loc = loc.split(",")
+        if len(loc) == 0:
             city = ""
+            state = ""
+        elif len(loc) == 1:
+            city = ""
+            state = loc
         else:
-            country = job['location']['area'][0]
-            state = job['location']['area'][1]
-            city = ""
-        company = job['company']['display_name']
-        source = "adzuna"
-        source_url = job['redirect_url']
-        employment_type = (
-            job.get("contract_time")
-            or job.get("contract_type")
-            or None
-        )
+            city = loc[0]
+            state = loc[1].strip()
+        country = ""
+        company = job.get('company')
+        source = "jooble"
+        source_url = job.get('link')
+
         company_id = upsert_company(cur, company)
         location_id = upsert_location(cur, city, state, country)
-        job_id, inserted = insert_job(cur, external_id, company_id, location_id, title, description_raw, source, source_url, salary_min, salary_max, salary_predicted, employment_type)
+        job_id, inserted = insert_job(cur, external_id, company_id, location_id, title, description_raw, source, source_url, salary_raw)
         rows_added += inserted
         fetch_dbskills(cur, job_id, description_raw)
-        return rows_added
+        # print(f"{external_id}:::{title}:::{salary_raw}:::{company}:::{state}:::{description_raw}::::::::")
+    return rows_added
 
 def fetch_dbskills(cur, job_id, job_desc):
     # populate our skills from table
@@ -183,25 +229,27 @@ def tag_skill_on_job(cur, job, skill, weight):
 
 def main():
 
-    ## api call to retrieve and store jobs
-    jobs = fetch_jobs()
-    ## save api call results in json 
-    save_json(jobs)
+
 
     ## establish db connection and cursor
     conn, cur = db_open()
+
+    ## api call to retrieve and store jobs
+    rows_added = fetch_jobs(cur)
+    ## save api call results in json 
+    # save_json(jobs)
 
     ## assign job variables from retrieved job,
     ## upsert company, location, 
     ## insert job
     ## scan job description for known skills and insert
-    rows_added = assign_job_info(cur, jobs)
+    # rows_added = assign_job_info(cur, jobs)
     
     ## commit our sql 
     ## close our cursor and connection
     db_close(cur, conn)
 
-    print(f"Serp added {rows_added}")
+    print(f"Jooble added {rows_added}")
 
 if __name__ == "__main__":
     main()
