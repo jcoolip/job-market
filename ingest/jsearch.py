@@ -135,7 +135,7 @@ def assign_job_info(cur, jobs):
         state = job['job_state'] or "Unknown"
         city = job['job_city'] or "Unknown"
         company = job['employer_name']
-        source = job['job_publisher']
+        source = "JSearch"
         source_url = job['job_apply_link']
         employment_type = job['job_employment_type']
         if job['job_highlights'].get("Qualifications"):

@@ -90,7 +90,7 @@ def insert_job(cur, external_id, company_id, location_id, title, description_raw
             location_id,
             title,
             description_raw,
-            "adzuna",
+            "Adzuna",
             source_url,
             employment_type,
             salary_min,

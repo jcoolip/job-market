@@ -135,7 +135,7 @@ def insert_job(cur, external_id, item, company_id, location_id):
             location_id,
             item["title"],
             item["description"],
-            "remotive",
+            "Remotive",
             item["url"],
             "remote",
             item["job_type"],

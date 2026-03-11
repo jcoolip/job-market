@@ -125,7 +125,7 @@ def insert_job(cur, external_id, job, company_id, location_id):
             job["PositionTitle"],
             job["UserArea"]["Details"]["AgencyMarketingStatement"],
             job["QualificationSummary"],
-            "usajobs",
+            "USAJobs",
             job["PositionURI"],
             salary_min,
             salary_max,

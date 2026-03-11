@@ -181,7 +181,7 @@ def assign_job_info(cur, jobs):
             state = loc[1].strip()
         country = ""
         company = job.get('company')
-        source = "jooble"
+        source = "Jooble"
         source_url = job.get('link')
 
         company_id = upsert_company(cur, company)
