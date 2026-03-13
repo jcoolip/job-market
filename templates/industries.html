@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Skills</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            rel="stylesheet"
+            href="{{ url_for('static', filename='css/style2.css') }}"
+        />
+    </head>
+    <body>
+        <div class="page_container">
+            <div class="nav_card">
+                <h1>
+                    <a href="{{ url_for('industries_page') }}">Job Market</a>
+                </h1>
+                <a href="{{ url_for('i_jobs', i_name=industry) }}"
+                    >{{ industry }} </a
+                ><br />
+
+                <p>
+                    <a href="{{ url_for('industries_page') }}"
+                        >[ industries ]</a
+                    >
+                    <a href="{{ url_for('industries_page') }}">[ jobs ]</a>
+                </p>
+            </div>
+            <br />
+            <div class="skills-card">
+                {% for i in industries %}
+                <div class="skills-list">
+                    <a href="{{ url_for('i_jobs', i_name=i) }}">{{ i }} </a>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </body>
+</html>

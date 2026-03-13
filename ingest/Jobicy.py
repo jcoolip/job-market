@@ -2,30 +2,28 @@ import json
 import os
 import re
 import traceback
-
 import psycopg2
 import requests
 from dotenv import load_dotenv
 from requests.exceptions import Timeout
-
-debug = False
-SOURCE = "Adzuna"
+debug = True
 
 load_dotenv()
 
-API_URL = "https://api.adzuna.com/v1/api/jobs/us/search/1?app_id=42b6f469&app_key=65b227d0c211e8eb15d4817c030afc82&results_per_page=50&category=it-jobs&content-type=application/"
-
+API_URL = os.getenv("JOBICY_URL")
 DB_URL = os.getenv("DATABASE_URL")
+SOURCE = "Jobicy"
 
-
+# remove ["results"] and this is static
 def fetch_jobs():
     try:
-        r = requests.get(API_URL, timeout=10)
+        r = requests.get(API_URL, timeout=15)
         r.raise_for_status()
-        return r.json()["results"]
+        return normalize_results(r)
+        # return r.json()["results"]
     except Timeout as e:
         return {
-            "error": f"Request to {API_URL} timed out after 10s",
+            "error": f"Request to {API_URL} timed out after 15s",
             "details": str(e),
         }
     except Exception as e:
@@ -35,37 +33,50 @@ def fetch_jobs():
         }
 
 
-def assign_job_info(cur, jobs):
-    rows_added = 0
+def normalize_results(jobs):
+    rows_added =
     for job in jobs:
-        title = job["title"]
-        external_id = job["id"]
-        description_raw = job["description"]
+        # id,
+        # company_id = upsert_company(cur, company)
+        # location_id,
+        title = job["jobTitle"]
+        description_raw = job["jobDescription"]
+        employment_type = job.get("jobType")
+        experience_level = None
         salary_min = job.get("salary_min")
         salary_max = job.get("salary_max")
-        salary_predicted = job.get("salary_is_predicted")
-        # salary_min = job["salary_min"]
-        # salary_max = job["salary_max"]
-        # salary_predicted = job["salary_is_predicted"]
-        area = job.get("location", {}).get("area", [])
-
-        country = area[0] if len(area) > 0 else "Unknown"
-        state = area[1] if len(area) > 1 else "Unknown"
-        city = area[2] if len(area) > 2 else ""
-        # if len(job["location"]["area"]) == 0:
-        #     country = "Unknown"
-        #     state = "Unknown"
-        #     city = ""
-        # else:
-        #     country = job["location"]["area"][0]
-        #     state = job["location"]["area"][1]
-        #     city = ""
-        company = job.get("company", {}).get("display_name", "Unknown")
-        # company = job["company"]["display_name"]
+        salary_currency = job["salaryCurrency"]
         source = SOURCE
-        source_url = job["redirect_url"]
-        employment_type = job.get("contract_time") or job.get("contract_type") or None
+        source_url = job["url"]
+        # first_seen
+        # last_seen
+        # is_active
+        work_mode = None
+        external_id = job["id"]
+        qualifications = None
+        salary_freq = job["salaryPeriod"]
+        salary_raw = None
+        tags = None
+        salary_predicted = None
+        benefits = None
+        responsibilities = None
+        industry_id = None
+        published_date = job [ "pubDate"]
+
+        area = job.get("location", {}).get("area", [])
+        if not area:
+            country = "Unknown"
+        elif "," in area[0]:
+            country = area[0].split(",")[0].strip()
+        else:
+            country = area[0]
+
+        company = job["companyName"]
         company_id = upsert_company(cur, company)
+        source = SOURCE
+
+
+
         location_id = upsert_location(cur, city, state, country)
         job_id, inserted = insert_job(
             cur,
@@ -89,34 +100,37 @@ def assign_job_info(cur, jobs):
 def insert_job(
     cur,
     external_id,
-    company_id,
     location_id,
-    title,
-    description_raw,
-    source,
     source_url,
+    title,
+    company_id,
+    employment_type,
+    description_raw,
+    published_date,
     salary_min,
     salary_max,
-    salary_predicted,
-    employment_type,
+    salary_curr,
+    salary_freq,
+    source,
 ):
     cur.execute(
         """
         INSERT INTO jobs (
             external_id,
-            company_id,
             location_id,
-            title,
-            description_raw,
-            source,
             source_url,
+            title,
+            company_id,
             employment_type,
+            description_raw,
+            published_date,
             salary_min,
             salary_max,
-            salary_currency,
-            salary_predicted
+            salary_curr,
+            salary_freq,
+            source
         )
-        VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+        VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
         ON CONFLICT (source, external_id)
         DO UPDATE SET
             last_seen = now(),
@@ -127,22 +141,24 @@ def insert_job(
             salary_min = EXCLUDED.salary_min,
             salary_max = EXCLUDED.salary_max,
             salary_currency = EXCLUDED.salary_currency,
-            salary_predicted = EXCLUDED.salary_predicted
+            salary_freq = EXCLUDED.salary_freq
         RETURNING id, (xmax = 0) AS inserted;
     """,
         (
+            cur,
             external_id,
-            company_id,
             location_id,
-            title,
-            description_raw,
-            source,
             source_url,
+            title,
+            company_id,
             employment_type,
+            description_raw,
+            published_date,
             salary_min,
             salary_max,
-            "$",
-            salary_predicted,
+            salary_curr,
+            salary_freq,
+            source,
         ),
     )
     job_id, inserted = cur.fetchone()
@@ -163,6 +179,7 @@ def db_open():
     return conn, cur
 
 
+## TODO rename this. more like check_jobskills()
 def fetch_dbskills(cur, job_id, job_desc):
     # populate our skills from table
     cur.execute(
@@ -200,7 +217,7 @@ def tag_skill_on_job(cur, job, skill, weight):
 
 
 def save_json(jobs):
-    with open(f"logs/{SOURCE}Tests.json", "w") as f:
+    with open("logs/JobicyTests.json", "w") as f:
         json.dump(jobs, f, indent=4)
 
 
@@ -230,7 +247,7 @@ def upsert_location(cur, city, state, country):
         VALUES (%s, %s, %s)
         ON CONFLICT (city, state, country)
         DO UPDATE SET city = EXCLUDED.city
-        RETURNING id;
+        RETURNING id;S
     """,
         (city, state, country),
     )
@@ -242,9 +259,6 @@ def main():
 
     ## api call to retrieve and store jobs
     jobs = fetch_jobs()
-    if isinstance(jobs, dict) and "error" in jobs:
-        print(jobs)
-        return
     ## save api call results in json
     save_json(jobs)
 
@@ -261,7 +275,7 @@ def main():
     ## close our cursor and connection
     db_close(cur, conn)
 
-    print(f"Adzuna added {rows_added}")
+    print(f"Jobicy added {rows_added}")
 
 
 if __name__ == "__main__":

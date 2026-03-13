@@ -2,27 +2,27 @@ import json
 import os
 import re
 import traceback
+from xml.parsers.expat import EXPAT_VERSION
 
 import psycopg2
 import requests
 from dotenv import load_dotenv
 from requests.exceptions import Timeout
 
-debug = False
-SOURCE = "Adzuna"
-
 load_dotenv()
 
-API_URL = "https://api.adzuna.com/v1/api/jobs/us/search/1?app_id=42b6f469&app_key=65b227d0c211e8eb15d4817c030afc82&results_per_page=50&category=it-jobs&content-type=application/"
-
+API_URL = os.getenv("ADZUNA_URL")
 DB_URL = os.getenv("DATABASE_URL")
+SOURCE = "Adzuna"
 
 
+# remove ["results"] and this is static
 def fetch_jobs():
     try:
         r = requests.get(API_URL, timeout=10)
         r.raise_for_status()
-        return r.json()["results"]
+        return normalize_results(r)
+        # return r.json()["results"]
     except Timeout as e:
         return {
             "error": f"Request to {API_URL} timed out after 10s",
@@ -35,36 +35,49 @@ def fetch_jobs():
         }
 
 
-def assign_job_info(cur, jobs):
-    rows_added = 0
+# normalizing()
+def normalize_results(jobs):
+    rows_added =
     for job in jobs:
+        # id,
+        # company_id,
+        # location_id,
         title = job["title"]
-        external_id = job["id"]
         description_raw = job["description"]
+        employment_type = job.get("contract_time") or job.get("contract_type") or None
+        experience_level = None
         salary_min = job.get("salary_min")
         salary_max = job.get("salary_max")
-        salary_predicted = job.get("salary_is_predicted")
-        # salary_min = job["salary_min"]
-        # salary_max = job["salary_max"]
-        # salary_predicted = job["salary_is_predicted"]
-        area = job.get("location", {}).get("area", [])
-
-        country = area[0] if len(area) > 0 else "Unknown"
-        state = area[1] if len(area) > 1 else "Unknown"
-        city = area[2] if len(area) > 2 else ""
-        # if len(job["location"]["area"]) == 0:
-        #     country = "Unknown"
-        #     state = "Unknown"
-        #     city = ""
-        # else:
-        #     country = job["location"]["area"][0]
-        #     state = job["location"]["area"][1]
-        #     city = ""
-        company = job.get("company", {}).get("display_name", "Unknown")
-        # company = job["company"]["display_name"]
+        salary_currency = None
         source = SOURCE
         source_url = job["redirect_url"]
-        employment_type = job.get("contract_time") or job.get("contract_type") or None
+        # first_seen
+        # last_seen
+        # is_active
+        work_mode = None
+        external_id = job["id"]
+        qualifications = None
+        salary_freq = None
+        salary_raw = None
+        tags = None
+        salary_predicted = job.get("salary_is_predicted")
+        benefits = None
+        responsibilities = None
+        industry_id = None
+        published_date = job [ "created"]
+
+
+
+        area = job.get("location", {}).get("area", [])
+        country = area[0] if len(area) > 0 else "Unknown"
+        state = area[1] if len(area) > 1 else "Unknown"
+        city = area[2] if len(area) > 2 else None
+
+        company = job.get("company", {}).get("display_name", "Unknown")
+
+        source = SOURCE
+
+
         company_id = upsert_company(cur, company)
         location_id = upsert_location(cur, city, state, country)
         job_id, inserted = insert_job(
@@ -86,6 +99,9 @@ def assign_job_info(cur, jobs):
     return rows_added
 
 
+# needs to be static
+# every source should insert to entire table
+# whether it has value or None
 def insert_job(
     cur,
     external_id,

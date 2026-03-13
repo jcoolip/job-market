@@ -8,16 +8,18 @@ import requests
 from dotenv import load_dotenv
 from requests.exceptions import Timeout
 
-debug = False
-SOURCE = "Adzuna"
+debug = True
+# SOURCE = "Adzuna"
 
 load_dotenv()
 
 API_URL = "https://api.adzuna.com/v1/api/jobs/us/search/1?app_id=42b6f469&app_key=65b227d0c211e8eb15d4817c030afc82&results_per_page=50&category=it-jobs&content-type=application/"
 
+
 DB_URL = os.getenv("DATABASE_URL")
 
 
+# remove ["results"] and this is static
 def fetch_jobs():
     try:
         r = requests.get(API_URL, timeout=10)
@@ -35,6 +37,7 @@ def fetch_jobs():
         }
 
 
+# normalizing()
 def assign_job_info(cur, jobs):
     rows_added = 0
     for job in jobs:
@@ -86,6 +89,9 @@ def assign_job_info(cur, jobs):
     return rows_added
 
 
+# needs to be static
+# every source should insert to entire table
+# whether it has value or None
 def insert_job(
     cur,
     external_id,
