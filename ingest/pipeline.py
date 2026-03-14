@@ -1,14 +1,15 @@
+import logging
+from datetime import datetime
+
+import adzuna
+import industry_classify
+import Jobicy
+import jooble
+import jsearch
 import remotive
 import remotive_skills
 import usajobs
 import usajobs_skills
-import adzuna
-import jsearch
-import jooble
-import industry_classify
-import logging
-from datetime import datetime
-
 
 now = datetime.now()
 
@@ -18,6 +19,7 @@ logging.basicConfig(
     filemode="w",
     format="%(asctime)s - %(levelname)s - %(message)s",
 )
+
 
 def main():
     logging.info("-- BEGIN --")
@@ -29,6 +31,7 @@ def main():
     adzuna.main()
     jsearch.main()
     jooble.main()
+    Jobicy.main()
     industry_classify.main()
     print("finish")
     logging.info("-- COMPLETE --")

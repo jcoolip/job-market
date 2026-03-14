@@ -4,24 +4,11 @@
         <meta charset="UTF-8" />
         <title>Skills</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link
-            rel="stylesheet"
-            href="{{ url_for('static', filename='css/style2.css') }}"
-        />
+        {% include "css.html" %}
     </head>
     <body>
         <div class="page_container">
-            <div class="nav_card">
-                <h1>
-                    <a href="{{ url_for('industries_page') }}">Job Market</a>
-                </h1>
-                <a href="{{ url_for('i_jobs', i_name=industry) }}"
-                    >{{ industry }} </a
-                ><br />
-
-                <p><a href="{{ url_for('industries_page') }}">[ industries ]</a> <a href="{{ url_for('industries_page') }}"><a href="{{ url_for('i_jobs', i_name=industry) }}"
-                    >[ jobs ]</a></p>
-            </div>
+            {% include "nav.html" %}
             <br />
             <div class="skills-card">
                 <div class="focused_job">
@@ -33,7 +20,7 @@
                         >Check out the listing on {{ job.source }}</a
                     ><br />
                     {{ salary_min}} - {{ salary_max}}<br />
-                    <p>{{ job.description_raw}}</p>
+                    <p2>{{ job.description_raw | safe }}</p2>
                 </div>
                 <br /><br /><br />
             </div>

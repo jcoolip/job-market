@@ -6,7 +6,7 @@ import traceback
 import psycopg2
 import requests
 from dotenv import load_dotenv
-from requests.exceptions import Timeout
+from requests.exceptions import HTTPError, Timeout
 
 debug = False
 SOURCE = "Adzuna"
@@ -26,6 +26,11 @@ def fetch_jobs():
     except Timeout as e:
         return {
             "error": f"Request to {API_URL} timed out after 10s",
+            "details": str(e),
+        }
+    except HTTPError as e:
+        return {
+            "error": "Adzuna 503 temp. unavail - HTTP error",
             "details": str(e),
         }
     except Exception as e:

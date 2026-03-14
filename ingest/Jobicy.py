@@ -2,28 +2,43 @@ import json
 import os
 import re
 import traceback
+
 import psycopg2
 import requests
 from dotenv import load_dotenv
-from requests.exceptions import Timeout
-debug = True
+from requests.exceptions import HTTPError, Timeout
+
+debug = False
 
 load_dotenv()
+
+## TODO:  unescape html to store into db as raw.
+# import html
+
+# title = html.unescape(job["title"])
+# description_raw = html.unescape(job["description"])
+# company = html.unescape(company)
+
 
 API_URL = os.getenv("JOBICY_URL")
 DB_URL = os.getenv("DATABASE_URL")
 SOURCE = "Jobicy"
+
 
 # remove ["results"] and this is static
 def fetch_jobs():
     try:
         r = requests.get(API_URL, timeout=15)
         r.raise_for_status()
-        return normalize_results(r)
-        # return r.json()["results"]
+        return r.json()["jobs"]
     except Timeout as e:
         return {
             "error": f"Request to {API_URL} timed out after 15s",
+            "details": str(e),
+        }
+    except HTTPError as e:
+        return {
+            "error": "Jobicy 503 temp. unavail - HTTP error",
             "details": str(e),
         }
     except Exception as e:
@@ -33,8 +48,13 @@ def fetch_jobs():
         }
 
 
-def normalize_results(jobs):
-    rows_added =
+def test(cur, jobs):
+    for job in jobs:
+        print(job)
+
+
+def normalize_results(cur, jobs):
+    rows_added = 0
     for job in jobs:
         # id,
         # company_id = upsert_company(cur, company)
@@ -43,9 +63,9 @@ def normalize_results(jobs):
         description_raw = job["jobDescription"]
         employment_type = job.get("jobType")
         experience_level = None
-        salary_min = job.get("salary_min")
-        salary_max = job.get("salary_max")
-        salary_currency = job["salaryCurrency"]
+        salary_min = job.get("salaryMin")
+        salary_max = job.get("salaryMax")
+        salary_currency = job.get("salaryCurrency")
         source = SOURCE
         source_url = job["url"]
         # first_seen
@@ -54,14 +74,14 @@ def normalize_results(jobs):
         work_mode = None
         external_id = job["id"]
         qualifications = None
-        salary_freq = job["salaryPeriod"]
+        salary_freq = job.get("salaryPeriod") or None
         salary_raw = None
         tags = None
         salary_predicted = None
         benefits = None
         responsibilities = None
         industry_id = None
-        published_date = job [ "pubDate"]
+        published_date = job["pubDate"]
 
         area = job.get("location", {}).get("area", [])
         if not area:
@@ -70,27 +90,37 @@ def normalize_results(jobs):
             country = area[0].split(",")[0].strip()
         else:
             country = area[0]
+        city = None
+        state = None
 
         company = job["companyName"]
         company_id = upsert_company(cur, company)
         source = SOURCE
-
-
-
         location_id = upsert_location(cur, city, state, country)
         job_id, inserted = insert_job(
             cur,
-            external_id,
             company_id,
             location_id,
             title,
             description_raw,
-            source,
-            source_url,
+            employment_type,
+            experience_level,
             salary_min,
             salary_max,
+            salary_currency,
+            source,
+            source_url,
+            work_mode,
+            external_id,
+            qualifications,
+            salary_freq,
+            salary_raw,
+            tags,
             salary_predicted,
-            employment_type,
+            benefits,
+            responsibilities,
+            industry_id,
+            published_date,
         )
         rows_added += inserted
         fetch_dbskills(cur, job_id, description_raw)
@@ -99,66 +129,99 @@ def normalize_results(jobs):
 
 def insert_job(
     cur,
-    external_id,
-    location_id,
-    source_url,
-    title,
     company_id,
-    employment_type,
+    location_id,
+    title,
     description_raw,
-    published_date,
+    employment_type,
+    experience_level,
     salary_min,
     salary_max,
-    salary_curr,
-    salary_freq,
+    salary_currency,
     source,
+    source_url,
+    work_mode,
+    external_id,
+    qualifications,
+    salary_freq,
+    salary_raw,
+    tags,
+    salary_predicted,
+    benefits,
+    responsibilities,
+    industry_id,
+    published_date,
 ):
     cur.execute(
         """
         INSERT INTO jobs (
-            external_id,
-            location_id,
-            source_url,
-            title,
-            company_id,
-            employment_type,
-            description_raw,
-            published_date,
-            salary_min,
-            salary_max,
-            salary_curr,
-            salary_freq,
-            source
+        company_id,
+        location_id,
+        title,
+        description_raw,
+        employment_type,
+        salary_min,
+        salary_max,
+        salary_currency,
+        source,
+        source_url ,
+        work_mode,
+        external_id,
+        qualifications,
+        salary_freq,
+        salary_raw ,
+        tags,
+        salary_predicted,
+        benefits,
+        responsibilities,
+        industry_id,
+        published_date
         )
-        VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+        VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
         ON CONFLICT (source, external_id)
         DO UPDATE SET
             last_seen = now(),
             source_url = EXCLUDED.source_url,
-            title = EXCLUDED.title,
-            description_raw = EXCLUDED.description_raw,
-            employment_type = EXCLUDED.employment_type,
-            salary_min = EXCLUDED.salary_min,
-            salary_max = EXCLUDED.salary_max,
-            salary_currency = EXCLUDED.salary_currency,
-            salary_freq = EXCLUDED.salary_freq
+            title =EXCLUDED.title,
+            description_raw =EXCLUDED.description_raw,
+            employment_type =EXCLUDED.employment_type,
+            salary_min =EXCLUDED.salary_min,
+            salary_max =EXCLUDED.salary_max,
+            salary_currency =EXCLUDED.salary_currency,
+            work_mode =EXCLUDED.work_mode,
+            qualifications =EXCLUDED.qualifications,
+            salary_freq =EXCLUDED.salary_freq,
+            salary_raw  =EXCLUDED.salary_raw,
+            tags =EXCLUDED.tags,
+            salary_predicted =EXCLUDED.salary_predicted,
+            benefits =EXCLUDED.benefits,
+            responsibilities =EXCLUDED.responsibilities,
+            industry_id =EXCLUDED.industry_id,
+            published_date =EXCLUDED.published_date
         RETURNING id, (xmax = 0) AS inserted;
     """,
         (
-            cur,
-            external_id,
-            location_id,
-            source_url,
-            title,
             company_id,
-            employment_type,
+            location_id,
+            title,
             description_raw,
-            published_date,
+            employment_type,
             salary_min,
             salary_max,
-            salary_curr,
-            salary_freq,
+            salary_currency,
             source,
+            source_url,
+            work_mode,
+            external_id,
+            qualifications,
+            salary_freq,
+            salary_raw,
+            tags,
+            salary_predicted,
+            benefits,
+            responsibilities,
+            industry_id,
+            published_date,
         ),
     )
     job_id, inserted = cur.fetchone()
@@ -167,7 +230,9 @@ def insert_job(
 
 
 def db_close(cur, conn):
-    if not debug:
+    if debug:
+        conn.rollback()
+    else:
         conn.commit()
     cur.close()
     conn.close()
@@ -247,7 +312,7 @@ def upsert_location(cur, city, state, country):
         VALUES (%s, %s, %s)
         ON CONFLICT (city, state, country)
         DO UPDATE SET city = EXCLUDED.city
-        RETURNING id;S
+        RETURNING id;
     """,
         (city, state, country),
     )
@@ -269,8 +334,8 @@ def main():
     ## upsert company, location,
     ## insert job
     ## scan job description for known skills and insert
-    rows_added = assign_job_info(cur, jobs)
-
+    rows_added = normalize_results(cur, jobs)
+    # test(cur, jobs)
     ## commit our sql
     ## close our cursor and connection
     db_close(cur, conn)

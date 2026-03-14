@@ -1,8 +1,9 @@
 import os
+from itertools import count
 
 import psycopg2
 from dotenv import load_dotenv
-from flask import Flask, render_template
+from flask import Flask, render_template, request
 from livereload import Server
 
 load_dotenv()
@@ -25,6 +26,18 @@ DB_URL = os.getenv("DATABASE_URL")
 
 def get_conn():
     return psycopg2.connect(DB_URL)
+
+
+def count_all_jobs():
+    with get_conn() as conn:
+        with conn.cursor() as cur:
+            cur.execute("""
+                SELECT COUNT(*)
+                FROM jobs
+                WHERE is_active = TRUE;
+                """)
+            total_jobs = cur.fetchone()[0]
+    return total_jobs
 
 
 def get_industries():
@@ -73,6 +86,95 @@ def get_job_count():
 @app.route("/health")
 def health():
     return {"status": "awesome"}
+
+
+@app.route("/search")
+def search():
+
+    q = request.args.get("q")
+
+    jobs = []
+
+    if q:
+        with get_conn() as conn:
+            with conn.cursor() as cur:
+                cur.execute(
+                    """
+                    SELECT
+                        j.title,
+                        c.name,
+                        l.state,
+                        l.country,
+                        j.source_url
+                    FROM jobs j
+                    LEFT JOIN companies c ON c.id = j.company_id
+                    LEFT JOIN locations l ON l.id = j.location_id
+                    LEFT JOIN job_skills js ON js.job_id = j.id
+                    LEFT JOIN skills s ON s.id = js.skill_id
+                    WHERE
+                        j.is_active = TRUE
+                        AND (
+                            j.title ILIKE %s OR
+                            j.description_raw ILIKE %s OR
+                            c.name ILIKE %s OR
+                            s.name ILIKE %s
+                        )
+                    GROUP BY j.id, c.name, l.state, l.country
+                    ORDER BY j.last_seen DESC
+                    LIMIT 100;
+                """,
+                    (f"%{q}%", f"%{q}%", f"%{q}%", f"%{q}%"),
+                )
+
+                jobs = cur.fetchall()
+
+    return render_template("search.html", jobs=jobs, q=q)
+
+
+@app.route("/find")
+def find():
+
+    q = request.args.get("q")
+    job_total = count_all_jobs()
+    jobs = []
+
+    if q:
+        with get_conn() as conn:
+            with conn.cursor() as cur:
+                cur.execute(
+                    """
+                    SELECT
+                        j.title,
+                        c.name,
+                        l.state,
+                        l.country,
+                        j.source_url,
+                        i.name AS industry,
+                        j.external_id
+                    FROM jobs j
+                    LEFT JOIN companies c ON c.id = j.company_id
+                    LEFT JOIN locations l ON l.id = j.location_id
+                    LEFT JOIN job_skills js ON js.job_id = j.id
+                    LEFT JOIN skills s ON s.id = js.skill_id
+                    LEFT JOIN industries i on i.id = j.industry_id
+                    WHERE
+                        j.is_active = TRUE
+                        AND (
+                            j.title ILIKE %s OR
+                            j.description_raw ILIKE %s OR
+                            c.name ILIKE %s OR
+                            s.name ILIKE %s
+                        )
+                    GROUP BY j.id, c.name, l.state, l.country, i.name, j.external_id
+                    ORDER BY j.last_seen DESC
+                    LIMIT 100;
+                """,
+                    (f"%{q}%", f"%{q}%", f"%{q}%", f"%{q}%"),
+                )
+
+                jobs = cur.fetchall()
+
+    return render_template("find.html", jobs=jobs, q=q, job_total=job_total)
 
 
 @app.route("/industries")
@@ -179,5 +281,5 @@ if __name__ == "__main__":
         server.watch("*.py")
         server.serve(host="0.0.0.0", port=port, debug=True)
     else:
-        port = int(os.environ.get("PORT", 10000))
+        port = int(os.environ.get("PORT", 8000))
         app.run(host="0.0.0.0", port=port, debug=True)

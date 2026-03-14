@@ -28,6 +28,11 @@ def fetch_jobs():
             "error": f"Request to {API_URL} timed out after 10s",
             "details": str(e),
         }
+    except HTTPError as e:
+        return {
+            "error": "Adzuna 503 temp. unavail - HTTP error",
+            "details": str(e),
+        }
     except Exception as e:
         return {
             "error": "An unexpected error occurred.",

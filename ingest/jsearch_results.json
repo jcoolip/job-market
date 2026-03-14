@@ -4,7 +4,7 @@
         "job_title": "Senior Data Analyst New York, NY, Remote",
         "employer_name": "Rain",
         "employer_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0tcmkFFTF1sfs_sfg5JRFvY_QvLCf2em_m8V0&s=0",
-        "employer_website": "https://theraincompany.com",
+        "employer_website": "http://raincompany.co.kr",
         "job_publisher": "Sapphire Ventures",
         "job_employment_type": "Full-time",
         "job_employment_types": [
@@ -215,6 +215,110 @@
         "job_onet_job_zone": "4"
     },
     {
+        "job_id": "dklME7NuMhOx8chcAAAAAA==",
+        "job_title": "Data Analyst 100% Remote",
+        "employer_name": "CloudTask",
+        "employer_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1QzZwhE5OH1mOS2e-jtT3-f5nQPC_XH1Q0qIa&s=0",
+        "employer_website": "https://cloudtask.com",
+        "job_publisher": "Jobgether",
+        "job_employment_type": "Part-time",
+        "job_employment_types": [
+            "PARTTIME"
+        ],
+        "job_apply_link": "https://jobgether.com/offer/6976456973a8e8b5e77a4ad7-data-analyst-100-remote?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+        "job_apply_is_direct": false,
+        "apply_options": [
+            {
+                "publisher": "Jobgether",
+                "apply_link": "https://jobgether.com/offer/6976456973a8e8b5e77a4ad7-data-analyst-100-remote?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                "is_direct": false
+            },
+            {
+                "publisher": "Teal",
+                "apply_link": "https://www.tealhq.com/job/data-analyst-adobe-analytics_7ea1ac3520b062a49255e7c06d25b1b739b8e?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                "is_direct": false
+            },
+            {
+                "publisher": "Jobright",
+                "apply_link": "https://jobright.ai/jobs/info/698aee694db8972cec0060b3?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                "is_direct": false
+            },
+            {
+                "publisher": "Jooble",
+                "apply_link": "https://jooble.org/jdp/-218747862482966981?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                "is_direct": false
+            },
+            {
+                "publisher": "Talents By Vaia",
+                "apply_link": "https://talents.vaia.com/companies/h1b-lca/remote-data-analytics-analyst-39169480/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                "is_direct": false
+            },
+            {
+                "publisher": "Lensa",
+                "apply_link": "https://lensa.com/job-v1/insight-global/remote/marketing-analyst/b12f9fab6b098adafcd22ca3f232f6e2?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                "is_direct": false
+            },
+            {
+                "publisher": "Adzuna",
+                "apply_link": "https://www.adzuna.com/details/5596105298?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                "is_direct": false
+            },
+            {
+                "publisher": "JobLeads",
+                "apply_link": "https://www.jobleads.com/us/job/data-analyst-100-remote--nashville--e8142793695fe75e096b2fd0209059a2a?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                "is_direct": false
+            },
+            {
+                "apply_link": "https://jobgether.com/offer/6976456973a8e8b5e77a4ad7-data-analyst-100-remote",
+                "is_direct": null,
+                "publisher": "Jobgether"
+            }
+        ],
+        "job_description": "This a Full Remote job, the offer is available from: Tennessee (USA)\n\n100% Remote\n\nResponsible for providing data analysis to recommend actions of a moderately complex nature to improve business processes to management.\n\u2022 Gather, validate, and analyze data, to successfully manage internal performance reporting and messaging for Operations\n\u2022 Analyze lost productivity within our BPO vendors and estimate budgetary impacts\n\u2022 Compile and analyze interval call volume data and lost productivity risks and make short term schedule recommendations to create operational efficiencies\n\u2022 Own agent performance scorecards, published monthly, to assist management with performance management\n\u2022 Track overtime from a productive and budgetary perspective and forecast expected monthly expense and requirements\n\u2022 Present weekly staffing changes and assist in determining staffing needs to meet operational goals\n\u2022 Assist with labor requirement forecasting and make recommendations on the timing of staff additions based on historical behaviors\n\u2022 Perform frequent ad hoc reporting on demand to assist Operations management with decision making\n\nQualifications\n\u2022 3 years overall data analysis experience with proven experience in SQL, R, PowerBI, Looker or other data management/visualization tools.\n\u2022 Bachelor\u2019s degree in Mathematics, Economics, Computer Science, or similar field.\n\u2022 Ability to mine data, compile and manipulate in multiple systems/programs and analyze results\n\u2022 SQL (Snowflake)\n\u2022 R\n\u2022 Looker\n\u2022 PowerBI\n\u2022 Python\n\u2022 Ability to create effective presentations for management.\n\u2022 Excellent communication skills\n\nThis offer from \"CloudTask\" has been enriched by Jobgether.com and got a 74% flex score.",
+        "job_is_remote": true,
+        "job_posted_at": null,
+        "job_posted_at_timestamp": null,
+        "job_posted_at_datetime_utc": null,
+        "job_location": "United States",
+        "job_city": null,
+        "job_state": null,
+        "job_country": "US",
+        "job_latitude": 38.794595199999996,
+        "job_longitude": -106.5348379,
+        "job_benefits": null,
+        "job_google_link": "https://www.google.com/search?q=jobs&gl=us&hl=en&udm=8#vhid=vt%3D20/docid%3DdklME7NuMhOx8chcAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+        "job_salary": null,
+        "job_min_salary": null,
+        "job_max_salary": null,
+        "job_salary_period": null,
+        "job_highlights": {
+            "Qualifications": [
+                "3 years overall data analysis experience with proven experience in SQL, R, PowerBI, Looker or other data management/visualization tools",
+                "Bachelor\u2019s degree in Mathematics, Economics, Computer Science, or similar field",
+                "Ability to mine data, compile and manipulate in multiple systems/programs and analyze results",
+                "SQL (Snowflake)",
+                "R",
+                "PowerBI",
+                "Python",
+                "Ability to create effective presentations for management",
+                "Excellent communication skills"
+            ],
+            "Responsibilities": [
+                "Responsible for providing data analysis to recommend actions of a moderately complex nature to improve business processes to management",
+                "Gather, validate, and analyze data, to successfully manage internal performance reporting and messaging for Operations",
+                "Analyze lost productivity within our BPO vendors and estimate budgetary impacts",
+                "Compile and analyze interval call volume data and lost productivity risks and make short term schedule recommendations to create operational efficiencies",
+                "Own agent performance scorecards, published monthly, to assist management with performance management",
+                "Track overtime from a productive and budgetary perspective and forecast expected monthly expense and requirements",
+                "Present weekly staffing changes and assist in determining staffing needs to meet operational goals",
+                "Assist with labor requirement forecasting and make recommendations on the timing of staff additions based on historical behaviors",
+                "Perform frequent ad hoc reporting on demand to assist Operations management with decision making"
+            ]
+        },
+        "job_onet_soc": "43911100",
+        "job_onet_job_zone": "4"
+    },
+    {
         "job_id": "SS7xs2-YmIN9D75fAAAAAA==",
         "job_title": "Data Analyst Graduate | Brighty Agency | Remote US",
         "employer_name": "Brighty Agency",
@@ -266,6 +370,120 @@
         "job_onet_job_zone": "4"
     },
     {
+        "job_id": "U_EczjGychzKHW_AAAAAAA==",
+        "job_title": "Junior Data Analyst",
+        "employer_name": "Utilisave",
+        "employer_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdf_nH3sKMTKdrzAZc9tOmgPe2zPCuD9W-L8yd&s=0",
+        "employer_website": "https://utilisave.com",
+        "job_publisher": "Indeed",
+        "job_employment_type": "Full-time",
+        "job_employment_types": [
+            "FULLTIME"
+        ],
+        "job_apply_link": "https://www.indeed.com/viewjob?jk=a7fadda4b5611dcd&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+        "job_apply_is_direct": false,
+        "apply_options": [
+            {
+                "publisher": "Indeed",
+                "apply_link": "https://www.indeed.com/viewjob?jk=a7fadda4b5611dcd&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                "is_direct": false
+            },
+            {
+                "publisher": "Virtual Vocations",
+                "apply_link": "https://www.virtualvocations.com/job/junior-data-analyst-2893501-i.html?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                "is_direct": false
+            },
+            {
+                "publisher": "Jobgether",
+                "apply_link": "https://jobgether.com/offer/6965f4f196ae97ba4ad11805-junior-data-analyst?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                "is_direct": false
+            },
+            {
+                "publisher": "Built In",
+                "apply_link": "https://builtin.com/job/junior-data-analyst/7359220?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                "is_direct": false
+            },
+            {
+                "publisher": "Shine",
+                "apply_link": "https://www.shine.com/jobs/junior-data-analyst/daice-labs/18621037?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                "is_direct": false
+            },
+            {
+                "publisher": "Teal",
+                "apply_link": "https://www.tealhq.com/job/junior-data-analyst_7ea1a901cde02f7365c2061ebc0c9c513d7c4?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                "is_direct": false
+            },
+            {
+                "publisher": "Glassdoor",
+                "apply_link": "https://www.glassdoor.com/job-listing/junior-data-analyst-utilisave-JV_KO0,19_KE20,29.htm?jl=1008875224241&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                "is_direct": false
+            },
+            {
+                "publisher": "OPTnation",
+                "apply_link": "https://www.optnation.com/junior-data-analyst-job-in-philadelphia-tn-view-jobid-33839?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                "is_direct": false
+            },
+            {
+                "apply_link": "https://www.indeed.com/viewjob?jk=a7fadda4b5611dcd",
+                "is_direct": null,
+                "publisher": "Indeed"
+            }
+        ],
+        "job_description": "Small Team, Huge Impact\n\nWe are a small family, but we encourage initiatives to uncover new business opportunities and advance your utility career path.\n\nInnovation Is Key\n\nJoin a culture of innovation and career development. Our utility careers encourage openness, transparency, and collaboration to help you grow.\n\nCustomer Centric\n\nOur company is customer focused, and our careers are designed to deliver value to every client.\n\nProfessional Development\n\nCareers at UtiliSave offer full industry introduction, complete career training, and continuous support for your professional development.\n\nRecognition\n\nWe acknowledge the efforts of our employees and offer bonuses and commission plans.\n\nBenefits\n\nUtility careers at UtiliSave offer competitive salary, excellent health, dental and vision benefits, and a 401K plan.\n\nUtiliSave is seeking qualified candidates for Junior Data Analyst position. This is a business critical hands-on role and the ideal candidate will have a record of success in a role focused on gathering data, cost analysis, analyzing complicated laws and regulations, and identifying cases, opportunities and solutions. This position interfaces directly with customers, so strong communication, presentation and client management skills are also essential. Previous familiarity with utility regulations, rates and billing is a must.\n\nJob Type: Full-Time\n\nLocation: Remote, US only\n\nSalary: $40,000 \u2013 $45,000\n\nResponsibilities\n\u2022 Apply your analytical skills and general business knowledge to identify cost savings opportunities for clients.\n\u2022 Use UtiliSave\u2019s proprietary software applications, conduct financial, utility and business analysis of clients\u2019 operations, and initiate action to obtain cost savings for clients.\n\u2022 Interface with clients, utility companies, tax authorities, regulatory authorities and government agencies to obtain appropriate information to successfully implement savings opportunities.\n\u2022 Match details in complex utility tariff codes against our clients\u2019 usage and practices to identify new savings.\n\u2022 Collaborate with our IT group in implementing tools to improve our clients\u2019 accounts review process.\n\nRequirements\n\u2022 Working knowledge of one or more programming skills: R, Python, SQL.\n\u2022 The ability to grasp and explain technical and legal concepts and business issues.\n\u2022 Preferred: 1-2 years of experience in a relevant auditing or analyst role.\n\u2022 Preferred: previous experience working with or for a regulated public utility, especially dealing with rate billing analysis and customer interaction.\n\u2022 Preferred: college degree in business, finance, mathematics, or other related field.\n\nBenefits\n\u2022 401(k) matching\n\u2022 Dental insurance\n\u2022 Health insurance\n\u2022 Life insurance\n\u2022 Vision insurance\n\u2022 Paid time off\n\u2022 Paid sick leave\n\u2022 Paid holidays\n\u2022 Professional development assistance\n\nApply via email to [email protected]. Please include a resume and optional cover letter.",
+        "job_is_remote": true,
+        "job_posted_at": null,
+        "job_posted_at_timestamp": null,
+        "job_posted_at_datetime_utc": null,
+        "job_location": "Remote, OR",
+        "job_city": "Remote",
+        "job_state": "Oregon",
+        "job_country": "US",
+        "job_latitude": 43.005945499999996,
+        "job_longitude": -123.8925908,
+        "job_benefits": [
+            "dental_coverage",
+            "health_insurance",
+            "paid_time_off"
+        ],
+        "job_google_link": "https://www.google.com/search?q=jobs&gl=us&hl=en&udm=8#vhid=vt%3D20/docid%3DU_EczjGychzKHW_AAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+        "job_min_salary": 40000,
+        "job_max_salary": 45000,
+        "job_salary_period": "YEAR",
+        "job_highlights": {
+            "Qualifications": [
+                "This is a business critical hands-on role and the ideal candidate will have a record of success in a role focused on gathering data, cost analysis, analyzing complicated laws and regulations, and identifying cases, opportunities and solutions",
+                "This position interfaces directly with customers, so strong communication, presentation and client management skills are also essential",
+                "Previous familiarity with utility regulations, rates and billing is a must",
+                "Working knowledge of one or more programming skills: R, Python, SQL",
+                "The ability to grasp and explain technical and legal concepts and business issues"
+            ],
+            "Benefits": [
+                "Careers at UtiliSave offer full industry introduction, complete career training, and continuous support for your professional development",
+                "We acknowledge the efforts of our employees and offer bonuses and commission plans",
+                "Utility careers at UtiliSave offer competitive salary, excellent health, dental and vision benefits, and a 401K plan",
+                "Salary: $40,000 \u2013 $45,000",
+                "401(k) matching",
+                "Dental insurance",
+                "Health insurance",
+                "Life insurance",
+                "Vision insurance",
+                "Paid time off",
+                "Paid sick leave",
+                "Paid holidays",
+                "Professional development assistance"
+            ],
+            "Responsibilities": [
+                "Apply your analytical skills and general business knowledge to identify cost savings opportunities for clients",
+                "Use UtiliSave\u2019s proprietary software applications, conduct financial, utility and business analysis of clients\u2019 operations, and initiate action to obtain cost savings for clients",
+                "Interface with clients, utility companies, tax authorities, regulatory authorities and government agencies to obtain appropriate information to successfully implement savings opportunities",
+                "Match details in complex utility tariff codes against our clients\u2019 usage and practices to identify new savings",
+                "Collaborate with our IT group in implementing tools to improve our clients\u2019 accounts review process"
+            ]
+        },
+        "job_onet_soc": "43911100",
+        "job_onet_job_zone": "4"
+    },
+    {
         "job_id": "PNyvx0b3I-hPHqyUAAAAAA==",
         "job_title": "Patient Access Center Data Analyst I - Kelsey Seybold - Patient Access Center - Remote",
         "employer_name": "UnitedHealth Group",
@@ -285,8 +503,18 @@
                 "is_direct": false
             },
             {
+                "publisher": "Glassdoor",
+                "apply_link": "https://www.glassdoor.com/job-listing/patient-access-center-data-analyst-i-%E2%80%93-kelsey-seybold-%E2%80%93-patient-access-center-%E2%80%93-remote-kelsey-seybold-clinic-JV_IC1140202_KO0,86_KE87,108.htm?jl=1010064638254&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                "is_direct": false
+            },
+            {
                 "publisher": "Talent.com",
                 "apply_link": "https://www.talent.com/view?id=0a681e84c4fd&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                "is_direct": false
+            },
+            {
+                "publisher": "Adzuna",
+                "apply_link": "https://www.adzuna.com/details/5664237147?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
                 "is_direct": false
             },
             {
@@ -302,7 +530,7 @@
         ],
         "job_description": "About the position\n\nExplore opportunities with Kelsey-Seybold Clinic, part of the Optum family of businesses. Work with one of the nation\u2019s leading health care organizations and build your career at one of our 40+ locations throughout Houston. Be part of a team that is nationally recognized for delivering coordinated and accountable care. As a multi-specialty clinic, we offer care from more than 900 medical providers in 65 medical specialties. Take on a rewarding opportunity to help drive higher quality, higher patient satisfaction and lower total costs. Join us and discover the meaning behind Caring. Connecting. Growing together.\nThe Patient Access Center (PAC) Analytics team exists to monitor and improve patient scheduling and access across Kelsey-Seybold.\nPrimary Responsibilities:\nThe PAC Data Analyst provides actionable insights through analysis of scheduling patterns, service levels, patient utilization, and financial modeling\u2014including utilization metrics, payer mix, and reimbursement structures\u2014to identify access gaps, inefficiencies, and opportunities for improvement\nAlong with historical analysis to inform future performance, insights, and guidance, this role requires experience in the healthcare industry with a solid understanding of provider scheduling, appointment workflows, visit types, and patient access metrics, enabling the analyst to create accurate reports, dashboards, and analyses that support leadership decision-making\nPartners with clinical, operational, and business teams to enhance patient experience, optimize capacity management, evaluate campaign effectiveness, and drive initiatives that improve access and overall operational performance\nThe Data Analyst I provides patient access data, reporting and other actionable information to the PAC Management Team and other departments regarding the business units, process, products and/or service lines as directed by the manager. Responsibilities related to this position include:\nCreating/producing access reports, analysis required to understand the key drivers of the relevant business unit or service line\nHelping to develop the systems and processes that are the foundation for reporting and analysis\nYou\u2019ll be rewarded and recognized for your performance in an environment that will challenge you and give you clear direction on what it takes to succeed in your role as well as provide development for other roles you may be interested in.\n\nResponsibilities\n\u2022 Creating/producing access reports, analysis required to understand the key drivers of the relevant business unit or service line\n\u2022 Helping to develop the systems and processes that are the foundation for reporting and analysis\n\nRequirements\n\u2022 Experience in data analysis, decision support, medical economics, healthcare informatics, or managed healthcare or equivalent combination of education and experience to demonstrate ability to succeed in healthcare analytics\n\nNice-to-haves\n\u2022 Demonstrated ability to analyze and report on business units, products or service lines\n\u2022 Experience in the healthcare industry with understanding of data in healthcare organizations (including provider scheduling, appointment workflows, visit types, patient access metrics, and an understanding of financial modeling within healthcare operations such as utilization metrics, payer mix, and reimbursement structures)\n\u2022 Demonstrated analytical/modeling skills with ability to convert raw data into actionable business insights\n\nBenefits\n\u2022 a comprehensive benefits package\n\u2022 incentive and recognition programs\n\u2022 equity stock purchase\n\u2022 401k contribution",
         "job_is_remote": true,
-        "job_posted_at": "24 hours ago",
+        "job_posted_at": "2 days ago",
         "job_posted_at_timestamp": 1773273600,
         "job_posted_at_datetime_utc": "2026-03-12T00:00:00.000Z",
         "job_location": "Pearland, TX",
@@ -347,65 +575,6 @@
         },
         "job_onet_soc": "43911100",
         "job_onet_job_zone": "4"
-    },
-    {
-        "job_id": "45hsCUUWpyCycpMfAAAAAA==",
-        "job_title": "Data Analyst for Econometrics",
-        "employer_name": "G2i Inc.",
-        "employer_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbhd92KDqW9iPC5hLsmrTD0pNNN9S78McNFvPt&s=0",
-        "employer_website": "https://www.g2i.co",
-        "job_publisher": "Virtual Vocations",
-        "job_employment_type": "Full-time",
-        "job_employment_types": [
-            "FULLTIME"
-        ],
-        "job_apply_link": "https://www.virtualvocations.com/job/data-analyst-for-econometrics-2951054-i.html?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
-        "job_apply_is_direct": false,
-        "apply_options": [
-            {
-                "publisher": "Virtual Vocations",
-                "apply_link": "https://www.virtualvocations.com/job/data-analyst-for-econometrics-2951054-i.html?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
-                "is_direct": false
-            },
-            {
-                "apply_link": "https://www.virtualvocations.com/job/data-analyst-for-econometrics-2951054-i.html",
-                "is_direct": null,
-                "publisher": "Virtual Vocations"
-            }
-        ],
-        "job_description": "A company is looking for a Data Analyst or Economist.\n\nKey Responsibilities\n\u2022 Use professional software to complete realistic work tasks\n\u2022 Record screen while performing tasks and submit recordings for AI model training\n\u2022 Follow written task instructions and execute data analysis tasks\n\nRequired Qualifications\n\u2022 Professional experience with statistical software such as Stata or EViews\n\u2022 Ability to perform professional-level workflows in the software\n\u2022 Proficiency in written English\n\u2022 Ability to record screen using any screen recording software\n\u2022 Capability to follow written task instructions accurately",
-        "job_is_remote": true,
-        "job_posted_at": "1 day ago",
-        "job_posted_at_timestamp": 1773273600,
-        "job_posted_at_datetime_utc": "2026-03-12T00:00:00.000Z",
-        "job_location": "United States",
-        "job_city": null,
-        "job_state": null,
-        "job_country": "US",
-        "job_latitude": 38.794595199999996,
-        "job_longitude": -106.5348379,
-        "job_benefits": null,
-        "job_google_link": "https://www.google.com/search?q=jobs&gl=us&hl=en&udm=8#vhid=vt%3D20/docid%3D45hsCUUWpyCycpMfAAAAAA%3D%3D&vssid=jobs-detail-viewer",
-        "job_salary": null,
-        "job_min_salary": null,
-        "job_max_salary": null,
-        "job_salary_period": null,
-        "job_highlights": {
-            "Qualifications": [
-                "Professional experience with statistical software such as Stata or EViews",
-                "Ability to perform professional-level workflows in the software",
-                "Proficiency in written English",
-                "Ability to record screen using any screen recording software",
-                "Capability to follow written task instructions accurately"
-            ],
-            "Responsibilities": [
-                "Use professional software to complete realistic work tasks",
-                "Record screen while performing tasks and submit recordings for AI model training",
-                "Follow written task instructions and execute data analysis tasks"
-            ]
-        },
-        "job_onet_soc": "19301100",
-        "job_onet_job_zone": "5"
     },
     {
         "job_id": "nytOhV11SRxOtXcHAAAAAA==",
@@ -526,6 +695,114 @@
         "job_onet_job_zone": "4"
     },
     {
+        "job_id": "YRIREK7l_OWVSji1AAAAAA==",
+        "job_title": "Business Intelligence & Data Analyst",
+        "employer_name": "MyFunded Futures",
+        "employer_logo": null,
+        "employer_website": "https://myfundedfutures.com",
+        "job_publisher": "Teal",
+        "job_employment_type": "Full-time",
+        "job_employment_types": [
+            "FULLTIME"
+        ],
+        "job_apply_link": "https://www.tealhq.com/job/business-intelligence-data-analyst_7ea1a4fc3cadaa273c87dbd695c4e21577890?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+        "job_apply_is_direct": false,
+        "apply_options": [
+            {
+                "publisher": "Teal",
+                "apply_link": "https://www.tealhq.com/job/business-intelligence-data-analyst_7ea1a4fc3cadaa273c87dbd695c4e21577890?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                "is_direct": false
+            },
+            {
+                "publisher": "Talents By Vaia",
+                "apply_link": "https://talents.vaia.com/companies/anser/business-intelligence-developer-data-analyst-31184298/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                "is_direct": false
+            },
+            {
+                "publisher": "Amazon Locker+ Customer Service Associate",
+                "apply_link": "https://novexwork.net/job/991104?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                "is_direct": false
+            },
+            {
+                "publisher": "Remote Jobs USA",
+                "apply_link": "https://swiftnook.net/job/645376?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                "is_direct": false
+            },
+            {
+                "publisher": "Remote Jobs USA",
+                "apply_link": "https://whimsicalzap.com/job/647085?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                "is_direct": false
+            },
+            {
+                "publisher": "Talentify",
+                "apply_link": "https://www.talentify.io/job/business-intelligence-and-data-analyst-dallas-texas-us-remote-jobs-4078733009?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                "is_direct": false
+            },
+            {
+                "publisher": "Jobilize",
+                "apply_link": "https://www.jobilize.com/job/us-business-intelligence-data-analyst-united-states-myfunded-futures?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                "is_direct": false
+            },
+            {
+                "apply_link": "https://www.tealhq.com/job/business-intelligence-data-analyst_7ea1a4fc3cadaa273c87dbd695c4e21577890",
+                "is_direct": null,
+                "publisher": "Teal"
+            }
+        ],
+        "job_description": "About the position\n\nAt My Funded Futures, we\u2019re transforming the world of proprietary trading by giving traders the capital, tools, and community they need to succeed.\nWe blend innovation, transparency, and performance to create opportunity \u2014 helping traders scale faster and smarter. If you\u2019re passionate about fintech, financial markets, and data-driven growth, you\u2019ll fit right in.\nExplore our open roles below and see how you can help us shape the future of funded trading.\nWe're looking for an analytically strong, hands-on BI & Data Analyst with 3-5 years of experience turning data into decisions. In this role, you'll own our Power BI environment, work directly in Microsoft Fabric, and partner across the business to deliver reporting and insights that drive better decisions.\nAbout MyFundedFutures\nMyFundedFutures (MFF) is a fast-growing futures evaluation and trading firm built for the next generation of global traders. We sit at the intersection of capital markets, technology, and risk, giving traders the tools, capital, and infrastructure to succeed.\nOur data platform is already built on Microsoft Fabric using a Medallion architecture (Bronze, Silver, Gold), with clean, structured data flowing across trading platforms, CRM, risk engines, payments, support, and marketing data. The foundation is in place. Now we need someone to expand our Power BI ecosystem across the business and help strengthen a culture where decisions are backed by data.\n\nResponsibilities\n\u2022 Own our Power BI environment end to end, including semantic models, DAX, and dashboards for executive leadership, risk, finance, operations, marketing, and support.\n\u2022 Maintain and improve data pipelines in Microsoft Fabric, including Data Pipelines, Dataflows, and Notebooks, to keep data flowing reliably across the business.\n\u2022 Build scalable data models using star schema and fact/dimension design principles.\n\u2022 Deliver automated daily, weekly, and monthly reporting that gives teams timely, reliable access to key metrics.\n\u2022 Analyze trader behavior, including success rates, churn, risk signals, and anomalies.\n\u2022 Support pricing, product, and growth decisions through scenario modeling, sensitivity analysis, and financial performance reviews.\n\u2022 Identify early warning signals in risk and operational data before they become larger issues.\n\u2022 Partner closely with the COO, Risk, Finance, Marketing, Product, and Support teams to translate business questions into analytical frameworks and actionable insights.\n\u2022 Act as a trusted internal partner who helps teams understand what is happening in their area of the business and why.\n\nRequirements\n\u2022 3-5 years of experience in business intelligence, data analytics, or a related field.\n\u2022 Strong SQL skills, including complex queries, CTEs, window functions, and performance tuning.\n\u2022 Hands-on Power BI experience, including semantic models, DAX, and business-critical reporting.\n\u2022 Python and/or PySpark experience for data work, including pandas, scripting, API calls, and automation.\n\u2022 Strong data modeling fundamentals, including schema design, grain definition, and scalable reporting structures.\n\u2022 Experience with Microsoft Fabric or a comparable platform such as Azure Synapse, Data Factory, or Databricks.\n\u2022 Experience integrating data from APIs, webhooks, or third-party SaaS platforms.\n\nNice-to-haves\n\u2022 Experience in capital markets, futures trading, prop firms, or brokerage operations.\n\u2022 Familiarity with drawdowns, leverage, volatility, and liquidation concepts.\n\u2022 Experience working with financial time-series data.\n\u2022 Interest in machine learning use cases such as churn prediction, anomaly detection, and forecasting, with openness to tools such as AutoML and MLflow as that capability evolves.\n\nBenefits\n\u2022 Help shape how a high-growth trading firm makes decisions.\n\u2022 Work alongside experienced operators from capital markets, fintech, and trading technology.\n\u2022 Flexible work environment focused on outcomes and impact.\n\u2022 Competitive compensation and meaningful room to grow as the company scales.",
+        "job_is_remote": true,
+        "job_posted_at": "23 hours ago",
+        "job_posted_at_timestamp": 1773414000,
+        "job_posted_at_datetime_utc": "2026-03-13T15:00:00.000Z",
+        "job_location": "Plano, TX",
+        "job_city": "Plano",
+        "job_state": "Texas",
+        "job_country": "US",
+        "job_latitude": 33.0216577,
+        "job_longitude": -96.6979973,
+        "job_benefits": null,
+        "job_google_link": "https://www.google.com/search?q=jobs&gl=us&hl=en&udm=8#vhid=vt%3D20/docid%3DYRIREK7l_OWVSji1AAAAAA%3D%3D&vssid=jobs-detail-viewer",
+        "job_salary": null,
+        "job_min_salary": null,
+        "job_max_salary": null,
+        "job_salary_period": null,
+        "job_highlights": {
+            "Qualifications": [
+                "We're looking for an analytically strong, hands-on BI & Data Analyst with 3-5 years of experience turning data into decisions",
+                "3-5 years of experience in business intelligence, data analytics, or a related field",
+                "Strong SQL skills, including complex queries, CTEs, window functions, and performance tuning",
+                "Hands-on Power BI experience, including semantic models, DAX, and business-critical reporting",
+                "Python and/or PySpark experience for data work, including pandas, scripting, API calls, and automation",
+                "Strong data modeling fundamentals, including schema design, grain definition, and scalable reporting structures",
+                "Experience with Microsoft Fabric or a comparable platform such as Azure Synapse, Data Factory, or Databricks",
+                "Experience integrating data from APIs, webhooks, or third-party SaaS platforms",
+                "Experience in capital markets, futures trading, prop firms, or brokerage operations",
+                "Familiarity with drawdowns, leverage, volatility, and liquidation concepts",
+                "Experience working with financial time-series data",
+                "Interest in machine learning use cases such as churn prediction, anomaly detection, and forecasting, with openness to tools such as AutoML and MLflow as that capability evolves",
+                "Work alongside experienced operators from capital markets, fintech, and trading technology"
+            ],
+            "Benefits": [
+                "Help shape how a high-growth trading firm makes decisions",
+                "Flexible work environment focused on outcomes and impact",
+                "Competitive compensation and meaningful room to grow as the company scales"
+            ],
+            "Responsibilities": [
+                "Own our Power BI environment end to end, including semantic models, DAX, and dashboards for executive leadership, risk, finance, operations, marketing, and support",
+                "Maintain and improve data pipelines in Microsoft Fabric, including Data Pipelines, Dataflows, and Notebooks, to keep data flowing reliably across the business",
+                "Build scalable data models using star schema and fact/dimension design principles",
+                "Deliver automated daily, weekly, and monthly reporting that gives teams timely, reliable access to key metrics",
+                "Analyze trader behavior, including success rates, churn, risk signals, and anomalies",
+                "Support pricing, product, and growth decisions through scenario modeling, sensitivity analysis, and financial performance reviews",
+                "Identify early warning signals in risk and operational data before they become larger issues",
+                "Partner closely with the COO, Risk, Finance, Marketing, Product, and Support teams to translate business questions into analytical frameworks and actionable insights",
+                "Act as a trusted internal partner who helps teams understand what is happening in their area of the business and why"
+            ]
+        },
+        "job_onet_soc": "43911100",
+        "job_onet_job_zone": "4"
+    },
+    {
         "job_id": "WlWznQrnMempo2FxAAAAAA==",
         "job_title": "Remote Economic Data Analyst: Policy & Forecasting",
         "employer_name": "Corner Alliance",
@@ -557,7 +834,7 @@
         ],
         "job_description": "A growing consulting firm is seeking an Economic Data Analyst to provide rigorous data-driven analysis for federal government clients. Ideal candidates will have 3\u20136 years of experience in federal consulting, a strong background in economics, and proficiency with data analysis tools like Excel and Python. The role involves analyzing large datasets and translating findings into actionable insights, ideally suited for individuals comfortable in government decision-making environments.",
         "job_is_remote": true,
-        "job_posted_at": "9 days ago",
+        "job_posted_at": "10 days ago",
         "job_posted_at_timestamp": 1772582400,
         "job_posted_at_datetime_utc": "2026-03-04T00:00:00.000Z",
         "job_location": "Washington, DC",
@@ -581,139 +858,40 @@
         "job_onet_job_zone": "5"
     },
     {
-        "job_id": "IN5iKUYc6nJM4oa_AAAAAA==",
-        "job_title": "Senior Data Analyst with DoD Clearance",
-        "employer_name": "ASRC Federal Holding Corporation",
-        "employer_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRv7SDLMvHsgg9Cfk1B8W5B-MD_e6SdmgMeKWmp&s=0",
-        "employer_website": null,
-        "job_publisher": "Virtual Vocations",
-        "job_employment_type": "Full-time",
+        "job_id": "m0OuB0iv0zgfnyfWAAAAAA==",
+        "job_title": "Senior Business Systems Analyst, Data Governance",
+        "employer_name": "Orion Groups",
+        "employer_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJjjKNIt7veKA_1j45IfPm8hvj1tCry2bDCi9I&s=0",
+        "employer_website": "https://oriongrps.com",
+        "job_publisher": "LinkedIn",
+        "job_employment_type": "Contractor",
         "job_employment_types": [
-            "FULLTIME"
+            "CONTRACTOR"
         ],
-        "job_apply_link": "https://www.virtualvocations.com/job/senior-data-analyst-with-dod-clearance-2948192-i.html?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+        "job_apply_link": "https://www.linkedin.com/jobs/view/senior-business-systems-analyst-data-governance-at-orion-groups-4385398816?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
         "job_apply_is_direct": false,
         "apply_options": [
-            {
-                "publisher": "Virtual Vocations",
-                "apply_link": "https://www.virtualvocations.com/job/senior-data-analyst-with-dod-clearance-2948192-i.html?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
-                "is_direct": false
-            },
-            {
-                "publisher": "Adzuna",
-                "apply_link": "https://www.adzuna.com/details/5659951682?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
-                "is_direct": false
-            },
-            {
-                "publisher": "TryApplyNow",
-                "apply_link": "https://www.tryapplynow.com/jobs/darkstar-intelligence-data-analyst-jm-senior-with-security-clearance-1f4144c5-c14f-4c9f-8e0e-256ddd318689?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
-                "is_direct": false
-            },
-            {
-                "apply_link": "https://www.virtualvocations.com/job/senior-data-analyst-with-dod-clearance-2948192-i.html",
-                "is_direct": null,
-                "publisher": "Virtual Vocations"
-            }
-        ],
-        "job_description": "A company is looking for a Army Vantage Data Analyst Senior to support data-driven decision-making for the U.S. Army.\n\nKey Responsibilities\n\u2022 Develop and maintain Power BI and Tableau dashboards integrating Army data sources\n\u2022 Create optimized ETL processes and SQL-based data pipelines\n\u2022 Perform data validation, quality assurance, and integration across Army systems\n\nRequired Qualifications\n\u2022 Bachelor's degree and 5+ years of data analytics experience\n\u2022 Strong proficiency in Power BI, Tableau, and SQL\n\u2022 Experience with Army Vantage or other DoD data systems\n\u2022 Minimum active DoD Secret clearance\n\u2022 U.S. citizenship required",
-        "job_is_remote": true,
-        "job_posted_at": "3 days ago",
-        "job_posted_at_timestamp": 1773100800,
-        "job_posted_at_datetime_utc": "2026-03-10T00:00:00.000Z",
-        "job_location": "United States",
-        "job_city": null,
-        "job_state": null,
-        "job_country": "US",
-        "job_latitude": 38.794595199999996,
-        "job_longitude": -106.5348379,
-        "job_benefits": null,
-        "job_google_link": "https://www.google.com/search?q=jobs&gl=us&hl=en&udm=8#vhid=vt%3D20/docid%3DIN5iKUYc6nJM4oa_AAAAAA%3D%3D&vssid=jobs-detail-viewer",
-        "job_salary": null,
-        "job_min_salary": null,
-        "job_max_salary": null,
-        "job_salary_period": null,
-        "job_highlights": {
-            "Qualifications": [
-                "Bachelor's degree and 5+ years of data analytics experience",
-                "Strong proficiency in Power BI, Tableau, and SQL",
-                "Experience with Army Vantage or other DoD data systems",
-                "Minimum active DoD Secret clearance",
-                "U.S. citizenship required"
-            ],
-            "Responsibilities": [
-                "Develop and maintain Power BI and Tableau dashboards integrating Army data sources",
-                "Create optimized ETL processes and SQL-based data pipelines",
-                "Perform data validation, quality assurance, and integration across Army systems"
-            ]
-        },
-        "job_onet_soc": "43911100",
-        "job_onet_job_zone": "4"
-    },
-    {
-        "job_id": "xuXWWnNZdjTZWrBqAAAAAA==",
-        "job_title": "Data Analyst Level II",
-        "employer_name": "Fulcrum Vets",
-        "employer_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxgt3QLxD9d1Dm7tG-m1UvuiF2Hid30tEO9RVi&s=0",
-        "employer_website": "https://www.fulcrumvets.com",
-        "job_publisher": "Indeed",
-        "job_employment_type": "Full-time",
-        "job_employment_types": [
-            "FULLTIME"
-        ],
-        "job_apply_link": "https://www.indeed.com/viewjob?jk=0483a55f97fc2e48&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
-        "job_apply_is_direct": false,
-        "apply_options": [
-            {
-                "publisher": "Indeed",
-                "apply_link": "https://www.indeed.com/viewjob?jk=0483a55f97fc2e48&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
-                "is_direct": false
-            },
-            {
-                "publisher": "Jobgether",
-                "apply_link": "https://jobgether.com/offer/69a8b2987f0cfae7f12a1bdb-data-analyst-ii?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
-                "is_direct": false
-            },
-            {
-                "publisher": "Virtual Vocations",
-                "apply_link": "https://www.virtualvocations.com/job/data-analyst-ii-2918997-i.html?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
-                "is_direct": false
-            },
-            {
-                "publisher": "Teal",
-                "apply_link": "https://www.tealhq.com/job/operations-data-analyst-ii_7ea1a7c5b0e2cbe60e0bbc79361d4151acc68?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
-                "is_direct": false
-            },
-            {
-                "publisher": "Tech Jobs Personalized",
-                "apply_link": "https://builtin.com/job/data-analyst-ii/8366477?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
-                "is_direct": true
-            },
-            {
-                "publisher": "Magnit Global",
-                "apply_link": "http://directsource.magnitglobal.com/us/paloaltonetworks/jobs/102221-data-analyst-ii-contract-santa-clara-california?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
-                "is_direct": true
-            },
             {
                 "publisher": "LinkedIn",
-                "apply_link": "https://www.linkedin.com/jobs/view/data-analyst-ii-contract-at-palo-alto-networks-4376947049?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                "apply_link": "https://www.linkedin.com/jobs/view/senior-business-systems-analyst-data-governance-at-orion-groups-4385398816?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
                 "is_direct": false
             },
             {
-                "publisher": "BeBee",
-                "apply_link": "https://us.bebee.com/job/251b6c3830fb6bcd3ac57fbe496f7d55?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                "publisher": "Jobs Trabajo.org",
+                "apply_link": "https://us.trabajo.org/job-3310-09ea76a3ffcfa3cbb7914c5e340311d5?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
                 "is_direct": false
             },
             {
-                "apply_link": "https://www.indeed.com/viewjob?jk=0483a55f97fc2e48",
+                "apply_link": "https://www.linkedin.com/jobs/view/senior-business-systems-analyst-data-governance-at-orion-groups-4385398816",
                 "is_direct": null,
-                "publisher": "Indeed"
+                "publisher": "LinkedIn"
             }
         ],
-        "job_description": "Supports the use of VA electronic health record (EHR) data and other national VA databases. Queries, analyzes, and examines the quality and utility of large databases. Develops content describing VA data and information systems. May manage products/projects. May lead the work of others, including training, mentoring, and leading junior analysts. Query data sources to support the development of products describing VA data and information systems using SQL or other methods of analysis (e.g., SAS) to interpret and evaluate commonly used VA data sources and information systems or to build datasets.\n\nMinimum/General Experience: 6-7 years, 10 preferred\n\nMinimum Qualifications:\n\u2022 Using advanced data management and statistical methods.\n\u2022 Managing or analyzing data using SQL.\n\u2022 Documenting databases, their contents, and structure.\n\u2022 Investigating the quality and utility of large databases.\n\u2022 Using appropriate data sources, information systems and other resources as needed for work related activities.\n\u2022 Working with subject matter experts (SMEs) and training junior analysts as needed.\n\u2022 Contributing to routine calls with project team and SMEs.\n\u2022 Tracking progress and providing regular status reports to project team and VIReC leadership as needed.\n\u2022 Degree and/or direct experience in health services research, epidemiology, health economics, public health, or related social and health sciences.\n\u2022 Demonstrates expertise in data management or data analysis using SQL.\n\u2022 Experience with documenting, writing, editing, and presenting content focused on the use and quality of data.\n\u2022 Experience with Microsoft Office (MS) 365 (e.g., MS Word, Excel, PowerPoint, Access, Teams, SharePoint, Streams, Power BI, Power Automate, Power Apps, OneNote, etc.).\n\nPreferred Experience:\n\u2022 Managing and analyzing VA data sources such as the Corporate Data Warehouse, Vital Status File, or other commonly used VA databases.\n\u2022 Fluency with data visualization tools such as MS Power BI.\n\u2022 Degree and/or direct experience in health services research, epidemiology, health economics, public health, or related social and health sciences.\n\u2022 Demonstrable expertise in data management and/or data analysis using SQL.\n\u2022 Preferred experience: managing and analyzing VA data sources such as the CDW, Vital Status File, and/or other commonly used VA databases.\n\u2022 Experience examining the quality and utility of large databases.\n\u2022 Experience with data management, data analysis, and analytics tools.\n\u2022 Experience with querying, cleaning, managing, and interpreting data.\n\nWork Location: Remote\n\nClearance Required: OPM 5",
+        "job_description": "ORION GROUPS is a professional services firm based in McKinney, Texas that provides experienced consultants to key organizations across the United States. We focus our talent expertise in both the financial and healthcare industries. Our capabilities in technology include application management, enterprise software systems, data strategies, integration, and IT infrastructure. We work diligently to listen and provide value to your unique needs. www.OrionGRPS.com\n\nOVERVIEW\n\nAt Orion, we are seeking a Senior Business Systems Analyst to assist in the roll out of organizational programs and team platforms and discovery work to make informed decisions. The associate in this role will develop processes and workflows and work closely with business stakeholders to move forward with our next phase of Data Sharing Governance maturity.\n\nOPPORTUNITY\n\n6-month contract; Fully Remote (U.S. \u2013 Central Time Zone)\n\nSALARY\n\n$115,000 \u2013 $130,000 W2 plus benefits\n\nKEY RESPONSIBILITIES\n\u2022 Data Reconciliation & Forensic Mapping: Lead the effort to reconcile contract (Conga) to implementation (ServiceNow) by cross-referencing Conga contract metadata, ServiceNow interface extracts, and stakeholder interviews to reconstruct project provenance.\n\u2022 Reconstructing project provenance following a system upgrade and maturing our tracking within Collibra to ensure every piece of data shared with external partners (HIEs, Research, etc.) is fully governed, authorized, and documented.\n\u2022 Audit Readiness: Create a \"traceability matrix\" that links a signed contract ID to a ServiceNow Project ID and a specific technical interface endpoint.\n\u2022 Defines new business processes/functions to support emerging capabilities\n\u2022 Maps and enhances existing business processes/functions and recommends changes required to fit a tightly integrated system\n\u2022 Designs and implements projects requiring systems integration, small teams and multiple technical platforms\n\u2022 Assist in maturing governance process around data sharing platform (Collibra)\n\u2022 Collaborates on driving improvement activities to achieve department and organizational goals\n\u2022 Coordinates with functional team to assure consistency and optimization of overall work product\n\u2022 Maintains current knowledge of industry and business process trends and is able to apply that knowledge to existing business processes\n\nKEY EXPERIENCE\n\u2022 Experience with Logic & Querying (SQL, BigQuery) to pull reports from BigQuery to find the \u201corphaned\u201d data from ServiceNow upgrade\n\u2022 Interoperability standards: basic understanding of healthcare data exchange (HL7, FHIR, or EDI) to accurately map \"Data Elements\" mentioned in a contract to actual fields in an API or interface.\n\u2022 Data Governance Frameworks: familiarity with the concept of Data Provenance, knowing not just where data is, but its origin and the authority by which it is being shared.\n\u2022 Experience working in a healthcare environment preferred\n\u2022 Experience working in Data Governance preferred\n\u2022 General knowledge of hospital operations, contracting, data sharing (HIEs, registries, etc.) the interrelationship of systems, and how technology enables business processes\n\u2022 Bachelor\u2019s degree, preferably in Computer Science, Information Technology, Mathematics or other related major and 2 years of applicable cumulative job specific experience\n\nINTERVIEW PROCESS\n\u2022 Quick turnaround: preliminary interview followed by team interview.\n\u2022 Typically, one round with the hiring manager and team, possibly two rounds if needed.\n\nOrion Groups is an Equal Opportunity Employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, national origin, disability status, protected veteran status, sexual orientation, gender identity or any other characteristic protected by law. If reasonable accommodation is needed to participate in the job application or interview process, to perform essential job functions, and/or to receive other benefits and privileges of employment, please contact Orion@OrionGRPS.com",
         "job_is_remote": true,
-        "job_posted_at": null,
-        "job_posted_at_timestamp": null,
-        "job_posted_at_datetime_utc": null,
+        "job_posted_at": "22 hours ago",
+        "job_posted_at_timestamp": 1773417600,
+        "job_posted_at_datetime_utc": "2026-03-13T16:00:00.000Z",
         "job_location": "United States",
         "job_city": null,
         "job_state": null,
@@ -721,92 +899,37 @@
         "job_latitude": 38.794595199999996,
         "job_longitude": -106.5348379,
         "job_benefits": null,
-        "job_google_link": "https://www.google.com/search?q=jobs&gl=us&hl=en&udm=8#vhid=vt%3D20/docid%3DxuXWWnNZdjTZWrBqAAAAAA%3D%3D&vssid=jobs-detail-viewer",
-        "job_salary": null,
-        "job_min_salary": null,
-        "job_max_salary": null,
-        "job_salary_period": null,
-        "job_highlights": {
-            "Qualifications": [
-                "Using advanced data management and statistical methods",
-                "Managing or analyzing data using SQL",
-                "Documenting databases, their contents, and structure",
-                "Investigating the quality and utility of large databases",
-                "Using appropriate data sources, information systems and other resources as needed for work related activities",
-                "Working with subject matter experts (SMEs) and training junior analysts as needed",
-                "Contributing to routine calls with project team and SMEs",
-                "Tracking progress and providing regular status reports to project team and VIReC leadership as needed",
-                "Degree and/or direct experience in health services research, epidemiology, health economics, public health, or related social and health sciences",
-                "Demonstrates expertise in data management or data analysis using SQL",
-                "Experience with documenting, writing, editing, and presenting content focused on the use and quality of data",
-                "Experience with Microsoft Office (MS) 365 (e.g., MS Word, Excel, PowerPoint, Access, Teams, SharePoint, Streams, Power BI, Power Automate, Power Apps, OneNote, etc.)",
-                "Clearance Required: OPM 5"
-            ],
-            "Responsibilities": [
-                "Supports the use of VA electronic health record (EHR) data and other national VA databases",
-                "Queries, analyzes, and examines the quality and utility of large databases",
-                "Develops content describing VA data and information systems",
-                "May manage products/projects",
-                "May lead the work of others, including training, mentoring, and leading junior analysts",
-                "Query data sources to support the development of products describing VA data and information systems using SQL or other methods of analysis (e.g., SAS) to interpret and evaluate commonly used VA data sources and information systems or to build datasets"
-            ]
-        },
-        "job_onet_soc": "43911100",
-        "job_onet_job_zone": "4"
-    },
-    {
-        "job_id": "FGXIrrborIzA57AWAAAAAA==",
-        "job_title": "Data Analyst (Medicaid, ADF, SQL, Python)",
-        "employer_name": "Remotely",
-        "employer_logo": null,
-        "employer_website": "https://remote.co",
-        "job_publisher": "JobLeads",
-        "job_employment_type": "Full-time",
-        "job_employment_types": [
-            "FULLTIME"
-        ],
-        "job_apply_link": "https://www.jobleads.com/us/job/data-analyst-medicaid-adf-sql-python-eden-prairie-mn--washington--e5a02cd200d330c1e211461ff37d91153?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
-        "job_apply_is_direct": false,
-        "apply_options": [
-            {
-                "publisher": "JobLeads",
-                "apply_link": "https://www.jobleads.com/us/job/data-analyst-medicaid-adf-sql-python-eden-prairie-mn--washington--e5a02cd200d330c1e211461ff37d91153?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
-                "is_direct": false
-            },
-            {
-                "publisher": "TryApplyNow",
-                "apply_link": "https://www.tryapplynow.com/jobs/remotely-data-analyst-medicaid-adf-sql-python-5d7336f7-7adf-4f4a-9160-a3d7bcb6c556?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
-                "is_direct": false
-            },
-            {
-                "apply_link": "https://www.jobleads.com/us/job/data-analyst-medicaid-adf-sql-python-eden-prairie-mn--washington--e5a02cd200d330c1e211461ff37d91153",
-                "is_direct": null,
-                "publisher": "JobLeads"
-            }
-        ],
-        "job_description": "Job Description\n\nAssisting with all ETL change requests, developing ETL jobs to bring in and load data and extracts, building new ETL pipelines in ADF, creating and maintaining existing stored procedures, analyzing requirements and developing specifications, documenting interfaces in ICD.\n\nM&O phase of the project and work performed is the same as what is listed above.\n\nThis is a remote position.\n\nCompensation: $50.00 per hour\n\nAbout Us\n\nAHU Technologies INC. is an IT consulting and permanent staffing firm that meets and exceeds the evolving IT service needs of leading corporations within the United States. We have been providing IT solutions to customers from different industry sectors, helping them control costs and release internal resources to focus on strategic issues.\n\nAHU Technologies INC. was co-founded by visionary young techno-commercial entrepreneurs who remain as our principal consultants. Maintaining working relationships with a cadre of other highly skilled independent consultants, we have a growing number of resources available for development projects. We are currently working on various projects such as media entertainment, ERP solutions, data warehousing, Web applications, telecommunications and medical to our clients all over the world.",
-        "job_is_remote": true,
-        "job_posted_at": "8 days ago",
-        "job_posted_at_timestamp": 1772668800,
-        "job_posted_at_datetime_utc": "2026-03-05T00:00:00.000Z",
-        "job_location": "Washington, DC",
-        "job_city": "Washington",
-        "job_state": "District of Columbia",
-        "job_country": "US",
-        "job_latitude": 38.9072873,
-        "job_longitude": -77.0369274,
-        "job_benefits": null,
-        "job_google_link": "https://www.google.com/search?q=jobs&gl=us&hl=en&udm=8#vhid=vt%3D20/docid%3DFGXIrrborIzA57AWAAAAAA%3D%3D&vssid=jobs-detail-viewer",
-        "job_min_salary": 60000,
-        "job_max_salary": 80000,
+        "job_google_link": "https://www.google.com/search?q=jobs&gl=us&hl=en&udm=8#vhid=vt%3D20/docid%3Dm0OuB0iv0zgfnyfWAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+        "job_min_salary": 115000,
+        "job_max_salary": 130000,
         "job_salary_period": "YEAR",
         "job_highlights": {
+            "Qualifications": [
+                "Experience with Logic & Querying (SQL, BigQuery) to pull reports from BigQuery to find the \u201corphaned\u201d data from ServiceNow upgrade",
+                "Interoperability standards: basic understanding of healthcare data exchange (HL7, FHIR, or EDI) to accurately map \"Data Elements\" mentioned in a contract to actual fields in an API or interface",
+                "Data Governance Frameworks: familiarity with the concept of Data Provenance, knowing not just where data is, but its origin and the authority by which it is being shared",
+                "General knowledge of hospital operations, contracting, data sharing (HIEs, registries, etc.) the interrelationship of systems, and how technology enables business processes",
+                "Bachelor\u2019s degree, preferably in Computer Science, Information Technology, Mathematics or other related major and 2 years of applicable cumulative job specific experience",
+                "Quick turnaround: preliminary interview followed by team interview",
+                "Typically, one round with the hiring manager and team, possibly two rounds if needed"
+            ],
             "Benefits": [
-                "Compensation: $50.00 per hour"
+                "6-month contract; Fully Remote (U.S. \u2013 Central Time Zone)",
+                "$115,000 \u2013 $130,000 W2 plus benefits"
             ],
             "Responsibilities": [
-                "Assisting with all ETL change requests, developing ETL jobs to bring in and load data and extracts, building new ETL pipelines in ADF, creating and maintaining existing stored procedures, analyzing requirements and developing specifications, documenting interfaces in ICD",
-                "M&O phase of the project and work performed is the same as what is listed above"
+                "At Orion, we are seeking a Senior Business Systems Analyst to assist in the roll out of organizational programs and team platforms and discovery work to make informed decisions",
+                "The associate in this role will develop processes and workflows and work closely with business stakeholders to move forward with our next phase of Data Sharing Governance maturity",
+                "Data Reconciliation & Forensic Mapping: Lead the effort to reconcile contract (Conga) to implementation (ServiceNow) by cross-referencing Conga contract metadata, ServiceNow interface extracts, and stakeholder interviews to reconstruct project provenance",
+                "Reconstructing project provenance following a system upgrade and maturing our tracking within Collibra to ensure every piece of data shared with external partners (HIEs, Research, etc.) is fully governed, authorized, and documented",
+                "Audit Readiness: Create a \"traceability matrix\" that links a signed contract ID to a ServiceNow Project ID and a specific technical interface endpoint",
+                "Defines new business processes/functions to support emerging capabilities",
+                "Maps and enhances existing business processes/functions and recommends changes required to fit a tightly integrated system",
+                "Designs and implements projects requiring systems integration, small teams and multiple technical platforms",
+                "Assist in maturing governance process around data sharing platform (Collibra)",
+                "Collaborates on driving improvement activities to achieve department and organizational goals",
+                "Coordinates with functional team to assure consistency and optimization of overall work product",
+                "Maintains current knowledge of industry and business process trends and is able to apply that knowledge to existing business processes"
             ]
         },
         "job_onet_soc": "43911100",

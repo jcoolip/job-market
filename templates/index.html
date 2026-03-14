@@ -4,10 +4,8 @@
         <meta charset="UTF-8" />
         <title>jcullop 2026</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link
-            rel="stylesheet"
-            href="{{ url_for('static', filename='css/style2.css') }}"
-        />
+        {% include "css.html" %}
+
         <link
             rel="icon"
             href="{{ url_for('static', filename='favicon.png') }}"
@@ -15,8 +13,11 @@
         />
     </head>
     <body>
-        <div class="card">
-            <div class="signature"><br />jcullop</div>
+        <!--<div class="card">-->
+        <div class="page_container">
+            <div class="signature">
+                <br /><a href="{{ url_for('find') }}">jcullop</a>
+            </div>
         </div>
     </body>
 </html>
