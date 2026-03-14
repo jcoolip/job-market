@@ -1406,6 +1406,126 @@
         "RelevanceRank": 0
     },
     {
+        "MatchedObjectId": "860773400",
+        "MatchedObjectDescriptor": {
+            "PositionID": "SF-FY26-6S-NH-2210-3-SPLASH",
+            "PositionTitle": "Operations IT Specialist, SLD 45/1 ROPS",
+            "PositionURI": "https://www.usajobs.gov:443/job/860773400",
+            "ApplyURI": [
+                "https://www.usajobs.gov:443/job/860773400"
+            ],
+            "PositionLocationDisplay": "Cape Canaveral AFS, Florida",
+            "PositionLocation": [
+                {
+                    "LocationName": "Cape Canaveral AFS, Florida",
+                    "CountryCode": "United States",
+                    "CountrySubDivisionCode": "Florida",
+                    "CityName": "Cape Canaveral AFS, Florida",
+                    "Longitude": -80.5678,
+                    "Latitude": 28.5071
+                }
+            ],
+            "OrganizationName": "Space Systems Command",
+            "DepartmentName": "Department of the Air Force",
+            "SubAgency": "United States Space Force / Space Systems Command / Space Launch Delta 45",
+            "JobCategory": [
+                {
+                    "Name": "Information Technology Management",
+                    "Code": "2210"
+                }
+            ],
+            "JobGrade": [
+                {
+                    "Code": "NH"
+                }
+            ],
+            "PositionSchedule": [
+                {
+                    "Name": "",
+                    "Code": "1"
+                }
+            ],
+            "PositionOfferingType": [
+                {
+                    "Name": "",
+                    "Code": "15317"
+                }
+            ],
+            "QualificationSummary": "The 2210 series has an individual occupational requirement that must be met and can be viewed here. There is no Group Coverage Qualification Standard for this series.",
+            "PositionRemuneration": [
+                {
+                    "MinimumRange": "89280",
+                    "MaximumRange": "138018",
+                    "RateIntervalCode": "PA",
+                    "Description": "Per Year"
+                }
+            ],
+            "PositionStartDate": "2026-03-11T14:04:46.0300",
+            "PositionEndDate": "2026-03-18T23:59:59.9970",
+            "PublicationStartDate": "2026-03-11T14:04:46.0300",
+            "ApplicationCloseDate": "2026-03-18T23:59:59.9970",
+            "PositionFormattedDescription": [
+                {
+                    "Label": "Dynamic Teaser",
+                    "LabelDescription": "Hit highlighting for keyword searches."
+                }
+            ],
+            "UserArea": {
+                "Details": {
+                    "JobSummary": "Do not email applications. To submit your resume for this Direct Hire opportunity click here. For additional information on other USSF direct hire opportunities visit the Air Force Civilian Careers Space Force website and follow USSF on LinkedIn.",
+                    "WhoMayApply": {
+                        "Name": "",
+                        "Code": ""
+                    },
+                    "LowGrade": "3",
+                    "HighGrade": "3",
+                    "PromotionPotential": "None",
+                    "SubAgencyName": "United States Space Force / Space Systems Command / Space Launch Delta 45",
+                    "OrganizationCodes": "DD/AF6S",
+                    "Relocation": "False",
+                    "HiringPath": [
+                        "public"
+                    ],
+                    "MCOTags": [],
+                    "TotalOpenings": "1",
+                    "AgencyMarketingStatement": "IMPORTANT INFORMATION: This Job Opportunity Announcement (JOA) will be used to form a pool of qualified applicants who will be considered for direct hire vacancies as they become available. To learn more about the United States Space Force Mission click here",
+                    "TravelCode": "2",
+                    "MajorDuties": [
+                        "The United States Space Force (USSF) at Cape Canaveral Space Force Station, FL is searching for an Operations IT Specialist to support SLD 45/1 ROPS (NH-2210-03, GS-12/13 Equivalent). Description: Assess, design, and optimize automated systems supporting mission operations, with emphasis on cloud infrastructure, DevSecOps, Kubernetes orchestration, and agile development practices. Lead and participate in DoW cloud platform reciprocity discussions, ensuring alignment with enterprise security baselines, cross service accreditation requirements, and mission partner interoperability. Use Atlassian tools (Jira, Confluence, Bitbucket) to streamline workflows and support agile project execution. Manage and modernize database operations, including migration to cloud based architectures, requiring advanced proficiency in Oracle and SQL Server administration. Develop, refine, and maintain applications software with strong attention to user experience, using languages such as Python, JavaScript, Java, C#, Go, Rust, Swift, Ada, C, C++, COBOL, FORTRAN, PASCAL, and Visual Basic. Implement and sustain cybersecurity mitigations to protect systems from unauthorized access and ensure compliance with DoW cybersecurity standards. Provide end user support, training, and documentation across diverse mission systems. Manage data migrations and ensure data integrity, availability, and accessibility across hybrid and cloud environments, using collaboration tools such as Mattermost. Desired Expertise -Software development across multiple languages and environments. -Kubernetes cluster deployment, management, and troubleshooting. -Cloud engineering and DevSecOps pipelines. -Database administration (Oracle, SQL Server). -Red Hat Linux system administration. -Virtualization platform expertise, including VMware vSphere, Proxmox VE (open source), Microsoft Hyper V (Windows centric), Nutanix AHV (enterprise HCI), and XCP ng (KVM based). -Windows Server administration (2016, 2019, 2022). -Data analysis, problem solving, and mission focused prioritization. -Strong communication and leadership skills, with the ability to support high tempo emergency response operations. -Security+ certification or the ability to obtain Security+ by the start date, meeting DoW cybersecurity workforce requirements for this position. Ideal Candidate: Are you an IT expert ready to bring your talents to the Space Coast? We're seeking a highly skilled professional for the NH03 Operations Information Technology (IT) Specialist role. This position is central to delivering advanced IT capabilities, including complex data management, systems analysis, software development, and cloud focused engineering, for Space Launch Delta (SLD) 45 personnel, NASA, SpaceX, Blue Origin, United Launch Alliance, commercial launch providers, and range test customers. You will support current and future operational IT systems and projects, providing multi-tiered expertise for the 1st Range Operations Squadron as the unit's IT subject matter expert. Key Responsibilities include: 1. Knowledge of a broad range of systems analysis concepts, techniques, and principles sufficient to evaluate business practices and processes, evaluate the feasibility of systems development projects, and develop functional requirements and specifications. 2. Knowledge of complex data management concepts, principles, and methods sufficient to evaluate effectiveness of systems, develop and design programs, and to conduct performance-testing activities to optimize processes. 3. Knowledge of applications software development and design concepts and techniques sufficient to design, develop, code, test, and debug large and complex programs. 4. Knowledge of software programming languages such as Python, JavaScript, Java, C#, Go, Rust, Swift, Ada, C, C++, COBOL, FORTRAN, PASCAL, Visual Basic. 5. Ability to design, develop, test, evaluate, install, and fine-tune IT programs. 6. Ability to communicate orally and in writing sufficient to fully coordinate activities with management officials and other IT specialists, and to provide user training and support."
+                    ],
+                    "Education": "",
+                    "Requirements": "",
+                    "Evaluations": "Knowledge, Skills and Abilities (KSAs): Your qualifications will be evaluated on the basis of your level of knowledge, skills, abilities and/or competencies as related to the series and grade of the position being filled. Final qualifications determinations will be assessed based on OPM's General Schedule Qualifications Standards found here: Interviews: You will be contacted by e-mail and/or telephone if your application is identified as qualifying for a position being filled. An interview may be conducted. If interviewed, you will be asked to address the same knowledge, skills, abilities and/or competencies used to initially qualify your application for the position.",
+                    "HowToApply": "Do not email applications. To submit your resume for this Direct Hire opportunity click here. PLEASE NOTE: It is the applicant's responsibility to verify that information entered and/or uploaded, (i.e., resume) is received, accurate, and submitted by the closing date. You may verify your documents have been processed with your application package successfully. You can access your USAJOBS account to do so by clicking here. Uploaded documents may take up to one hour to clear the virus scan.",
+                    "WhatToExpectNext": "For additional information on other USSF direct hire opportunities visit the Air Force Civilian Careers Space Force website and follow USSF on LinkedIn.",
+                    "RequiredDocuments": "Resume: You must submit a resume that may NOT exceed two pages, and the font size should not be smaller than 10 pts. You will not be considered for this vacancy if your resume exceeds two pages or is illegible/unreadable. Do NOT include photographs, inappropriate material, inappropriate content, nor personal information such as age, gender, religion, social security number, etc., on your resume. If the resume you submit contains such information you will not be considered for this vacancy. Your resume must provide: Personal information - your full name, email and mailing addresses, phone number Education information - the name of the school and the dates you attended Work experience - paid and unpaid work with the following information: Job title Detailed duties and accomplishments Employer's name and address Supervisor's name and phone number Starting and ending dates (If actual dates are not known, provide your best-estimated timeframes.) Hours per week Salary, if applicable Other qualifications - skills, certifications/licenses, honors, awards, special accomplishments, and job-related training courses College Transcripts (if applicable): Please see the Education section of this announcement for detailed information about transcripts.",
+                    "Benefits": "",
+                    "BenefitsUrl": "https://www.usajobs.gov/Help/working-in-government/benefits/",
+                    "BenefitsDisplayDefaultText": true,
+                    "OtherInformation": "Employed Annuitants (Reemployed Annuitants): Applicants in receipt of an annuity based on civilian employment in the Federal Service are subject to the DoD Policy on The Employment of Annuitants. Click here for more information. Disabled veteran leave is available to a Federal employee hired on/after 5 Nov 2016, who is a veteran with a service-connected disability rating of 30% or more. For more information, click here.",
+                    "KeyRequirements": [],
+                    "WithinArea": "False",
+                    "CommuteDistance": "0",
+                    "ServiceType": "01",
+                    "AnnouncementClosingType": "01",
+                    "AgencyContactEmail": "HQ.USSF.TalentAcquisition@spaceforce.mil",
+                    "SecurityClearance": "Secret",
+                    "DrugTestRequired": "False",
+                    "PositionSensitivitiy": "Noncritical-Sensitive (NCS)/Moderate Risk",
+                    "AdjudicationType": [
+                        "National security"
+                    ],
+                    "TeleworkEligible": true,
+                    "RemoteIndicator": false,
+                    "FinancialDisclosure": false,
+                    "BargainingUnitStatus": true
+                },
+                "IsRadialSearch": false
+            }
+        },
+        "RelevanceRank": 0
+    },
+    {
         "MatchedObjectId": "723123400",
         "MatchedObjectDescriptor": {
             "PositionID": "23-11946757-7143/THD",
@@ -1520,126 +1640,6 @@
                     "RemoteIndicator": false,
                     "FinancialDisclosure": true,
                     "BargainingUnitStatus": false
-                },
-                "IsRadialSearch": false
-            }
-        },
-        "RelevanceRank": 0
-    },
-    {
-        "MatchedObjectId": "860773400",
-        "MatchedObjectDescriptor": {
-            "PositionID": "SF-FY26-6S-NH-2210-3-SPLASH",
-            "PositionTitle": "Operations IT Specialist, SLD 45/1 ROPS",
-            "PositionURI": "https://www.usajobs.gov:443/job/860773400",
-            "ApplyURI": [
-                "https://www.usajobs.gov:443/job/860773400"
-            ],
-            "PositionLocationDisplay": "Cape Canaveral AFS, Florida",
-            "PositionLocation": [
-                {
-                    "LocationName": "Cape Canaveral AFS, Florida",
-                    "CountryCode": "United States",
-                    "CountrySubDivisionCode": "Florida",
-                    "CityName": "Cape Canaveral AFS, Florida",
-                    "Longitude": -80.5678,
-                    "Latitude": 28.5071
-                }
-            ],
-            "OrganizationName": "Space Systems Command",
-            "DepartmentName": "Department of the Air Force",
-            "SubAgency": "United States Space Force / Space Systems Command / Space Launch Delta 45",
-            "JobCategory": [
-                {
-                    "Name": "Information Technology Management",
-                    "Code": "2210"
-                }
-            ],
-            "JobGrade": [
-                {
-                    "Code": "NH"
-                }
-            ],
-            "PositionSchedule": [
-                {
-                    "Name": "",
-                    "Code": "1"
-                }
-            ],
-            "PositionOfferingType": [
-                {
-                    "Name": "",
-                    "Code": "15317"
-                }
-            ],
-            "QualificationSummary": "The 2210 series has an individual occupational requirement that must be met and can be viewed here. There is no Group Coverage Qualification Standard for this series.",
-            "PositionRemuneration": [
-                {
-                    "MinimumRange": "89280",
-                    "MaximumRange": "138018",
-                    "RateIntervalCode": "PA",
-                    "Description": "Per Year"
-                }
-            ],
-            "PositionStartDate": "2026-03-11T14:04:46.0300",
-            "PositionEndDate": "2026-03-18T23:59:59.9970",
-            "PublicationStartDate": "2026-03-11T14:04:46.0300",
-            "ApplicationCloseDate": "2026-03-18T23:59:59.9970",
-            "PositionFormattedDescription": [
-                {
-                    "Label": "Dynamic Teaser",
-                    "LabelDescription": "Hit highlighting for keyword searches."
-                }
-            ],
-            "UserArea": {
-                "Details": {
-                    "JobSummary": "Do not email applications. To submit your resume for this Direct Hire opportunity click here. For additional information on other USSF direct hire opportunities visit the Air Force Civilian Careers Space Force website and follow USSF on LinkedIn.",
-                    "WhoMayApply": {
-                        "Name": "",
-                        "Code": ""
-                    },
-                    "LowGrade": "3",
-                    "HighGrade": "3",
-                    "PromotionPotential": "None",
-                    "SubAgencyName": "United States Space Force / Space Systems Command / Space Launch Delta 45",
-                    "OrganizationCodes": "DD/AF6S",
-                    "Relocation": "False",
-                    "HiringPath": [
-                        "public"
-                    ],
-                    "MCOTags": [],
-                    "TotalOpenings": "1",
-                    "AgencyMarketingStatement": "IMPORTANT INFORMATION: This Job Opportunity Announcement (JOA) will be used to form a pool of qualified applicants who will be considered for direct hire vacancies as they become available. To learn more about the United States Space Force Mission click here",
-                    "TravelCode": "2",
-                    "MajorDuties": [
-                        "The United States Space Force (USSF) at Cape Canaveral Space Force Station, FL is searching for an Operations IT Specialist to support SLD 45/1 ROPS (NH-2210-03, GS-12/13 Equivalent). Description: Assess, design, and optimize automated systems supporting mission operations, with emphasis on cloud infrastructure, DevSecOps, Kubernetes orchestration, and agile development practices. Lead and participate in DoW cloud platform reciprocity discussions, ensuring alignment with enterprise security baselines, cross service accreditation requirements, and mission partner interoperability. Use Atlassian tools (Jira, Confluence, Bitbucket) to streamline workflows and support agile project execution. Manage and modernize database operations, including migration to cloud based architectures, requiring advanced proficiency in Oracle and SQL Server administration. Develop, refine, and maintain applications software with strong attention to user experience, using languages such as Python, JavaScript, Java, C#, Go, Rust, Swift, Ada, C, C++, COBOL, FORTRAN, PASCAL, and Visual Basic. Implement and sustain cybersecurity mitigations to protect systems from unauthorized access and ensure compliance with DoW cybersecurity standards. Provide end user support, training, and documentation across diverse mission systems. Manage data migrations and ensure data integrity, availability, and accessibility across hybrid and cloud environments, using collaboration tools such as Mattermost. Desired Expertise -Software development across multiple languages and environments. -Kubernetes cluster deployment, management, and troubleshooting. -Cloud engineering and DevSecOps pipelines. -Database administration (Oracle, SQL Server). -Red Hat Linux system administration. -Virtualization platform expertise, including VMware vSphere, Proxmox VE (open source), Microsoft Hyper V (Windows centric), Nutanix AHV (enterprise HCI), and XCP ng (KVM based). -Windows Server administration (2016, 2019, 2022). -Data analysis, problem solving, and mission focused prioritization. -Strong communication and leadership skills, with the ability to support high tempo emergency response operations. -Security+ certification or the ability to obtain Security+ by the start date, meeting DoW cybersecurity workforce requirements for this position. Ideal Candidate: Are you an IT expert ready to bring your talents to the Space Coast? We're seeking a highly skilled professional for the NH03 Operations Information Technology (IT) Specialist role. This position is central to delivering advanced IT capabilities, including complex data management, systems analysis, software development, and cloud focused engineering, for Space Launch Delta (SLD) 45 personnel, NASA, SpaceX, Blue Origin, United Launch Alliance, commercial launch providers, and range test customers. You will support current and future operational IT systems and projects, providing multi-tiered expertise for the 1st Range Operations Squadron as the unit's IT subject matter expert. Key Responsibilities include: 1. Knowledge of a broad range of systems analysis concepts, techniques, and principles sufficient to evaluate business practices and processes, evaluate the feasibility of systems development projects, and develop functional requirements and specifications. 2. Knowledge of complex data management concepts, principles, and methods sufficient to evaluate effectiveness of systems, develop and design programs, and to conduct performance-testing activities to optimize processes. 3. Knowledge of applications software development and design concepts and techniques sufficient to design, develop, code, test, and debug large and complex programs. 4. Knowledge of software programming languages such as Python, JavaScript, Java, C#, Go, Rust, Swift, Ada, C, C++, COBOL, FORTRAN, PASCAL, Visual Basic. 5. Ability to design, develop, test, evaluate, install, and fine-tune IT programs. 6. Ability to communicate orally and in writing sufficient to fully coordinate activities with management officials and other IT specialists, and to provide user training and support."
-                    ],
-                    "Education": "",
-                    "Requirements": "",
-                    "Evaluations": "Knowledge, Skills and Abilities (KSAs): Your qualifications will be evaluated on the basis of your level of knowledge, skills, abilities and/or competencies as related to the series and grade of the position being filled. Final qualifications determinations will be assessed based on OPM's General Schedule Qualifications Standards found here: Interviews: You will be contacted by e-mail and/or telephone if your application is identified as qualifying for a position being filled. An interview may be conducted. If interviewed, you will be asked to address the same knowledge, skills, abilities and/or competencies used to initially qualify your application for the position.",
-                    "HowToApply": "Do not email applications. To submit your resume for this Direct Hire opportunity click here. PLEASE NOTE: It is the applicant's responsibility to verify that information entered and/or uploaded, (i.e., resume) is received, accurate, and submitted by the closing date. You may verify your documents have been processed with your application package successfully. You can access your USAJOBS account to do so by clicking here. Uploaded documents may take up to one hour to clear the virus scan.",
-                    "WhatToExpectNext": "For additional information on other USSF direct hire opportunities visit the Air Force Civilian Careers Space Force website and follow USSF on LinkedIn.",
-                    "RequiredDocuments": "Resume: You must submit a resume that may NOT exceed two pages, and the font size should not be smaller than 10 pts. You will not be considered for this vacancy if your resume exceeds two pages or is illegible/unreadable. Do NOT include photographs, inappropriate material, inappropriate content, nor personal information such as age, gender, religion, social security number, etc., on your resume. If the resume you submit contains such information you will not be considered for this vacancy. Your resume must provide: Personal information - your full name, email and mailing addresses, phone number Education information - the name of the school and the dates you attended Work experience - paid and unpaid work with the following information: Job title Detailed duties and accomplishments Employer's name and address Supervisor's name and phone number Starting and ending dates (If actual dates are not known, provide your best-estimated timeframes.) Hours per week Salary, if applicable Other qualifications - skills, certifications/licenses, honors, awards, special accomplishments, and job-related training courses College Transcripts (if applicable): Please see the Education section of this announcement for detailed information about transcripts.",
-                    "Benefits": "",
-                    "BenefitsUrl": "https://www.usajobs.gov/Help/working-in-government/benefits/",
-                    "BenefitsDisplayDefaultText": true,
-                    "OtherInformation": "Employed Annuitants (Reemployed Annuitants): Applicants in receipt of an annuity based on civilian employment in the Federal Service are subject to the DoD Policy on The Employment of Annuitants. Click here for more information. Disabled veteran leave is available to a Federal employee hired on/after 5 Nov 2016, who is a veteran with a service-connected disability rating of 30% or more. For more information, click here.",
-                    "KeyRequirements": [],
-                    "WithinArea": "False",
-                    "CommuteDistance": "0",
-                    "ServiceType": "01",
-                    "AnnouncementClosingType": "01",
-                    "AgencyContactEmail": "HQ.USSF.TalentAcquisition@spaceforce.mil",
-                    "SecurityClearance": "Secret",
-                    "DrugTestRequired": "False",
-                    "PositionSensitivitiy": "Noncritical-Sensitive (NCS)/Moderate Risk",
-                    "AdjudicationType": [
-                        "National security"
-                    ],
-                    "TeleworkEligible": true,
-                    "RemoteIndicator": false,
-                    "FinancialDisclosure": false,
-                    "BargainingUnitStatus": true
                 },
                 "IsRadialSearch": false
             }

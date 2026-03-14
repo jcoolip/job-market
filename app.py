@@ -85,50 +85,7 @@ def get_job_count():
 
 @app.route("/health")
 def health():
-    return {"status": "awesome"}
-
-
-@app.route("/search")
-def search():
-
-    q = request.args.get("q")
-
-    jobs = []
-
-    if q:
-        with get_conn() as conn:
-            with conn.cursor() as cur:
-                cur.execute(
-                    """
-                    SELECT
-                        j.title,
-                        c.name,
-                        l.state,
-                        l.country,
-                        j.source_url
-                    FROM jobs j
-                    LEFT JOIN companies c ON c.id = j.company_id
-                    LEFT JOIN locations l ON l.id = j.location_id
-                    LEFT JOIN job_skills js ON js.job_id = j.id
-                    LEFT JOIN skills s ON s.id = js.skill_id
-                    WHERE
-                        j.is_active = TRUE
-                        AND (
-                            j.title ILIKE %s OR
-                            j.description_raw ILIKE %s OR
-                            c.name ILIKE %s OR
-                            s.name ILIKE %s
-                        )
-                    GROUP BY j.id, c.name, l.state, l.country
-                    ORDER BY j.last_seen DESC
-                    LIMIT 100;
-                """,
-                    (f"%{q}%", f"%{q}%", f"%{q}%", f"%{q}%"),
-                )
-
-                jobs = cur.fetchall()
-
-    return render_template("search.html", jobs=jobs, q=q)
+    return {"status": "awesome sauce"}
 
 
 @app.route("/find")
@@ -167,7 +124,7 @@ def find():
                         )
                     GROUP BY j.id, c.name, l.state, l.country, i.name, j.external_id
                     ORDER BY j.last_seen DESC
-                    LIMIT 100;
+                    LIMIT 10;
                 """,
                     (f"%{q}%", f"%{q}%", f"%{q}%", f"%{q}%"),
                 )
@@ -203,7 +160,8 @@ def i_jobs(i_name):
                 join locations l on l.id = j.location_id
                 join industries i on i.id = j.industry_id
                 where j.is_active = TRUE and i.name = %s
-                order by company;
+                order by company
+                limit 10;
             """,
                 (i_name,),
             )

@@ -34,14 +34,20 @@
                                 <form method="get" action="/find">
                                     <input
                                         type="text"
+                                        style="width: 200px; height: 30px"
                                         name="q"
                                         value="{{ q or '' }}"
-                                        placeholder="python, nurse, data analyst..."
+                                        placeholder=" python, nurse, data analyst..."
                                     />
 
-                                    <button type="submit">Search</button>
+                                    <button
+                                        type="submit"
+                                        style="width: 85px; height: 30px"
+                                    >
+                                        Search
+                                    </button>
                                 </form>
-                                Searching through {{ job_total }}+ jobs
+                                <br />Searching {{ job_total }}+ jobs
                                 <br />
                             </div>
                             {% if jobs %}
